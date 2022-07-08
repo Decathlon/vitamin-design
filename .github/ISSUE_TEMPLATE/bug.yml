@@ -19,15 +19,15 @@ body:
     attributes:
       label: Which Figma library are you seeing the problem on?
       options:
-        - Vitamin - Web UI Kit
-        - Vitamin - Android UI Kit
-        - Vitamin - iOS UI Kit
-        - Vitamin - Icons
-        - Vitamin - Assets
-        - Vitamin - Extras kit
-        - Vitamin - Core theme (Light mode)
-        - Vitamin - Core theme (Dark mode)
-        - Vitamin - Base colors palette
+        - Vitamin Web UI Kit
+        - Vitamin Android UI Kit
+        - Vitamin iOS UI Kit
+        - Vitamin Icons
+        - Vitamin Assets
+        - Vitamin Core theme (Light mode)
+        - Vitamin Core theme (Dark mode)
+        - Vitamin Base colors palette
+        - Vitamin Extras kit
         - Not related to a Figma library
       validations:
         required: true
