@@ -17,7 +17,7 @@ body:
   - type: dropdown
     id: library
     attributes:
-      label: Which Figma library are you seeing the problem on?
+      label: Which Figma library is concerned?
       options:
         - Vitamin Web UI Kit
         - Vitamin Android UI Kit
@@ -28,7 +28,7 @@ body:
         - Vitamin Core theme (Dark mode)
         - Vitamin Base colors palette
         - Vitamin Extras kit
-        - Not related to a Figma library
+        - Not related to one Figma library
     validations:
       required: true
   - type: textarea
