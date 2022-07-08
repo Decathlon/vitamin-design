@@ -1,0 +1,28 @@
+name: Feature request 💄
+description: Suggest a new idea for Vitamin Design.
+labels: ['enhancement 🚀']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the clearest summary of your purpose. This will help us to answer you quickly and accurately.
+        Thanks for contributing by creating this issue! ❤️
+  - type: checkboxes
+    attributes:
+      label: Duplicates ❌
+      description: Please [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same problem.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    attributes:
+      label: Summary 💡
+      description: Describe how it should work.
+  - type: textarea
+    attributes:
+      label: Examples 🌈
+      description: Provide a link to the specification, other implementations, or screenshots of the expected behavior.
+  - type: textarea
+    attributes:
+      label: Motivation 🔦
+      description: What are you trying to accomplish? How has the lack of this feature affected you? Providing context helps us come up with a solution that is more useful in the real world.
