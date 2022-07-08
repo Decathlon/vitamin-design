@@ -1,0 +1,32 @@
+name: Bug report 🐛
+description: Create a bug report for Vitamin Design.
+labels: ['bug 🐛']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the clearest summary of your purpose. This will help us to answer you quickly and accurately.
+        Thanks for contributing by creating this issue! ❤️
+  - type: checkboxes
+    attributes:
+      label: Duplicates ❌
+      description: Please [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same problem.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    attributes:
+      label: Current behavior 😯
+      description: Describe what happens instead of the expected behavior.
+  - type: textarea
+    attributes:
+      label: Expected behavior 🤔
+      description: Describe what should happen.
+  - type: textarea
+    attributes:
+      label: Context 🔦
+      description: What are you trying to accomplish? How has this issue affected you? Providing context helps us come up with a solution that is more useful in the real world.
+  - type: textarea
+    attributes:
+      label: Screenshots / Videos 📸
+      description: If applicable, add screenshots and/or videos to help explain your problem.
