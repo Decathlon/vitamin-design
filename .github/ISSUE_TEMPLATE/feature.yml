@@ -49,6 +49,7 @@ body:
         # Checklists
         
         In order to track and ensure we don't forget anything when we change from one column to another in our [Design workflow](https://github.com/orgs/Decathlon/projects/3), we use checklists. 
+        
         _Please, let these checklists unchecked when you create the issue and keep them up-to-date when you work on it. Thanks a lot! ❤️_
   - type: checkboxes
     attributes:
