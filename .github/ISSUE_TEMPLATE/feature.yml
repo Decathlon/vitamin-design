@@ -43,3 +43,23 @@ body:
     attributes:
       label: Motivation 🔦
       description: What are you trying to accomplish? How has the lack of this feature affected you? Providing context helps us come up with a solution that is more useful in the real world.
+  - type: markdown
+    attributes:
+      value: |
+        # Checklists
+        
+        In order to track and ensure we don't forget anything when we change from one column to another in our [Design workflow](), we use checklists. 
+        Please, let these checklists unchecked when you create the issue and keep them up-to-date when you work on it. 
+        Thanks a lot!
+  - type: checkboxes
+    attributes:
+      label: New 🆕
+      options:
+        - label: Validated in a grooming session
+  - type: checkboxes
+    attributes:
+      label: Backlog 📋 
+      options:
+        - label: Has a good summary
+        - label: Has example link(s)
+      
