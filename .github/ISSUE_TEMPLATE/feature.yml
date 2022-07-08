@@ -62,4 +62,28 @@ body:
       options:
         - label: Has a good summary
         - label: Has example link(s)
+  - type: checkboxes
+    attributes:
+      label: Design in progress 🏗 
+      options:
+        - label: Analysis _(functional & technical)_
+        - label: Design refinement
+        - label: Dev qualification _(properties, breakpoints, tokens etc.)_
+        - label: Documentation refinement _(inside the Figma branch)_
+  - type: checkboxes
+    attributes:
+      label: Design review 👀
+      options:
+        - label: Figma branch merged
+        - label: Documentation review _(and move the documentation into Vitamin Documentation Figma file)
+  - type: checkboxes
+    attributes:
+      label: Ready to dev 👍
+      options:
+        - label: Issues are created in all repositories affected _(vitamin-<web,android,ios,compose>)_
+  - type: checkboxes
+    attributes:
+      label: Dev in progress 💻
+      options:
+        - label: All issues are resolved
       
