@@ -29,8 +29,8 @@ body:
         - Vitamin Base colors palette
         - Vitamin Extras kit
         - Not related to a Figma library
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Current behavior 😯
