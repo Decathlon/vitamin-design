@@ -85,5 +85,5 @@ body:
     attributes:
       label: Dev in progress 💻
       options:
-        - label: All issues are resolved (to replace with issues links)
+        - label: All issues are resolved _(to replace with issues links)_
       
