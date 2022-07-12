@@ -32,3 +32,49 @@
     <img src="https://img.shields.io/badge/slack-Decathlon%20Design%20System-purple.svg?logo=slack" alt="">
   </a>
 </p>
+
+## Introduction
+
+[Decathlon Design System](https://decathlon.design) enable Decathlon’s digital ecosystem to build consistent and quality experiences while keeping a sustainable & global identity.
+
+## Getting Started
+For information on how to get started with Decathlon Design System, take a look at our [Getting Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design) guide.
+
+## Submitting Bugs or Feature Requests
+Bugs or feature requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues).
+
+## Useful links
+- [Decathlon Design System Documentation](https://decathlon.design)
+- [Design libraries](https://www.figma.com/@decathlon)
+- [Get Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design)
+- [Contribution](https://www.decathlon.design/726f8c765/p/24ef08-contributing/b/237af4)
+- [Web repository](https://github.com/Decathlon/vitamin-web)
+- [Android repository](https://github.com/Decathlon/vitamin-android)
+- [Compose repository](https://github.com/Decathlon/vitamin-compose)
+- [iOS repository](https://github.com/Decathlon/vitamin-ios)
+
+## Special thanks
+
+Thank you to the contributors involved on this product 💙
+
+<a href="https://github.com/decathlon/vitamin-design/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=decathlon/vitamin-design" />
+</a>
+
+Thank you also [Remix Icon](https://remixicon.com), Vitamix Icons is the official Decathlon icon library based on their [open-source icon library](https://github.com/Remix-Design/RemixIcon) (Remix Design © 2020). This original library is under the license Apache 2.0 and has been modified by Decathlon. [Learn more](https://www.decathlon.design/726f8c765/p/58575f-vitamix-license).
+
+## License
+
+    Copyright 2022 Decathlon.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
