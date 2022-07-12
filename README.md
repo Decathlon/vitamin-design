@@ -45,13 +45,13 @@ Bugs or feature requests should be submitted at our [GitHub Issues section](htt
 
 ## Useful links
 - [Decathlon Design System Documentation](https://decathlon.design)
-- [Design libraries](https://www.figma.com/@decathlon)
+- [Decathlon Design libraries](https://www.figma.com/@decathlon)
 - [Get Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design)
 - [Contribution](https://www.decathlon.design/726f8c765/p/24ef08-contributing/b/237af4)
-- [Web repository](https://github.com/Decathlon/vitamin-web)
-- [Android repository](https://github.com/Decathlon/vitamin-android)
-- [Compose repository](https://github.com/Decathlon/vitamin-compose)
-- [iOS repository](https://github.com/Decathlon/vitamin-ios)
+- [Vitamin-Web repository](https://github.com/Decathlon/vitamin-web)
+- [Vitamin-Android repository](https://github.com/Decathlon/vitamin-android)
+- [Vitamin-Compose repository](https://github.com/Decathlon/vitamin-compose)
+- [Vitamin-iOS repository](https://github.com/Decathlon/vitamin-ios)
 
 ## Special thanks
 
