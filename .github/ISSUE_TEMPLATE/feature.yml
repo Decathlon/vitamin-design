@@ -1,5 +1,5 @@
 name: Feature request 💄
-description: Suggest a new idea for Vitamin Design.
+description: Suggest a new idea or an improvement for Vitamin Design.
 labels: ['enhancement 🚀']
 body:
   - type: markdown
