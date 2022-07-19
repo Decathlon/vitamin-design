@@ -18,15 +18,15 @@
 </p>
 
 <p align="center">
-  <a aria-label="contributors graph" href="https://github.com/decathlon/vitamin-web/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/decathlon/vitamin-web.svg">
+  <a aria-label="contributors graph" href="https://github.com/decathlon/vitamin-design/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/decathlon/vitamin-design.svg">
   </a>
-  <a aria-label="last commit" href="https://github.com/Decathlon/vitamin-web/commits">
+  <a aria-label="last commit" href="https://github.com/Decathlon/vitamin-design/commits">
     <img alt="" src=
-  "https://img.shields.io/github/last-commit/decathlon/vitamin-web.svg">
+  "https://img.shields.io/github/last-commit/decathlon/vitamin-design.svg">
   </a>
-  <a aria-label="license" href="https://github.com/decathlon/vitamin-web/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/decathlon/vitamin-web.svg" alt="">
+  <a aria-label="license" href="https://github.com/decathlon/vitamin-design/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/decathlon/vitamin-design.svg" alt="">
   </a>
   <a aria-label="slack" href="https://join.slack.com/t/decathlon-design/shared_invite/zt-13kxb50ar-iHzqV~Olsu4~NCkEPj5c4g">
     <img src="https://img.shields.io/badge/slack-Decathlon%20Design%20System-purple.svg?logo=slack" alt="">
