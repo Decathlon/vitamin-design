@@ -1,4 +1,4 @@
-name: Icon request 🖍
+name: Icon request ✨
 description: Suggest a new icon for Vitamin Design.
 labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'icons ✨']
 body:
@@ -17,11 +17,11 @@ body:
   - type: textarea
     attributes:
       label: Summary 💡
-      description: Describe the meaning, the contexte and the usage of your icon.
+      description: Describe the meaning, the context and the usage of your icon.
   - type: textarea
     attributes:
       label: Examples 🌈
-      description: Provide a link to the specification, other implementations, or screenshots of the expected behavior.
+      description: Provide a link to your SVG, other similar icons, or screenshots of the expected behavior.
   - type: markdown
     attributes:
       value: |
