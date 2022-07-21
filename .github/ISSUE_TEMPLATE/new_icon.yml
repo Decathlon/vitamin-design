@@ -28,8 +28,6 @@ body:
       label: Icon name
     validations:
       required: true
-  - type: dropdown
-    id: icon-set
   - type: textarea
     id: icon-description
     attributes:
