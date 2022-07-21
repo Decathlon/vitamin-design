@@ -44,7 +44,7 @@ body:
     id: icon-keywords
     attributes:
       label: Icon keywords
-      description: Comma-delimited string of keywords, e.g. orders, sales, funnel
+      description: Comma-delimited string of keywords, e.g. member, sport, health
     validations:
       required: true
   - type: input
