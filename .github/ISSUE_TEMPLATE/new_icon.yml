@@ -15,13 +15,6 @@ body:
       options:
         - label: I have searched the existing icons and requests.
           required: true
-  - type: textarea
-    id: icon-usage
-    attributes:
-      label: How will these icons be used?
-      description: Relevant screenshots or links to design files detailing the user experience, the reason for creating the new icon, and any additional context.
-    validations:
-      required: true
   - type: input
     id: icon-name
     attributes:
@@ -33,6 +26,7 @@ body:
     attributes:
       label: Icon description
       description: |
+        How will these icons be used? Relevant screenshots or links to design files detailing the user experience, the reason for creating the new icon, and any additional context.
         **Action:** Used to denote _x action_.
         **Wayfinding:** Used to help users to _x_.
         **Concept:** Used to represent _x_.
@@ -45,8 +39,6 @@ body:
     attributes:
       label: Icon keywords
       description: Comma-delimited string of keywords, e.g. member, sport, health
-    validations:
-      required: true
   - type: input
     id: icon-author
     attributes:
