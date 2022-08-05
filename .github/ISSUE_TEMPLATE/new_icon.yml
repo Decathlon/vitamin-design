@@ -26,7 +26,7 @@ body:
     attributes:
       label: Icon description
       description: |
-        **How will these icons be used? **
+        **How will these icons be used?**
         **Action:** Used to denote _x action_.
         **Wayfinding:** Used to help users to _x_.
         **Concept:** Used to represent _x_.
