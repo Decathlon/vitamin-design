@@ -37,6 +37,10 @@ body:
       description: Describe how it should work.
   - type: textarea
     attributes:
+      label: Dependencies 📦
+      description: Link issues it depends of.
+  - type: textarea
+    attributes:
       label: Examples 🌈
       description: Provide a link to the specification, other implementations, or screenshots of the expected behavior.
   - type: textarea
