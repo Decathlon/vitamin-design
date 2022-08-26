@@ -253,34 +253,34 @@
     },
     "Border": {
       "Neutral": {
-        "value": "#8996a2",
+        "value": "{grey.400}",
         "type": "color",
         "description": "User Interface Components: \nLevel AA - ✅ Pass"
       },
       "Quiet": {
-        "value": "#d9dde1",
+        "value": "{grey.200}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌"
       },
       "Supershy": {
-        "value": "#eff1f3",
+        "value": "{grey.100}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌\n"
       },
       "Success": {
-        "value": "#23a942",
+        "value": "{conifer.400}",
         "type": "color"
       },
       "Information": {
-        "value": "#007dbc",
+        "value": "{blue.400}",
         "type": "color"
       },
       "Critical": {
-        "value": "#e3262f",
+        "value": "{red.400}",
         "type": "color"
       },
       "Warning": {
-        "value": "#ff600a",
+        "value": "{orange.400}",
         "type": "color"
       }
     },
