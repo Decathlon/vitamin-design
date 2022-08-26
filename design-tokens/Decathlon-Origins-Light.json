@@ -1,246 +1,246 @@
 {
-  "color": {
+  "Color": {
     "Text": {
       "Neutral": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Quiet": {
-        "value": "{grey.600}",
+        "value": "{Grey.600}",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Supershy": {
-        "value": "{grey.500}",
+        "value": "{Grey.500}",
         "type": "color",
         "description": "Only use on Neutral and Quiet Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Critical": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "Only use on Critical Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Warning": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "Only use on Warning Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Sucess": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "Only use on Sucess Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Information": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "Only use on Information Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Inverse": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color",
         "description": "Only use on Catchy Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass"
       },
       "OnLight": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       },
       "OnDark": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       }
     },
     "Icon": {
       "Neutral": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Quiet": {
-        "value": "{grey.600}",
+        "value": "{Grey.600}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Supershy": {
-        "value": "{grey.400}",
+        "value": "{Grey.400}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Critical": {
-        "value": "{red.400}",
+        "value": "{Red.400}",
         "type": "color"
       },
       "Warning": {
-        "value": "{orange.400}",
+        "value": "{Orange.400}",
         "type": "color"
       },
       "Success": {
-        "value": "{conifer.400}",
+        "value": "{Conifer.400}",
         "type": "color"
       },
       "Information": {
-        "value": "{blue.400}",
+        "value": "{Blue.400}",
         "type": "color"
       },
       "Inverse": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color"
       },
       "OnLight": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color"
       }
     },
     "Container": {
       "Neutral": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color",
         "description": "FFFFFF"
       },
       "Supershy": {
-        "value": "{grey.50}",
+        "value": "{Grey.50}",
         "type": "color",
         "description": "F7F8F9"
       },
       "Quiet": {
-        "value": "{grey.100}",
+        "value": "{Grey.100}",
         "type": "color",
         "description": "\n"
       },
       "Catchy": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color"
       },
       "Information": {
-        "value": "{blue.100}",
+        "value": "{Blue.100}",
         "type": "color",
         "description": "E7F3F9"
       },
       "Critical": {
-        "value": "{red.100}",
+        "value": "{Red.100}",
         "type": "color",
         "description": "FEECED"
       },
       "Warning": {
-        "value": "{orange.100}",
+        "value": "{Orange.100}",
         "type": "color",
         "description": "FFF3ED"
       },
       "Success": {
-        "value": "{conifer.100}",
+        "value": "{Conifer.100}",
         "type": "color",
         "description": "E9FAE8"
       },
       "OnDark": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color"
       }
     },
     "Interaction": {
       "Highlight": {
-        "value": "{blue.450}",
+        "value": "{Blue.450}",
         "type": "color",
         "description": "On all backgrounds and containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
-      "Highlight-hovered": {
+      "Highlight-Hovered": {
         "value": "#00699E",
         "type": "color"
       },
-      "Highlight-pressed": {
+      "Highlight-Pressed": {
         "value": "#005885",
         "type": "color"
       },
       "Neutral": {
-        "value": "{grey.400}",
+        "value": "{Grey.400}",
         "type": "color",
         "description": "Only use as fill color for graphical elements\n\nIcons: \nLevel AA - ✅ Pass"
       },
-      "Neutral-hovered": {
+      "Neutral-Hovered": {
         "value": "#70808e",
         "type": "color"
       },
-      "Neutral-pressed": {
+      "Neutral-Pressed": {
         "value": "#657380",
         "type": "color"
       },
       "Quiet": {
-        "value": "{blue.50}",
+        "value": "{Blue.50}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌"
       },
-      "Quiet-hovered": {
+      "Quiet-Hovered": {
         "value": "#d2e9f4",
         "type": "color"
       },
-      "Quiet-pressed": {
+      "Quiet-Pressed": {
         "value": "#cae4f2",
         "type": "color"
       },
       "Supershy": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color"
       },
-      "Supershy-hovered": {
-        "value": "{tint}",
+      "Supershy-Hovered": {
+        "value": "{Color.Tint}",
         "type": "color"
       },
-      "Supershy-pressed": {
+      "Supershy-Pressed": {
         "value": "#d9ecf5",
         "type": "color"
       },
       "Conversion": {
-        "value": "{color.Programs.Shopping}",
+        "value": "{Color.Program.Shopping}",
         "type": "color"
       },
-      "Conversion-hovered": {
+      "Conversion-Hovered": {
         "value": "#fff48d",
         "type": "color"
       },
-      "Conversion-pressed": {
+      "Conversion-Pressed": {
         "value": "#fff9c7",
         "type": "color"
       },
-      "Halo-hovered": {
+      "Halo-Hovered": {
         "value": "hsla(200, 60%, 94%, 70%)",
         "type": "color"
       },
-      "Halo-pressed": {
+      "Halo-Pressed": {
         "value": "hsla(200, 60%, 64%, 25%)",
         "type": "color"
       },
       "OnDark": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color"
       },
-      "OnDark-hovered": {
-        "value": "{tint}",
+      "OnDark-Hovered": {
+        "value": "{Color.Tint}",
         "type": "color",
         "description": "\n"
       },
-      "OnDark-pressed": {
+      "OnDark-Pressed": {
         "value": "#d9ecf5",
         "type": "color"
       },
       "Visited": {
-        "value": "{purple.400}",
+        "value": "{Purple.400}",
         "type": "color"
       },
-      "Visited-hovered": {
+      "Visited-Hovered": {
         "value": "#845e88",
         "type": "color"
       },
-      "Visited-pressed": {
+      "Visited-Pressed": {
         "value": "#6c4d6f",
         "type": "color"
       },
       "Focused": {
-        "value": "{black}",
+        "value": "{Black}",
         "type": "color"
       },
       "Critical": {
-        "value": "{red.400}",
+        "value": "{Red.400}",
         "type": "color"
       },
       "Critical-Hovered": {
@@ -254,49 +254,49 @@
     },
     "Background": {
       "Neutral": {
-        "value": "{white}",
+        "value": "{White}",
         "type": "color"
       },
       "Alternative": {
-        "value": "{grey.50}",
+        "value": "{Grey.50}",
         "type": "color",
         "description": "F7F8F9"
       }
     },
     "Border": {
       "Neutral": {
-        "value": "{grey.400}",
+        "value": "{Grey.400}",
         "type": "color",
         "description": "User Interface Components: \nLevel AA - ✅ Pass"
       },
       "Quiet": {
-        "value": "{grey.200}",
+        "value": "{Grey.200}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌"
       },
       "Supershy": {
-        "value": "{grey.100}",
+        "value": "{Grey.100}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌\n"
       },
       "Success": {
-        "value": "{conifer.400}",
+        "value": "{Conifer.400}",
         "type": "color"
       },
       "Information": {
-        "value": "{blue.400}",
+        "value": "{Blue.400}",
         "type": "color"
       },
       "Critical": {
-        "value": "{red.400}",
+        "value": "{Red.400}",
         "type": "color"
       },
       "Warning": {
-        "value": "{orange.400}",
+        "value": "{Orange.400}",
         "type": "color"
       }
     },
-    "Programs": {
+    "Program": {
       "Shopping": {
         "value": "#ffea28",
         "type": "color"
@@ -321,106 +321,110 @@
     "Decorative": {
       "Supershy": {
         "Brick": {
-          "value": "{red.100}",
+          "value": "{Red.100}",
           "type": "color"
         },
         "Saffron": {
-          "value": "{orange.100}",
+          "value": "{Orange.100}",
           "type": "color"
         },
         "Gold": {
-          "value": "{yellow.100}",
+          "value": "{Yellow.100}",
           "type": "color"
         },
         "Cobalt": {
-          "value": "{blue.100}",
+          "value": "{Blue.100}",
           "type": "color"
         },
         "Emerald": {
-          "value": "{green.100}",
+          "value": "{Green.100}",
           "type": "color"
         },
         "Jade": {
-          "value": "#cbf0c7",
+          "value": "{Conifer.100}",
           "type": "color"
         },
         "Gravel": {
-          "value": "{grey.100}",
+          "value": "{Grey.100}",
           "type": "color"
         },
         "Amethyst": {
-          "value": "{purple.100}",
+          "value": "{Purple.100}",
           "type": "color"
         }
       },
       "Neutral": {
         "Brick": {
-          "value": "{red.500}",
+          "value": "{Red.500}",
           "type": "color"
         },
         "Saffron": {
-          "value": "{orange.500}",
+          "value": "{Orange.500}",
           "type": "color"
         },
         "Gold": {
-          "value": "{yellow.500}",
+          "value": "{Yellow.500}",
           "type": "color"
         },
         "Cobalt": {
-          "value": "{blue.500}",
+          "value": "{Blue.500}",
           "type": "color"
         },
         "Emerald": {
-          "value": "{green.500}",
+          "value": "{Green.500}",
           "type": "color"
         },
         "Jade": {
-          "value": "#41a036",
+          "value": "{Conifer.500}",
           "type": "color"
         },
         "Gravel": {
-          "value": "{grey.500}",
+          "value": "{Grey.500}",
           "type": "color"
         },
         "Amethyst": {
-          "value": "{purple.500}",
+          "value": "{Purple.500}",
           "type": "color"
         }
       },
       "Highlight": {
         "Brick": {
-          "value": "{red.700}",
+          "value": "{Red.700}",
           "type": "color"
         },
         "Saffron": {
-          "value": "{orange.700}",
+          "value": "{Orange.700}",
           "type": "color"
         },
         "Gold": {
-          "value": "{yellow.700}",
+          "value": "{Yellow.700}",
           "type": "color"
         },
         "Cobalt": {
-          "value": "{blue.700}",
+          "value": "{Blue.700}",
           "type": "color"
         },
         "Jade": {
-          "value": "{green.700}",
+          "value": "{Green.700}",
           "type": "color"
         },
         "Emerald": {
-          "value": "#006f43",
+          "value": "{Conifer.700}",
           "type": "color"
         },
         "Gravel": {
-          "value": "{grey.700}",
+          "value": "{Grey.700}",
           "type": "color"
         },
         "Amethyst": {
-          "value": "{purple.700}",
+          "value": "{Purple.700}",
           "type": "color"
         }
       }
+    },
+    "Tint": {
+      "value": "#E7F3F9",
+      "type": "color"
     }
   }
 }
