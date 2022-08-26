@@ -172,13 +172,11 @@
       },
       "Quiet-hovered": {
         "value": "#d2e9f4",
-        "type": "color",
-        "description": "D2E8F4"
+        "type": "color"
       },
       "Quiet-pressed": {
         "value": "#cae4f2",
-        "type": "color",
-        "description": "CDE6F2"
+        "type": "color"
       },
       "Supershy": {
         "value": "{white}",
@@ -198,13 +196,11 @@
       },
       "Conversion-hovered": {
         "value": "#fff48d",
-        "type": "color",
-        "description": "FFF38D"
+        "type": "color"
       },
       "Conversion-pressed": {
         "value": "#fff9c7",
-        "type": "color",
-        "description": "FFF9C7"
+        "type": "color"
       },
       "Halo-hovered": {
         "value": "hsla(200, 60%, 94%, 70%)",
