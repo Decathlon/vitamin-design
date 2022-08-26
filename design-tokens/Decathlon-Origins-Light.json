@@ -85,17 +85,17 @@
         "type": "color"
       },
       "Inverse": {
-        "value": "{Color.Color.White}",
+        "value": "{Color.White}",
         "type": "color"
       },
       "OnLight": {
-        "value": "{Color.Color.Black}",
+        "value": "{Color.Black}",
         "type": "color"
       }
     },
     "Container": {
       "Neutral": {
-        "value": "{Color.Color.White}",
+        "value": "{Color.White}",
         "type": "color",
         "description": "FFFFFF"
       },
@@ -110,7 +110,7 @@
         "description": "\n"
       },
       "Catchy": {
-        "value": "{Color.Color.Black}",
+        "value": "{Color.Black}",
         "type": "color"
       },
       "Information": {
