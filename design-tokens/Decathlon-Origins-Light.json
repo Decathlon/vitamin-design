@@ -309,103 +309,103 @@
     "Decorative": {
       "Supershy": {
         "Brick": {
-          "value": "#fec9cb",
-          "type": "color"
-        },
-        "Gold": {
-          "value": "#fffbc7",
+          "value": "{red.100}",
           "type": "color"
         },
         "Saffron": {
-          "value": "#ffe4d6",
+          "value": "{orange.100}",
+          "type": "color"
+        },
+        "Gold": {
+          "value": "{yellow.100}",
+          "type": "color"
+        },
+        "Cobalt": {
+          "value": "{blue.100}",
           "type": "color"
         },
         "Emerald": {
-          "value": "#beefe2",
-          "type": "color"
-        },
-        "Gravel": {
-          "value": "#eff1f3",
+          "value": "{green.100}",
           "type": "color"
         },
         "Jade": {
           "value": "#cbf0c7",
           "type": "color"
         },
-        "Amethyst": {
-          "value": "#dccfdd",
+        "Gravel": {
+          "value": "{grey.100}",
           "type": "color"
         },
-        "Cobalt": {
-          "value": "#bedeef",
+        "Amethyst": {
+          "value": "{purple.100}",
           "type": "color"
         }
       },
       "Neutral": {
-        "Cobalt": {
-          "value": "#00689d",
-          "type": "color"
-        },
-        "Gold": {
-          "value": "#bcb02c",
+        "Brick": {
+          "value": "{red.500}",
           "type": "color"
         },
         "Saffron": {
-          "value": "#c15e29",
+          "value": "{orange.500}",
           "type": "color"
         },
-        "Brick": {
-          "value": "#ab0009",
+        "Gold": {
+          "value": "{yellow.500}",
+          "type": "color"
+        },
+        "Cobalt": {
+          "value": "{blue.500}",
           "type": "color"
         },
         "Emerald": {
-          "value": "#029e73",
-          "type": "color"
-        },
-        "Amethyst": {
-          "value": "#5b415d",
-          "type": "color"
-        },
-        "Gravel": {
-          "value": "#687787",
+          "value": "{green.500}",
           "type": "color"
         },
         "Jade": {
           "value": "#41a036",
           "type": "color"
+        },
+        "Gravel": {
+          "value": "{grey.500}",
+          "type": "color"
+        },
+        "Amethyst": {
+          "value": "{purple.500}",
+          "type": "color"
         }
       },
       "Highlight": {
-        "Cobalt": {
-          "value": "#012b49",
-          "type": "color"
-        },
-        "Gold": {
-          "value": "#67611b",
+        "Brick": {
+          "value": "{red.700}",
           "type": "color"
         },
         "Saffron": {
-          "value": "#673216",
+          "value": "{orange.700}",
           "type": "color"
         },
-        "Brick": {
-          "value": "#5a0005",
+        "Gold": {
+          "value": "{yellow.700}",
+          "type": "color"
+        },
+        "Cobalt": {
+          "value": "{blue.700}",
           "type": "color"
         },
         "Jade": {
-          "value": "#256c1d",
+          "value": "{green.700}",
           "type": "color"
         },
         "Emerald": {
           "value": "#006f43",
           "type": "color"
         },
-        "Amethyst": {
-          "value": "#2c202d",
+        "Gravel": {
+          "value": "{grey.700}",
           "type": "color"
         },
-        "Gravel": {
-          "value": "#344450",
+        "Amethyst": {
+          "value": "{purple.700}",
           "type": "color"
         }
       }
