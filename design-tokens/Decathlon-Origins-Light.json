@@ -242,12 +242,11 @@
     },
     "Background": {
       "Neutral": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "FFFFFF"
+        "value": "{white}",
+        "type": "color"
       },
       "Alternative": {
-        "value": "#f7f8f9",
+        "value": "{grey.50}",
         "type": "color",
         "description": "F7F8F9"
       }
