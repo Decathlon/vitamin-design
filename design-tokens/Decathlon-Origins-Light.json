@@ -54,42 +54,42 @@
     },
     "Icon": {
       "Neutral": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Quiet": {
-        "value": "#4e5d6b",
+        "value": "{grey.600}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Supershy": {
-        "value": "#8996a2",
+        "value": "{grey.400}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
       "Critical": {
-        "value": "#e3262f",
+        "value": "{red.400}",
         "type": "color"
       },
       "Warning": {
-        "value": "#ff600a",
+        "value": "{orange.400}",
         "type": "color"
       },
       "Success": {
-        "value": "#23a942",
+        "value": "{conifer.400}",
         "type": "color"
       },
       "Information": {
-        "value": "#007dbc",
+        "value": "{blue.400}",
         "type": "color"
       },
       "Inverse": {
-        "value": "#ffffff",
+        "value": "{white}",
         "type": "color"
       },
       "OnLight": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color"
       }
     },
