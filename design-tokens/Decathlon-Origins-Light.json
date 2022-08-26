@@ -95,46 +95,46 @@
     },
     "Container": {
       "Neutral": {
-        "value": "#ffffff",
+        "value": "{white}",
         "type": "color",
         "description": "FFFFFF"
       },
       "Supershy": {
-        "value": "#f7f8f9",
+        "value": "{grey.50}",
         "type": "color",
         "description": "F7F8F9"
       },
       "Quiet": {
-        "value": "#eff1f3",
+        "value": "{grey.100}",
         "type": "color",
         "description": "\n"
       },
       "Catchy": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color"
       },
       "Information": {
-        "value": "#e7f3f9",
+        "value": "{blue.100}",
         "type": "color",
         "description": "E7F3F9"
       },
       "Critical": {
-        "value": "#feeced",
+        "value": "{red.100}",
         "type": "color",
         "description": "FEECED"
       },
       "Warning": {
-        "value": "#fff3ed",
+        "value": "{orange.100}",
         "type": "color",
         "description": "FFF3ED"
       },
       "Success": {
-        "value": "#eafbe8",
+        "value": "{conifer.100}",
         "type": "color",
         "description": "E9FAE8"
       },
       "OnDark": {
-        "value": "#ffffff",
+        "value": "{white}",
         "type": "color"
       }
     },
