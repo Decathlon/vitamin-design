@@ -1,8 +1,8 @@
 {
   "color": {
-    "text": {
+    "Text": {
       "Neutral": {
-        "value": "{black}",
+        "value": "#001018",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
@@ -41,18 +41,59 @@
         "type": "color",
         "description": "Only use on Catchy Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass"
       },
-      "On Light": {
+      "OnLight": {
         "value": "#001018",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       },
-      "On Dark": {
+      "OnDark": {
         "value": "#ffffff",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       }
     },
-    "surface": {
+    "Icon": {
+      "Neutral": {
+        "value": "#001018",
+        "type": "color",
+        "description": "Icons: \nLevel AA - ✅ Pass"
+      },
+      "Quiet": {
+        "value": "#4e5d6b",
+        "type": "color",
+        "description": "Icons: \nLevel AA - ✅ Pass"
+      },
+      "Supershy": {
+        "value": "#8996a2",
+        "type": "color",
+        "description": "Icons: \nLevel AA - ✅ Pass"
+      },
+      "Critical": {
+        "value": "#e3262f",
+        "type": "color"
+      },
+      "Warning": {
+        "value": "#ff600a",
+        "type": "color"
+      },
+      "Success": {
+        "value": "#23a942",
+        "type": "color"
+      },
+      "Information": {
+        "value": "#007dbc",
+        "type": "color"
+      },
+      "Inverse": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "OnLight": {
+        "value": "#001018",
+        "type": "color"
+      }
+    },
+    "Container": {
       "Neutral": {
         "value": "#ffffff",
         "type": "color",
@@ -92,12 +133,120 @@
         "type": "color",
         "description": "E9FAE8"
       },
-      "On Dark": {
+      "OnDark": {
         "value": "#ffffff",
         "type": "color"
       }
     },
-    "background": {
+    "Interaction": {
+      "Highlight": {
+        "value": "#0073ad",
+        "type": "color",
+        "description": "On all backgrounds and containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
+      },
+      "Highlight-hovered": {
+        "value": "#00699e",
+        "type": "color"
+      },
+      "Highlight-pressed": {
+        "value": "#005885",
+        "type": "color"
+      },
+      "Neutral": {
+        "value": "#8996a2",
+        "type": "color",
+        "description": "Only use as fill color for graphical elements\n\nIcons: \nLevel AA - ✅ Pass"
+      },
+      "Neutral-hovered": {
+        "value": "#70808e",
+        "type": "color"
+      },
+      "Neutral-pressed": {
+        "value": "#657380",
+        "type": "color"
+      },
+      "Quiet": {
+        "value": "#e7f3f9",
+        "type": "color",
+        "description": "Don't give information with this color \n\nLevel AA - ❌"
+      },
+      "Quiet-hovered": {
+        "value": "#d2e9f4",
+        "type": "color",
+        "description": "D2E8F4"
+      },
+      "Quiet-pressed": {
+        "value": "#cae4f2",
+        "type": "color",
+        "description": "CDE6F2"
+      },
+      "Supershy": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Supershy-hovered": {
+        "value": "#e7f3f9",
+        "type": "color",
+        "description": "E7F3F9"
+      },
+      "Supershy-pressed": {
+        "value": "#d9ecf5",
+        "type": "color",
+        "description": "D9ECF5"
+      },
+      "Conversion": {
+        "value": "#ffea28",
+        "type": "color"
+      },
+      "Conversion-hovered": {
+        "value": "#fff48d",
+        "type": "color",
+        "description": "FFF38D"
+      },
+      "Conversion-pressed": {
+        "value": "#fff9c7",
+        "type": "color",
+        "description": "FFF9C7"
+      },
+      "Halo-hovered": {
+        "value": "#e7f3f9b3",
+        "type": "color"
+      },
+      "Halo-pressed": {
+        "value": "#6cb6da40",
+        "type": "color"
+      },
+      "OnDark": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "OnDark-hovered": {
+        "value": "#e7f3f9",
+        "type": "color",
+        "description": "\n"
+      },
+      "OnDark-pressed": {
+        "value": "#d9ecf5",
+        "type": "color"
+      },
+      "Visited": {
+        "value": "#6c4d6f",
+        "type": "color"
+      },
+      "Visited-hovered": {
+        "value": "#845e88",
+        "type": "color"
+      },
+      "Visited-pressed": {
+        "value": "#6c4d6f",
+        "type": "color"
+      },
+      "Focused": {
+        "value": "#001018",
+        "type": "color"
+      }
+    },
+    "Background": {
       "Neutral": {
         "value": "#ffffff",
         "type": "color",
