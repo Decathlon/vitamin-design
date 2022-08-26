@@ -290,5 +290,9 @@
       "value": "#2c202d",
       "type": "color"
     }
+  },
+  "tint": {
+    "value": "#E7F3F9",
+    "type": "color"
   }
 }
