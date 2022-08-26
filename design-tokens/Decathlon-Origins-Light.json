@@ -238,6 +238,18 @@
       "Focused": {
         "value": "{black}",
         "type": "color"
+      },
+      "Critical": {
+        "value": "{red.400}",
+        "type": "color"
+      },
+      "Critical-Hovered": {
+        "value": "#CB1A23",
+        "type": "color"
+      },
+      "Critical-Pressed": {
+        "value": "#B0171E",
+        "type": "color"
       }
     },
     "Background": {
