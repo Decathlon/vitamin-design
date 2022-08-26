@@ -2,7 +2,7 @@
   "Color": {
     "Text": {
       "Neutral": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
@@ -17,44 +17,44 @@
         "description": "Only use on Neutral and Quiet Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Critical": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "Only use on Critical Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Warning": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "Only use on Warning Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Sucess": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "Only use on Sucess Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Information": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "Only use on Information Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Inverse": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color",
         "description": "Only use on Catchy Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass"
       },
       "OnLight": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       },
       "OnDark": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       }
     },
     "Icon": {
       "Neutral": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color",
         "description": "Icons: \nLevel AA - ✅ Pass"
       },
@@ -85,17 +85,17 @@
         "type": "color"
       },
       "Inverse": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color"
       },
       "OnLight": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color"
       }
     },
     "Container": {
       "Neutral": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color",
         "description": "FFFFFF"
       },
@@ -110,7 +110,7 @@
         "description": "\n"
       },
       "Catchy": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color"
       },
       "Information": {
@@ -134,7 +134,7 @@
         "description": "E9FAE8"
       },
       "OnDark": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color"
       }
     },
@@ -179,7 +179,7 @@
         "type": "color"
       },
       "Supershy": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color"
       },
       "Supershy-Hovered": {
@@ -211,7 +211,7 @@
         "type": "color"
       },
       "OnDark": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color"
       },
       "OnDark-Hovered": {
@@ -236,7 +236,7 @@
         "type": "color"
       },
       "Focused": {
-        "value": "{Black}",
+        "value": "{Color.Black}",
         "type": "color"
       },
       "Critical": {
@@ -254,7 +254,7 @@
     },
     "Background": {
       "Neutral": {
-        "value": "{White}",
+        "value": "{Color.White}",
         "type": "color"
       },
       "Alternative": {
