@@ -41,12 +41,12 @@
         "type": "color",
         "description": "Only use on Catchy Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass"
       },
-      "On Light 🔒": {
+      "On Light": {
         "value": "#001018",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       },
-      "On Dark 🔒": {
+      "On Dark": {
         "value": "#ffffff",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
@@ -92,7 +92,7 @@
         "type": "color",
         "description": "E9FAE8"
       },
-      "On Dark 🔒": {
+      "On Dark": {
         "value": "#ffffff",
         "type": "color"
       }
