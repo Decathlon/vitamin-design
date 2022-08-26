@@ -140,12 +140,12 @@
     },
     "Interaction": {
       "Highlight": {
-        "value": "#0073ad",
+        "value": "{blue.450}",
         "type": "color",
         "description": "On all backgrounds and containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Highlight-hovered": {
-        "value": "#00699e",
+        "value": "hsl({blue.450._hue}",
         "type": "color"
       },
       "Highlight-pressed": {
