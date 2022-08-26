@@ -2,52 +2,52 @@
   "color": {
     "Text": {
       "Neutral": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Quiet": {
-        "value": "#4e5d6b",
+        "value": "{grey.600}",
         "type": "color",
         "description": "On all Containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Supershy": {
-        "value": "#687787",
+        "value": "{grey.500}",
         "type": "color",
         "description": "Only use on Neutral and Quiet Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Critical": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "Only use on Critical Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Warning": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "Only use on Warning Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Sucess": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "Only use on Sucess Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Information": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "Only use on Information Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Inverse": {
-        "value": "#ffffff",
+        "value": "{white}",
         "type": "color",
         "description": "Only use on Catchy Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass"
       },
       "OnLight": {
-        "value": "#001018",
+        "value": "{black}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       },
       "OnDark": {
-        "value": "#ffffff",
+        "value": "{white}",
         "type": "color",
         "description": "This color stays the same in dark mode and light mode. "
       }
