@@ -26,7 +26,7 @@
         "type": "color",
         "description": "Only use on Warning Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
-      "Sucess": {
+      "Success": {
         "value": "{Color.Black}",
         "type": "color",
         "description": "Only use on Sucess Containers\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
@@ -309,11 +309,11 @@
         "value": "#002b48",
         "type": "color"
       },
-      "Ecodesign": {
+      "EcoDesign": {
         "value": "#4d6f56",
         "type": "color"
       },
-      "Product test": {
+      "ProductTest": {
         "value": "#ec6607",
         "type": "color"
       }
