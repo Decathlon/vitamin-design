@@ -428,81 +428,81 @@
     }
   },
   "Typography": {
-    "Multiplier": {
-      "Medium": {
-        "value": "1.1",
-        "type": "other"
-      },
-      "Large": {
-        "value": "1.2",
-        "type": "other"
-      }
-    },
     "Body1": {
       "value": {
         "fontSize": "{FontSize.l}",
-        "lineHeight": "{LineHeight.Body}"
+        "lineHeight": "{LineHeight.l}"
       },
       "type": "typography"
     },
     "Body2": {
       "value": {
-        "fontSize": "{FontSize.m}"
+        "fontSize": "{FontSize.m}",
+        "lineHeight": "{LineHeight.m}"
       },
       "type": "typography"
     },
     "Body3": {
       "value": {
-        "fontSize": "{FontSize.s}"
+        "fontSize": "{FontSize.s}",
+        "lineHeight": "{LineHeight.s}"
       },
       "type": "typography"
     },
     "Caption": {
       "value": {
-        "fontSize": "{FontSize.xs}"
+        "fontSize": "{FontSize.xs}",
+        "lineHeight": "{LineHeight.xs}"
       },
       "type": "typography"
     },
     "Overline": {
       "value": {
-        "fontSize": "{FontSize.xxs}"
+        "fontSize": "{FontSize.xxs}",
+        "lineHeight": "{LineHeight.xxs}"
       },
       "type": "typography"
     },
     "Small": {
       "Title1": {
         "value": {
-          "fontSize": "{FontSize.5xl}"
+          "fontSize": "{FontSize.5xl}",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title2": {
         "value": {
-          "fontSize": "{FontSize.5xl}"
+          "fontSize": "{FontSize.5xl}",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title3": {
         "value": {
-          "fontSize": "{FontSize.4xl}"
+          "fontSize": "{FontSize.4xl}",
+          "lineHeight": "{LineHeight.4xl}"
         },
         "type": "typography"
       },
       "Title4": {
         "value": {
-          "fontSize": "{FontSize.3xl}"
+          "fontSize": "{FontSize.3xl}",
+          "lineHeight": "{LineHeight.3xl}"
         },
         "type": "typography"
       },
       "Title5": {
         "value": {
-          "fontSize": "{FontSize.xxl}"
+          "fontSize": "{FontSize.xxl}",
+          "lineHeight": "{LineHeight.xxl}"
         },
         "type": "typography"
       },
       "Title6": {
         "value": {
-          "fontSize": "{FontSize.xl}"
+          "fontSize": "{FontSize.xl}",
+          "lineHeight": "{LineHeight.xl}"
         },
         "type": "typography"
       }
@@ -510,37 +510,43 @@
     "Medium": {
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Medium})/2)*2",
+          "lineHeight": "{LineHeight.4xl}"
         },
         "type": "typography"
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Medium})/2)*2",
+          "lineHeight": "{LineHeight.3xl}"
         },
         "type": "typography"
       },
       "Title5": {
         "value": {
-          "fontSize": "{FontSize.xxl}"
+          "fontSize": "{FontSize.xxl}",
+          "lineHeight": "{LineHeight.xxl}"
         },
         "type": "typography"
       },
       "Title6": {
         "value": {
-          "fontSize": "{FontSize.xl}"
+          "fontSize": "{FontSize.xl}",
+          "lineHeight": "{LineHeight.xl}"
         },
         "type": "typography"
       }
@@ -548,52 +554,78 @@
     "Large": {
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2",
+          "lineHeight": "{LineHeight.5xl}"
         },
         "type": "typography"
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Large})/2)*2",
+          "lineHeight": "{LineHeight.4xl}"
         },
         "type": "typography"
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Large})/2)*2",
+          "lineHeight": "{LineHeight.3xl}"
         },
         "type": "typography"
       },
       "Title5": {
         "value": {
-          "fontSize": "round(({FontSize.xxl}*{Typography.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.xxl}*{Typography.Multiplier.Large})/2)*2",
+          "lineHeight": "{LineHeight.xxl}"
         },
         "type": "typography"
       },
       "Title6": {
         "value": {
-          "fontSize": "{FontSize.xl}"
+          "fontSize": "{FontSize.xl}",
+          "lineHeight": "{LineHeight.xl}"
         },
         "type": "typography"
+      }
+    },
+    "Multiplier": {
+      "Medium": {
+        "value": "1.1",
+        "type": "sizing"
+      },
+      "Large": {
+        "value": "1.2",
+        "type": "sizing"
       }
     }
   },
   "FontSize": {
     "Scale": {
       "value": "1.15",
-      "type": "fontSizes"
+      "type": "sizing"
     }
   },
+  "baselineGrid": {
+    "value": "2",
+    "type": "sizing"
+  },
   "LineHeight": {
-    "Body": {
-      "value": "150%",
-      "type": "lineHeights"
+    "Scale": {
+      "Body": {
+        "value": "1.5",
+        "type": "sizing"
+      },
+      "Title": {
+        "value": "1.2",
+        "type": "sizing"
+      }
     }
   }
 }
