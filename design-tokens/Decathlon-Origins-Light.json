@@ -426,5 +426,207 @@
       "value": "#E7F3F9",
       "type": "color"
     }
+  },
+  "Font": {
+    "Size": {
+      "xxs": {
+        "value": "round(({Font.Size.xs}/{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "xs": {
+        "value": "round(({Font.Size.s}/{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "s": {
+        "value": "round(({Font.Size.m}/{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "m": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "l": {
+        "value": "round(({Font.Size.m}*{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "round(({Font.Size.l}*{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "xxl": {
+        "value": "round(({Font.Size.xl}*{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "round(({Font.Size.xxl}*{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "4xl": {
+        "value": "round(({Font.Size.3xl}*{Scale})/2)*2",
+        "type": "fontSizes"
+      },
+      "5xl": {
+        "value": "round(({Font.Size.4xl}*{Scale})/2)*2",
+        "type": "fontSizes"
+      }
+    },
+    "Multiplier": {
+      "Large": {
+        "value": "1.2",
+        "type": "fontSizes"
+      },
+      "Medium": {
+        "value": "1.1",
+        "type": "fontSizes"
+      }
+    }
+  },
+  "Scale": {
+    "value": "1.15",
+    "type": "fontSizes"
+  },
+  "Text1": {
+    "value": {
+      "fontSize": "{Font.Size.l}"
+    },
+    "type": "typography"
+  },
+  "Text2": {
+    "value": {
+      "fontSize": "{Font.Size.m}"
+    },
+    "type": "typography"
+  },
+  "Text3": {
+    "value": {
+      "fontSize": "{Font.Size.s}"
+    },
+    "type": "typography"
+  },
+  "Caption": {
+    "value": {
+      "fontSize": "{Font.Size.xs}"
+    },
+    "type": "typography"
+  },
+  "Overline": {
+    "value": {
+      "fontSize": "{Font.Size.xxs}"
+    },
+    "type": "typography"
+  },
+  "Small": {
+    "Title1": {
+      "value": {
+        "fontSize": "{Font.Size.5xl}"
+      },
+      "type": "typography"
+    },
+    "Title2": {
+      "value": {
+        "fontSize": "{Font.Size.5xl}"
+      },
+      "type": "typography"
+    },
+    "Title3": {
+      "value": {
+        "fontSize": "{Font.Size.4xl}"
+      },
+      "type": "typography"
+    },
+    "Title4": {
+      "value": {
+        "fontSize": "{Font.Size.3xl}"
+      },
+      "type": "typography"
+    },
+    "Title5": {
+      "value": {
+        "fontSize": "{Font.Size.xxl}"
+      },
+      "type": "typography"
+    },
+    "Title6": {
+      "value": {
+        "fontSize": "{Font.Size.xl}"
+      },
+      "type": "typography"
+    }
+  },
+  "Medium": {
+    "Title1": {
+      "value": {
+        "fontSize": "round(({Font.Size.5xl}*{Font.Multiplier.Medium})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title2": {
+      "value": {
+        "fontSize": "round(({Font.Size.5xl}*{Font.Multiplier.Medium})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title3": {
+      "value": {
+        "fontSize": "round(({Font.Size.4xl}*{Font.Multiplier.Medium})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title4": {
+      "value": {
+        "fontSize": "round(({Font.Size.3xl}*{Font.Multiplier.Medium})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title5": {
+      "value": {
+        "fontSize": "{Font.Size.xxl}"
+      },
+      "type": "typography"
+    },
+    "Title6": {
+      "value": {
+        "fontSize": "{Font.Size.xl}"
+      },
+      "type": "typography"
+    }
+  },
+  "Large": {
+    "Title1": {
+      "value": {
+        "fontSize": "round(({Font.Size.5xl}*{Font.Multiplier.Large})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title2": {
+      "value": {
+        "fontSize": "round(({Font.Size.5xl}*{Font.Multiplier.Large})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title3": {
+      "value": {
+        "fontSize": "round(({Font.Size.4xl}*{Font.Multiplier.Large})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title4": {
+      "value": {
+        "fontSize": "round(({Font.Size.3xl}*{Font.Multiplier.Large})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title5": {
+      "value": {
+        "fontSize": "round(({Font.Size.xxl}*{Font.Multiplier.Large})/2)*2"
+      },
+      "type": "typography"
+    },
+    "Title6": {
+      "value": {
+        "fontSize": "{Font.Size.xl}"
+      },
+      "type": "typography"
+    }
   }
 }
