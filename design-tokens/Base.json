@@ -292,5 +292,47 @@
         "type": "color"
       }
     }
+  },
+  "FontSize": {
+    "xxs": {
+      "value": "round(({Font.Size.xs}/{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "round(({Font.Size.s}/{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "s": {
+      "value": "round(({Font.Size.m}/{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "m": {
+      "value": "16",
+      "type": "fontSizes"
+    },
+    "l": {
+      "value": "round(({Font.Size.m}*{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "round(({Font.Size.l}*{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "xxl": {
+      "value": "round(({Font.Size.xl}*{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "round(({Font.Size.xxl}*{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "round(({Font.Size.3xl}*{Scale})/2)*2",
+      "type": "fontSizes"
+    },
+    "5xl": {
+      "value": "round(({Font.Size.4xl}*{Scale})/2)*2",
+      "type": "fontSizes"
+    }
   }
 }
