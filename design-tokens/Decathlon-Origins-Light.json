@@ -438,19 +438,20 @@
         "type": "other"
       }
     },
-    "Text1": {
+    "Body1": {
       "value": {
-        "fontSize": "{FontSize.l}"
+        "fontSize": "{FontSize.l}",
+        "lineHeight": "{LineHeight.Body}"
       },
       "type": "typography"
     },
-    "Text2": {
+    "Body2": {
       "value": {
         "fontSize": "{FontSize.m}"
       },
       "type": "typography"
     },
-    "Text3": {
+    "Body3": {
       "value": {
         "fontSize": "{FontSize.s}"
       },
@@ -587,6 +588,12 @@
     "Scale": {
       "value": "1.15",
       "type": "fontSizes"
+    }
+  },
+  "LineHeight": {
+    "Body": {
+      "value": "150%",
+      "type": "lineHeights"
     }
   }
 }
