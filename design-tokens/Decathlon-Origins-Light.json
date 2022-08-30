@@ -431,11 +431,11 @@
     "Multiplier": {
       "Medium": {
         "value": "1.1",
-        "type": "fontSizes"
+        "type": "other"
       },
       "Large": {
         "value": "1.2",
-        "type": "fontSizes"
+        "type": "other"
       }
     },
     "Text1": {
@@ -509,25 +509,25 @@
     "Medium": {
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Font.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2"
         },
         "type": "typography"
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Font.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Medium})/2)*2"
         },
         "type": "typography"
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Font.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Medium})/2)*2"
         },
         "type": "typography"
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Font.Multiplier.Medium})/2)*2"
+          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Medium})/2)*2"
         },
         "type": "typography"
       },
@@ -547,31 +547,31 @@
     "Large": {
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Font.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2"
         },
         "type": "typography"
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Font.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.5xl}*{Typography.Multiplier.Large})/2)*2"
         },
         "type": "typography"
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Font.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.4xl}*{Typography.Multiplier.Large})/2)*2"
         },
         "type": "typography"
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Font.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.3xl}*{Typography.Multiplier.Large})/2)*2"
         },
         "type": "typography"
       },
       "Title5": {
         "value": {
-          "fontSize": "round(({FontSize.xxl}*{Font.Multiplier.Large})/2)*2"
+          "fontSize": "round(({FontSize.xxl}*{Typography.Multiplier.Large})/2)*2"
         },
         "type": "typography"
       },
@@ -585,8 +585,8 @@
   },
   "FontSize": {
     "Scale": {
-        "value": "1.15",
-        "type": "fontSizes"
-      },
+      "value": "1.15",
+      "type": "fontSizes"
+    }
   }
 }
