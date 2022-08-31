@@ -145,11 +145,11 @@
         "description": "On all backgrounds and containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Highlight-Hovered": {
-        "value": "#00699E",
+        "value": "#0067A8",
         "type": "color"
       },
       "Highlight-Pressed": {
-        "value": "#005885",
+        "value": "#005489",
         "type": "color"
       },
       "Neutral": {
