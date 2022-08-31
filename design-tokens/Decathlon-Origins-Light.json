@@ -145,49 +145,50 @@
         "description": "On all backgrounds and containers (except Catchy)\n\nRegular text: \nLevel AA - ✅ Pass\nLevel AAA - ❌ Fail\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass"
       },
       "Highlight-Hovered": {
-        "value": "#0067A8",
+        "value": "#00699E",
         "type": "color"
       },
       "Highlight-Pressed": {
-        "value": "#005489",
+        "value": "#005885",
         "type": "color"
       },
       "Neutral": {
+        "value": "{Color.Black}",
+        "type": "color",
+        "description": "On all Containers (except Catchy) Regular text: Level AA - ✅ PassLevel AAA - ✅ PassLarge text:Level AA - ✅ PassLevel AAA - ✅ Pass"
+      },
+      "Neutral-Hovered": {
+        "value": "{Color.Black}",
+        "type": "color"
+      },
+      "Neutral-Pressed": {
+        "value": "{Color.Black}",
+        "type": "color"
+      },
+      "Quiet": {
         "value": "{Color.Grey.400}",
         "type": "color",
         "description": "Only use as fill color for graphical elements\n\nIcons: \nLevel AA - ✅ Pass"
       },
-      "Neutral-Hovered": {
+      "Quiet-Hovered": {
         "value": "#70808e",
         "type": "color"
       },
-      "Neutral-Pressed": {
+      "Quiet-Pressed": {
         "value": "#657380",
         "type": "color"
       },
-      "Quiet": {
+      "Supershy": {
         "value": "{Color.Blue.50}",
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌"
       },
-      "Quiet-Hovered": {
+      "Supershy-Hovered": {
         "value": "#d2e9f4",
         "type": "color"
       },
-      "Quiet-Pressed": {
-        "value": "#cae4f2",
-        "type": "color"
-      },
-      "Supershy": {
-        "value": "{Color.White}",
-        "type": "color"
-      },
-      "Supershy-Hovered": {
-        "value": "{Color.Tint}",
-        "type": "color"
-      },
       "Supershy-Pressed": {
-        "value": "#d9ecf5",
+        "value": "#cae4f2",
         "type": "color"
       },
       "Conversion": {
