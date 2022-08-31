@@ -6,6 +6,24 @@
       "Base": "source",
       "Decathlon-Origins-Light": "enabled"
     },
-    "$figmaStyleReferences": {}
+    "$figmaStyleReferences": {
+      "Color.Text.Neutral": "S:ba80a53bc2f0cf267f9ef7d9f85178c6055a18f9,",
+      "Color.Text.Quiet": "S:a71af7bc8e5321aaf457ee20849854cb6731de19,",
+      "Color.Text.Supershy": "S:9c420c9179ff82d5d09688e15d9baa54a33d1847,",
+      "Color.Icon.Neutral": "S:f3b5ee580aa2a75e0e67fcc5f99ad57b2cf045e8,",
+      "Color.Icon.Quiet": "S:47d49cce74527ecc81777575db175f04de10c0a6,",
+      "Color.Icon.Supershy": "S:4bed17d5ce869ac709b4fb25a3112986a541c925,",
+      "Color.Container.Neutral": "S:9c551ff1d62b8233c34dae26acf27d077505c962,",
+      "Color.Container.Supershy": "S:344f9782f233eeb0e9786e3d9cd35ebd41252c87,",
+      "Color.Container.Quiet": "S:f92d45086652d848ba347e132c4b52e332364fd9,",
+      "Color.Interaction.Highlight": "S:d44c2bdaa8106eb919b099c1a6f7198ef2d4311a,",
+      "Color.Interaction.Neutral": "S:e69d1d7078e28fbb5484274e1f0b0b8632d6874f,",
+      "Color.Interaction.Quiet": "S:be7a6ad49cb15ac23bd81f83b152cf71312f0a57,",
+      "Color.Background.Neutral": "S:cf7f6c24c75b3ea5e90753af586d6302f86e0d92,",
+      "Color.Background.Alternative": "S:cbb34af9023fbaebbb86abd4db09c0cde56de74d,",
+      "Color.Border.Neutral": "S:8b9bb0dbc6a8e542bd5c02d6e0ad657169c33d38,",
+      "Color.Border.Quiet": "S:b04168f7065d5b2f76b0618834646b4acc7994e6,",
+      "Color.Border.Supershy": "S:b57185ab92536057afd637c711c20ad16870dadc,"
+    }
   }
 ]
