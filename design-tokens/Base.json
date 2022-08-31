@@ -295,15 +295,15 @@
   },
   "FontSize": {
     "xxs": {
-      "value": "round(({FontSize.xs}/{FontSize.Scale})/{baselineGrid})*{baselineGrid}",
+      "value": "round(({FontSize.xs}/{FontSize.Scale})/{BaselineGrid})*{BaselineGrid}",
       "type": "fontSizes"
     },
     "xs": {
-      "value": "round(({FontSize.s}/{FontSize.Scale})/2)*2",
+      "value": "round(({FontSize.s}/{FontSize.Scale})/{BaselineGrid})*{BaselineGrid}",
       "type": "fontSizes"
     },
     "s": {
-      "value": "round(({FontSize.m}/{FontSize.Scale})/2)*2",
+      "value": "round(({FontSize.m}/{FontSize.Scale})/{BaselineGrid})*{BaselineGrid}",
       "type": "fontSizes"
     },
     "m": {
@@ -311,11 +311,11 @@
       "type": "fontSizes"
     },
     "l": {
-      "value": "round(({FontSize.m}*{FontSize.Scale})/2)*2",
+      "value": "round(({FontSize.m}*{FontSize.Scale})/{BaselineGrid})*{BaselineGrid}",
       "type": "fontSizes"
     },
     "xl": {
-      "value": "round(({FontSize.l}*{FontSize.Scale})/2)*2",
+      "value": "round(({FontSize.l}*{FontSize.Scale})/{BaselineGrid})*{BaselineGrid}",
       "type": "fontSizes"
     },
     "xxl": {
@@ -337,43 +337,43 @@
   },
   "LineHeight": {
     "xxs": {
-      "value": "round((round(({FontSize.xxs} * $LineHeight.Scale.Body) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.xxs} * $LineHeight.Scale.Body) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "xs": {
-      "value": "round((round(({FontSize.xs} * $LineHeight.Scale.Body) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.xs} * $LineHeight.Scale.Body) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "s": {
-      "value": "round((round(({FontSize.s} * $LineHeight.Scale.Body) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.s} * $LineHeight.Scale.Body) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "m": {
-      "value": "round((round(({FontSize.m} * $LineHeight.Scale.Body) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.m} * $LineHeight.Scale.Body) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "l": {
-      "value": "round((round(({FontSize.l} * $LineHeight.Scale.Body) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.l} * $LineHeight.Scale.Body) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "xl": {
-      "value": "round((round(({FontSize.xl} * $LineHeight.Scale.Title) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.xl} * $LineHeight.Scale.Title) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "xxl": {
-      "value": "round((round(({FontSize.xxl} * $LineHeight.Scale.Title) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.xxl} * $LineHeight.Scale.Title) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "3xl": {
-      "value": "round((round(({FontSize.3xl} * $LineHeight.Scale.Title) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.3xl} * $LineHeight.Scale.Title) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "4xl": {
-      "value": "round((round(({FontSize.4xl} * $LineHeight.Scale.Title) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.4xl} * $LineHeight.Scale.Title) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     },
     "5xl": {
-      "value": "round((round(({FontSize.5xl} * $LineHeight.Scale.Title) / {baselineGrid})) * {baselineGrid})",
+      "value": "round((round(({FontSize.5xl} * $LineHeight.Scale.Title) / {BaselineGrid})) * {BaselineGrid})",
       "type": "lineHeights"
     }
   }
