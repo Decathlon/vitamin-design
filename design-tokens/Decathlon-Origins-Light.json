@@ -99,15 +99,15 @@
         "type": "color",
         "description": "FFFFFF"
       },
-      "Supershy": {
-        "value": "{Color.Grey.50}",
-        "type": "color",
-        "description": "F7F8F9"
-      },
       "Quiet": {
         "value": "{Color.Grey.100}",
         "type": "color",
         "description": "\n"
+      },
+      "Supershy": {
+        "value": "{Color.Grey.50}",
+        "type": "color",
+        "description": "F7F8F9"
       },
       "Catchy": {
         "value": "{Color.Black}",
