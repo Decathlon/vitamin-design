@@ -114,22 +114,22 @@
         "type": "color"
       },
       "Information": {
-        "value": "{Color.Blue.100}",
+        "value": "{Color.Blue.50}",
         "type": "color",
         "description": "E7F3F9"
       },
       "Critical": {
-        "value": "{Color.Red.100}",
+        "value": "{Color.Red.50}",
         "type": "color",
         "description": "FEECED"
       },
       "Warning": {
-        "value": "{Color.Orange.100}",
+        "value": "{Color.Orange.50}",
         "type": "color",
         "description": "FFF3ED"
       },
       "Success": {
-        "value": "{Color.Conifer.100}",
+        "value": "{Color.Conifer.50}",
         "type": "color",
         "description": "E9FAE8"
       },
