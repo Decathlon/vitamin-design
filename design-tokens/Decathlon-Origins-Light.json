@@ -544,7 +544,7 @@
         "value": {
           "fontSize": "{FontSize.5xl}",
           "lineHeight": "{LineHeight.Title.5xl}",
-          "fontFamily": "{FontFamily.Roboto}",
+          "fontFamily": "{FontFamily.RobotoCondensed}",
           "fontWeight": "{FontWeight.Display}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
           "textCase": "{TextCase.Display}"
@@ -635,7 +635,7 @@
           "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.Medium})/2)*2",
           "lineHeight": "round(({LineHeight.Title.5xl}*{Sizing.Multiplier.Medium})/2)*2",
           "fontWeight": "{FontWeight.Display}",
-          "fontFamily": "{FontFamily.Roboto}",
+          "fontFamily": "{FontFamily.RobotoCondensed}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
           "textCase": "{TextCase.Display}"
         },
@@ -724,7 +724,7 @@
         "value": {
           "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.Large})/2)*2",
           "lineHeight": "round(({LineHeight.Title.5xl}*{Sizing.Multiplier.Large})/2)*2",
-          "fontFamily": "{FontFamily.Roboto}",
+          "fontFamily": "{FontFamily.RobotoCondensed}",
           "fontWeight": "{FontWeight.Display}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
           "textCase": "{TextCase.Display}"
