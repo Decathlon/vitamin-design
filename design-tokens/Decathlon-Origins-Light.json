@@ -770,11 +770,11 @@
     "LineHeight": {
       "Scale": {
         "Default": {
-          "value": "1.5",
+          "value": "{scale1}",
           "type": "sizing"
         },
         "Title": {
-          "value": "1.2",
+          "value": "{scale2}",
           "type": "sizing"
         }
       }
@@ -819,5 +819,13 @@
       "value": "uppercase",
       "type": "textCase"
     }
+  },
+  "scale1": {
+    "value": "1.2",
+    "type": "sizing"
+  },
+  "scale2": {
+    "value": "1.5",
+    "type": "sizing"
   }
 }
