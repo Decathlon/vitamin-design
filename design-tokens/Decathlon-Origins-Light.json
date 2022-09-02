@@ -429,19 +429,6 @@
   },
   "Typography": {
     "Allscreens": {
-      "Title": {
-        "Title5": {
-          "value": {
-            "fontSize": "{FontSize.xl}",
-            "lineHeight": "{LineHeight.Title.xl}",
-            "fontFamily": "{FontFamily.Roboto}",
-            "fontWeight": "{FontWeight.Highlight}",
-            "letterSpacing": "{LetterSpacing.LetterSpacing}",
-            "textCase": "{TextCase.Neutral}"
-          },
-          "type": "typography"
-        }
-      },
       "Subtitle": {
         "Subtitle1": {
           "value": {
@@ -625,6 +612,17 @@
         "value": {
           "fontSize": "{FontSize.xxl}",
           "lineHeight": "{LineHeight.Title.xxl}",
+          "fontFamily": "{FontFamily.Roboto}",
+          "fontWeight": "{FontWeight.Highlight}",
+          "letterSpacing": "{LetterSpacing.LetterSpacing}",
+          "textCase": "{TextCase.Neutral}"
+        },
+        "type": "typography"
+      },
+      "Title5": {
+        "value": {
+          "fontSize": "{FontSize.xl}",
+          "lineHeight": "{LineHeight.Title.xl}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
