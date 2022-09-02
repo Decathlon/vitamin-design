@@ -429,6 +429,19 @@
   },
   "Typography": {
     "Allscreens": {
+      "Title": {
+        "Title5": {
+          "value": {
+            "fontSize": "{FontSize.xl}",
+            "lineHeight": "{LineHeight.Title.xl}",
+            "fontFamily": "{FontFamily.Roboto}",
+            "fontWeight": "{FontWeight.Highlight}",
+            "letterSpacing": "{LetterSpacing.LetterSpacing}",
+            "textCase": "{TextCase.Neutral}"
+          },
+          "type": "typography"
+        }
+      },
       "Subtitle": {
         "Subtitle1": {
           "value": {
@@ -618,17 +631,6 @@
           "textCase": "{TextCase.Neutral}"
         },
         "type": "typography"
-      },
-      "Title5": {
-        "value": {
-          "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Title.xl}",
-          "fontFamily": "{FontFamily.Roboto}",
-          "fontWeight": "{FontWeight.Highlight}",
-          "letterSpacing": "{LetterSpacing.LetterSpacing}",
-          "textCase": "{TextCase.Neutral}"
-        },
-        "type": "typography"
       }
     },
     "MediumScreen": {
@@ -686,17 +688,6 @@
           "textCase": "{TextCase.Neutral}"
         },
         "type": "typography"
-      },
-      "Title5": {
-        "value": {
-          "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Title.xl}",
-          "fontFamily": "{FontFamily.Roboto}",
-          "fontWeight": "{FontWeight.Highlight}",
-          "letterSpacing": "{LetterSpacing.LetterSpacing}",
-          "textCase": "{TextCase.Neutral}"
-        },
-        "type": "typography"
       }
     },
     "LargeScreen": {
@@ -748,17 +739,6 @@
         "value": {
           "fontSize": "round(({FontSize.xxl}*{Sizing.Typography.Multiplier.Large})/2)*2",
           "lineHeight": "round(({LineHeight.Title.xxl}*{Sizing.Typography.Multiplier.Large})/2)*2",
-          "fontFamily": "{FontFamily.Roboto}",
-          "fontWeight": "{FontWeight.Highlight}",
-          "letterSpacing": "{LetterSpacing.LetterSpacing}",
-          "textCase": "{TextCase.Neutral}"
-        },
-        "type": "typography"
-      },
-      "Title5": {
-        "value": {
-          "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Title.xl}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
