@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": "c80142c5c1c9e0a8001f8746ef6bacfd067e89d0",
+    "name": "Decathlon-Origins-Light",
+    "selectedTokenSets": {
+      "Base": "source",
+      "Decathlon-Origins-Light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
