@@ -294,16 +294,14 @@
     }
   },
   "Sizing": {
-    "Typography": {
-      "Multiplier": {
-        "Medium": {
-          "value": "1.1",
-          "type": "sizing"
-        },
-        "Large": {
-          "value": "1.2",
-          "type": "sizing"
-        }
+    "Multiplier": {
+      "Medium": {
+        "value": "1.1",
+        "type": "sizing"
+      },
+      "Large": {
+        "value": "1.2",
+        "type": "sizing"
       }
     },
     "FontSize": {
@@ -317,11 +315,11 @@
     "LineHeight": {
       "Scale": {
         "Default": {
-          "value": "{scale1}",
+          "value": "{Sizing.Typography.scale2}",
           "type": "sizing"
         },
         "Title": {
-          "value": "{scale2}",
+          "value": "{Sizing.Typography.scale1}",
           "type": "sizing"
         }
       }
