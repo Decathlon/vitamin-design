@@ -755,60 +755,60 @@
       "scale2": {
         "value": "1.5",
         "type": "sizing"
+      }
+    }
+  },
+  "LineHeight": {
+    "Default": {
+      "xxs": {
+        "value": "round((round(({FontSize.xxs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
       },
-      "LineHeight": {
-        "Default": {
-          "xxs": {
-            "value": "round((round(({FontSize.xxs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "xs": {
-            "value": "round((round(({FontSize.xs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "s": {
-            "value": "round((round(({FontSize.s} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "m": {
-            "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "l": {
-            "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          }
-        },
-        "Title": {
-          "m": {
-            "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "l": {
-            "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "xl": {
-            "value": "round((round(({FontSize.xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "xxl": {
-            "value": "round((round(({FontSize.xxl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "3xl": {
-            "value": "round((round(({FontSize.3xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "4xl": {
-            "value": "round((round(({FontSize.4xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          },
-          "5xl": {
-            "value": "round((round(({FontSize.5xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
-            "type": "lineHeights"
-          }
-        }
+      "xs": {
+        "value": "round((round(({FontSize.xs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "s": {
+        "value": "round((round(({FontSize.s} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "m": {
+        "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "l": {
+        "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      }
+    },
+    "Title": {
+      "m": {
+        "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "l": {
+        "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "round((round(({FontSize.xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "xxl": {
+        "value": "round((round(({FontSize.xxl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "3xl": {
+        "value": "round((round(({FontSize.3xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "4xl": {
+        "value": "round((round(({FontSize.4xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
+      },
+      "5xl": {
+        "value": "round((round(({FontSize.5xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+        "type": "lineHeights"
       }
     }
   },
