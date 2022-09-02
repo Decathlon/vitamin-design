@@ -748,84 +748,108 @@
   },
   "Sizing": {
     "Typography": {
-      "Multiplier": {
-        "Medium": {
-          "value": "1.1",
-          "type": "sizing"
+      "scale1": {
+        "value": "1.2",
+        "type": "sizing"
+      },
+      "scale2": {
+        "value": "1.5",
+        "type": "sizing"
+      }
+ "FontSize": {
+        "xxs": {
+          "value": "round(({FontSize.xs}/{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "type": "fontSizes"
         },
-        "Large": {
-          "value": "1.2",
-          "type": "sizing"
+        "xs": {
+          "value": "round(({FontSize.s}/{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "type": "fontSizes"
+        },
+        "s": {
+          "value": "round(({FontSize.m}/{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "type": "fontSizes"
+        },
+        "m": {
+          "value": "16",
+          "type": "fontSizes"
+        },
+        "l": {
+          "value": "round(({FontSize.m}*{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "round(({FontSize.l}*{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "type": "fontSizes"
+        },
+        "xxl": {
+          "value": "round(({FontSize.xl}*{Sizing.FontSize.Scale.Text})/2)*2",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "round(({FontSize.xxl}*{Sizing.FontSize.Scale.Text})/2)*2",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "round(({FontSize.3xl}*{Sizing.FontSize.Scale.Text})/2)*2",
+          "type": "fontSizes"
+        },
+        "5xl": {
+          "value": "round(({FontSize.4xl}*{Sizing.FontSize.Scale.Text})/2)*2",
+          "type": "fontSizes"
         }
-      }
-    },
-    "FontSize": {
-      "Scale": {
-        "Text": {
-          "value": "1.15",
-          "type": "sizing"
-        }
-      }
-    },
-    "LineHeight": {
-      "Scale": {
+      },
+      "LineHeight": {
         "Default": {
-          "value": "{scale1}",
-          "type": "sizing"
+          "xxs": {
+            "value": "round((round(({FontSize.xxs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "xs": {
+            "value": "round((round(({FontSize.xs} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "s": {
+            "value": "round((round(({FontSize.s} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "m": {
+            "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "l": {
+            "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Default}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          }
         },
         "Title": {
-          "value": "{scale2}",
-          "type": "sizing"
+          "m": {
+            "value": "round((round(({FontSize.m} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "l": {
+            "value": "round((round(({FontSize.l} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "xl": {
+            "value": "round((round(({FontSize.xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "xxl": {
+            "value": "round((round(({FontSize.xxl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "3xl": {
+            "value": "round((round(({FontSize.3xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "4xl": {
+            "value": "round((round(({FontSize.4xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          },
+          "5xl": {
+            "value": "round((round(({FontSize.5xl} * {Sizing.LineHeight.Scale.Title}) / {Sizing.BaselineGrid})) * {Sizing.BaselineGrid})",
+            "type": "lineHeights"
+          }
         }
       }
-    },
-    "BaselineGrid": {
-      "value": "2",
-      "type": "sizing"
     }
-  },
-  "FontWeight": {
-    "Neutral": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "Highlight": {
-      "value": "Bold",
-      "type": "fontWeights"
-    },
-    "Display": {
-      "value": "Bold Italic",
-      "type": "fontWeights"
-    }
-  },
-  "FontFamily": {
-    "Roboto": {
-      "value": "Roboto",
-      "type": "fontFamilies"
-    }
-  },
-  "LetterSpacing": {
-    "LetterSpacing": {
-      "value": "1%",
-      "type": "letterSpacing"
-    }
-  },
-  "TextCase": {
-    "Neutral": {
-      "value": "none",
-      "type": "textCase"
-    },
-    "Display": {
-      "value": "uppercase",
-      "type": "textCase"
-    }
-  },
-  "scale1": {
-    "value": "1.2",
-    "type": "sizing"
-  },
-  "scale2": {
-    "value": "1.5",
-    "type": "sizing"
-  }
-}
