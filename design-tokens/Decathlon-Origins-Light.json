@@ -755,8 +755,8 @@
       "scale2": {
         "value": "1.5",
         "type": "sizing"
-      }
- "FontSize": {
+      },
+      "FontSize": {
         "xxs": {
           "value": "round(({FontSize.xs}/{Sizing.FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "type": "fontSizes"
@@ -853,3 +853,5 @@
         }
       }
     }
+  }
+}
