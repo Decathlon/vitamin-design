@@ -304,26 +304,6 @@
         "type": "sizing"
       }
     },
-    "FontSize": {
-      "Scale": {
-        "Text": {
-          "value": "1.15",
-          "type": "sizing"
-        }
-      }
-    },
-    "LineHeight": {
-      "Scale": {
-        "Default": {
-          "value": "{Sizing.Typography.scale2}",
-          "type": "sizing"
-        },
-        "Title": {
-          "value": "{Sizing.Typography.scale1}",
-          "type": "sizing"
-        }
-      }
-    },
     "BaselineGrid": {
       "value": "2",
       "type": "sizing"
@@ -367,6 +347,26 @@
     "Display": {
       "value": "uppercase",
       "type": "textCase"
+    }
+  },
+  "LineHeight": {
+    "Scale": {
+      "Default": {
+        "value": "{Sizing.Typography.scale2}",
+        "type": "lineHeights"
+      },
+      "Title": {
+        "value": "{Sizing.Typography.scale1}",
+        "type": "lineHeights"
+      }
+    }
+  },
+  "FontSize": {
+    "Scale": {
+      "Text": {
+        "value": "1.15",
+        "type": "fontSizes"
+      }
     }
   }
 }
