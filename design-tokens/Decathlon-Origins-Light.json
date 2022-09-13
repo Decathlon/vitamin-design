@@ -177,7 +177,7 @@
       "Supershy": {
         "value": "{Color.Blue.50}",
         "type": "color",
-        "description": "Don't give information with this color \n\nLevel AA - ❌"
+        "description": "Decorative color. Don't give information with this color Level AA - ❌"
       },
       "Supershy-Hovered": {
         "value": "#d2e9f4",
@@ -209,7 +209,8 @@
       },
       "OnDark": {
         "value": "{Color.White}",
-        "type": "color"
+        "type": "color",
+        "description": "This color stays the same in dark mode and light mode. "
       },
       "OnDark-Hovered": {
         "value": "{Color.Tint}",
