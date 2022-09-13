@@ -56,41 +56,47 @@
       "Neutral": {
         "value": "{Color.Black}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: Level AA - ✅ Pass"
       },
       "Quiet": {
         "value": "{Color.Grey.600}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: \nLevel AA - ✅ Pass"
       },
       "Supershy": {
         "value": "{Color.Grey.400}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: \nLevel AA - ✅ Pass"
       },
       "Critical": {
         "value": "{Color.Red.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Critical Containers Icons: Level AA - ✅ "
       },
       "Warning": {
         "value": "{Color.Orange.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Warning Containers Icons: Level AA - ✅ "
       },
       "Success": {
         "value": "{Color.Conifer.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Sucess Containers Icons: Level AA - ✅ "
       },
       "Information": {
         "value": "{Color.Blue.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Information Containers Icons: Level AA - ✅ "
       },
       "Inverse": {
         "value": "{Color.White}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Catchy Containers Icons: Level AAA - ✅ "
       },
       "OnLight": {
         "value": "{Color.Black}",
-        "type": "color"
+        "type": "color",
+        "description": "This color stays the same in dark mode and light mode. "
       }
     },
     "Container": {
