@@ -224,6 +224,19 @@
         "value": "#d9ecf5",
         "type": "color"
       },
+      "Inverse": {
+        "value": "{Color.White}",
+        "type": "color"
+      },
+      "Inverse-Hovered": {
+        "value": "{Color.Tint}",
+        "type": "color",
+        "description": "\n"
+      },
+      "Inverse-Pressed": {
+        "value": "#d9ecf5",
+        "type": "color"
+      },
       "Visited": {
         "value": "{Color.Purple.400}",
         "type": "color"
