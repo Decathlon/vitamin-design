@@ -254,7 +254,7 @@
       }
     },
     "Background": {
-      "Neutral": {
+      "Main": {
         "value": "{Color.White}",
         "type": "color"
       },
