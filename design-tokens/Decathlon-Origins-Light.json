@@ -96,8 +96,7 @@
     "Container": {
       "Neutral": {
         "value": "{Color.White}",
-        "type": "color",
-        "description": "FFFFFF"
+        "type": "color"
       },
       "Quiet": {
         "value": "{Color.Grey.100}",
@@ -106,35 +105,26 @@
       },
       "Supershy": {
         "value": "{Color.Grey.50}",
-        "type": "color",
-        "description": "F7F8F9"
+        "type": "color"
       },
       "Catchy": {
         "value": "{Color.Black}",
         "type": "color"
       },
-      "Information": {
-        "value": "{Color.Blue.50}",
-        "type": "color",
-        "description": "E7F3F9"
-      },
       "Critical": {
         "value": "{Color.Red.50}",
-        "type": "color",
-        "description": "FEECED"
+        "type": "color"
       },
       "Warning": {
         "value": "{Color.Orange.50}",
-        "type": "color",
-        "description": "FFF3ED"
+        "type": "color"
       },
       "Success": {
         "value": "{Color.Conifer.50}",
-        "type": "color",
-        "description": "E9FAE8"
+        "type": "color"
       },
-      "OnDark": {
-        "value": "{Color.White}",
+      "Information": {
+        "value": "{Color.Blue.50}",
         "type": "color"
       }
     },
