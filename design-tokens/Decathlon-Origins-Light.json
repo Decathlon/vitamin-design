@@ -270,8 +270,7 @@
       },
       "Alternative": {
         "value": "{Color.Grey.50}",
-        "type": "color",
-        "description": "F7F8F9"
+        "type": "color"
       }
     },
     "Border": {
@@ -428,7 +427,7 @@
       }
     },
     "Tint": {
-      "value": "#E7F3F9",
+      "value": "{Color.Blue.50}",
       "type": "color"
     }
   }
