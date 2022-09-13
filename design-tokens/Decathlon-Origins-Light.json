@@ -56,48 +56,53 @@
       "Neutral": {
         "value": "{Color.Black}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: Level AA - ✅ Pass"
       },
       "Quiet": {
         "value": "{Color.Grey.600}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: \nLevel AA - ✅ Pass"
       },
       "Supershy": {
         "value": "{Color.Grey.400}",
         "type": "color",
-        "description": "Icons: \nLevel AA - ✅ Pass"
+        "description": "On all Containers (except Catchy)\n\nIcons: \nLevel AA - ✅ Pass"
       },
       "Critical": {
         "value": "{Color.Red.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Critical Containers Icons: Level AA - ✅ "
       },
       "Warning": {
         "value": "{Color.Orange.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Warning Containers Icons: Level AA - ✅ "
       },
       "Success": {
         "value": "{Color.Conifer.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Sucess Containers Icons: Level AA - ✅ "
       },
       "Information": {
         "value": "{Color.Blue.400}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Information Containers Icons: Level AA - ✅ "
       },
       "Inverse": {
         "value": "{Color.White}",
-        "type": "color"
+        "type": "color",
+        "description": "Only use on Catchy Containers Icons: Level AAA - ✅ "
       },
       "OnLight": {
         "value": "{Color.Black}",
-        "type": "color"
+        "type": "color",
+        "description": "This color stays the same in dark mode and light mode. "
       }
     },
     "Container": {
       "Neutral": {
         "value": "{Color.White}",
-        "type": "color",
-        "description": "FFFFFF"
+        "type": "color"
       },
       "Quiet": {
         "value": "{Color.Grey.100}",
@@ -106,35 +111,26 @@
       },
       "Supershy": {
         "value": "{Color.Grey.50}",
-        "type": "color",
-        "description": "F7F8F9"
+        "type": "color"
       },
       "Catchy": {
         "value": "{Color.Black}",
         "type": "color"
       },
-      "Information": {
-        "value": "{Color.Blue.50}",
-        "type": "color",
-        "description": "E7F3F9"
-      },
       "Critical": {
         "value": "{Color.Red.50}",
-        "type": "color",
-        "description": "FEECED"
+        "type": "color"
       },
       "Warning": {
         "value": "{Color.Orange.50}",
-        "type": "color",
-        "description": "FFF3ED"
+        "type": "color"
       },
       "Success": {
         "value": "{Color.Conifer.50}",
-        "type": "color",
-        "description": "E9FAE8"
+        "type": "color"
       },
-      "OnDark": {
-        "value": "{Color.White}",
+      "Information": {
+        "value": "{Color.Blue.50}",
         "type": "color"
       }
     },
@@ -181,7 +177,7 @@
       "Supershy": {
         "value": "{Color.Blue.50}",
         "type": "color",
-        "description": "Don't give information with this color \n\nLevel AA - ❌"
+        "description": "Decorative color. Don't give information with this color Level AA - ❌"
       },
       "Supershy-Hovered": {
         "value": "#d2e9f4",
@@ -213,7 +209,8 @@
       },
       "OnDark": {
         "value": "{Color.White}",
-        "type": "color"
+        "type": "color",
+        "description": "This color stays the same in dark mode and light mode. "
       },
       "OnDark-Hovered": {
         "value": "{Color.Tint}",
@@ -221,6 +218,19 @@
         "description": "\n"
       },
       "OnDark-Pressed": {
+        "value": "#d9ecf5",
+        "type": "color"
+      },
+      "Inverse": {
+        "value": "{Color.White}",
+        "type": "color"
+      },
+      "Inverse-Hovered": {
+        "value": "{Color.Tint}",
+        "type": "color",
+        "description": "\n"
+      },
+      "Inverse-Pressed": {
         "value": "#d9ecf5",
         "type": "color"
       },
@@ -254,14 +264,13 @@
       }
     },
     "Background": {
-      "Neutral": {
+      "Main": {
         "value": "{Color.White}",
         "type": "color"
       },
       "Alternative": {
         "value": "{Color.Grey.50}",
-        "type": "color",
-        "description": "F7F8F9"
+        "type": "color"
       }
     },
     "Border": {
@@ -280,20 +289,20 @@
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌\n"
       },
-      "Success": {
-        "value": "{Color.Conifer.400}",
-        "type": "color"
-      },
-      "Information": {
-        "value": "{Color.Blue.400}",
-        "type": "color"
-      },
       "Critical": {
         "value": "{Color.Red.400}",
         "type": "color"
       },
       "Warning": {
         "value": "{Color.Orange.400}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{Color.Conifer.400}",
+        "type": "color"
+      },
+      "Information": {
+        "value": "{Color.Blue.400}",
         "type": "color"
       }
     },
@@ -418,7 +427,7 @@
       }
     },
     "Tint": {
-      "value": "#E7F3F9",
+      "value": "{Color.Blue.50}",
       "type": "color"
     }
   }

@@ -28,14 +28,14 @@
       "Color.Text.Warning": "S:eb92f67f1eda142405ff4786a83aa20bf1c4fde5,",
       "Color.Text.Success": "S:8f6da10e79e877bfa7285333450bdc7b9cadb315,",
       "Color.Text.Information": "S:5ad0ee9319636d786261ccde5884bf309a9a18b4,",
-      "Color.Text.Inverse": "S:d2f31003ba7e54776835fa10ccae3a573ef00c2b,",
+      "Color.Text.Inverse": "S:8d04f14cea1c0081a70c97f366dfbedd39faa084,",
       "Color.Text.OnLight": "S:1f4683b82191d3971cec715f42646d56d6869628,",
       "Color.Text.OnDark": "S:38cc1c5c13461152185a5a3c3fd87cf590d325cd,",
       "Color.Icon.Critical": "S:7746e2b0b9df266954b3fbf42f073aeba27192d2,",
       "Color.Icon.Warning": "S:f07bcb14538da2e128782d41ab1e1af5b422bc95,",
       "Color.Icon.Success": "S:977ea43b5c535d3b3dea80f8c76c8dce81b5a102,",
       "Color.Icon.Information": "S:bd759356596727a09ab1528177960ae25e0751ba,",
-      "Color.Icon.Inverse": "S:5ec33073e660d322a20f7cdba59043e71905ac0e,",
+      "Color.Icon.Inverse": "S:99d0c4b0d7290bb1251b2c084b98b0dc369b411b,",
       "Color.Icon.OnLight": "S:c06787d15ed6fdd015248baa42f5882df3729405,",
       "Color.Container.Catchy": "S:d1f8eaaf105fe656b5d62f5e2bc1f61aeda4499d,",
       "Color.Container.Information": "S:c1795ece7e5c47cc759ae7a87effc12609b1ae1e,",
@@ -100,7 +100,9 @@
       "Color.Decorative.Saffron1": "S:e89518aefd6833029b094a5d4661c236feeb85a0,",
       "Color.Decorative.Saffron2": "S:4f09ebe3b2471de7ca006cdea97874f38f50f728,",
       "Color.Decorative.Saffron3": "S:b5bb6ab869cebdc7ce242701135491c974c8a92f,",
-      "Color.Tint": "S:cc79fd017f6106b9307bf2eb4bfe75cb6e698a3b,"
+      "Color.Tint": "S:cc79fd017f6106b9307bf2eb4bfe75cb6e698a3b,",
+      "Color.Background.Main": "S:cf7f6c24c75b3ea5e90753af586d6302f86e0d92,",
+      "Color.Interaction.Inverse": "S:62c1347e3a60543452d39b285a791d712049a4db,"
     }
   }
 ]
