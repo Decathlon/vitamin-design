@@ -290,20 +290,20 @@
         "type": "color",
         "description": "Don't give information with this color \n\nLevel AA - ❌\n"
       },
-      "Success": {
-        "value": "{Color.Conifer.400}",
-        "type": "color"
-      },
-      "Information": {
-        "value": "{Color.Blue.400}",
-        "type": "color"
-      },
       "Critical": {
         "value": "{Color.Red.400}",
         "type": "color"
       },
       "Warning": {
         "value": "{Color.Orange.400}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{Color.Conifer.400}",
+        "type": "color"
+      },
+      "Information": {
+        "value": "{Color.Blue.400}",
         "type": "color"
       }
     },
