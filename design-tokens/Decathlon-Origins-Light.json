@@ -528,7 +528,7 @@
       "Overline": {
         "Neutral": {
           "value": {
-            "fontSize": "{FontSize.xxs}",
+            "fontSize": "{FontSize.xs}",
             "lineHeight": "{LineHeight.Scale.Default}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
@@ -856,10 +856,6 @@
     }
   },
   "FontSize": {
-    "xxs": {
-      "value": "round(({FontSize.xs}/{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-      "type": "fontSizes"
-    },
     "xs": {
       "value": "round(({FontSize.s}/{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
