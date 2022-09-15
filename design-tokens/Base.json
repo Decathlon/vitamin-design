@@ -325,7 +325,7 @@
       "type": "fontWeights"
     },
     "200": {
-      "value": "Ultralight",
+      "value": "ExtraLight",
       "type": "fontWeights"
     },
     "300": {
@@ -341,7 +341,7 @@
       "type": "fontWeights"
     },
     "600": {
-      "value": "Semibold",
+      "value": "SemiBold",
       "type": "fontWeights"
     },
     "700": {
@@ -349,7 +349,7 @@
       "type": "fontWeights"
     },
     "800": {
-      "value": "Ultrabold",
+      "value": "ExtraBold",
       "type": "fontWeights"
     },
     "900": {
@@ -373,7 +373,7 @@
   },
   "LetterSpacing": {
     "100": {
-      "value": "Auto",
+      "value": "0%",
       "type": "letterSpacing"
     }
   },
@@ -384,6 +384,14 @@
     },
     "Uppercase": {
       "value": "Uppercase",
+      "type": "textCase"
+    },
+    "Lowercase": {
+      "value": "lowercase",
+      "type": "textCase"
+    },
+    "Capitalize": {
+      "value": "capitalize",
       "type": "textCase"
     }
   },
