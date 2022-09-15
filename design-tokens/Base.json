@@ -294,19 +294,29 @@
     }
   },
   "Sizing": {
-    "Multiplier": {
-      "110": {
-        "value": "1.1",
-        "type": "sizing"
-      },
-      "120": {
-        "value": "1.2",
-        "type": "sizing"
+    "Breakpoints": {
+      "Multiplier": {
+        "110": {
+          "value": "1.1",
+          "type": "sizing"
+        },
+        "120": {
+          "value": "1.2",
+          "type": "sizing"
+        }
       }
     },
     "BaselineGrid": {
       "value": "2",
       "type": "sizing"
+    },
+    "FontSize": {
+      "Multiplier": {
+        "115": {
+          "value": "1.15",
+          "type": "sizing"
+        }
+      }
     }
   },
   "FontWeight": {
@@ -397,14 +407,6 @@
     "150": {
       "value": "150%",
       "type": "lineHeights"
-    }
-  },
-  "FontSize": {
-    "Scale": {
-      "Text": {
-        "value": "1.15",
-        "type": "fontSizes"
-      }
     }
   }
 }

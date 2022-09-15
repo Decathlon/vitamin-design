@@ -643,7 +643,7 @@
     "MediumScreen": {
       "Display": {
         "value": {
-          "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.6xl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontWeight": "{FontWeight.Display}",
           "fontFamily": "{FontFamily.RobotoCondensed}",
@@ -654,7 +654,7 @@
       },
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.6xl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontWeight": "{FontWeight.Highlight}",
           "fontFamily": "{FontFamily.Roboto}",
@@ -665,7 +665,7 @@
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.5xl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontWeight": "{FontWeight.Highlight}",
           "fontFamily": "{FontFamily.Roboto}",
@@ -676,7 +676,7 @@
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.4xl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -687,7 +687,7 @@
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.3xl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -698,7 +698,7 @@
       },
       "Title5": {
         "value": {
-          "fontSize": "round(({FontSize.xxl}*{Sizing.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.xxl}*{Sizing.Breakpoints.Multiplier.110})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -744,7 +744,7 @@
     "LargeScreen": {
       "Display": {
         "value": {
-          "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.6xl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.RobotoCondensed}",
           "fontWeight": "{FontWeight.Display}",
@@ -755,7 +755,7 @@
       },
       "Title1": {
         "value": {
-          "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.6xl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -766,7 +766,7 @@
       },
       "Title2": {
         "value": {
-          "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.5xl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -777,7 +777,7 @@
       },
       "Title3": {
         "value": {
-          "fontSize": "round(({FontSize.4xl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.4xl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -788,7 +788,7 @@
       },
       "Title4": {
         "value": {
-          "fontSize": "round(({FontSize.3xl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.3xl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -799,7 +799,7 @@
       },
       "Title5": {
         "value": {
-          "fontSize": "round(({FontSize.xxl}*{Sizing.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+          "fontSize": "round(({FontSize.xxl}*{Sizing.Breakpoints.Multiplier.120})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
           "lineHeight": "{LineHeight.120}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
@@ -845,11 +845,11 @@
   },
   "FontSize": {
     "xs": {
-      "value": "round(({FontSize.s}/{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.s}/{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "s": {
-      "value": "round(({FontSize.m}/{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.m}/{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "m": {
@@ -857,31 +857,31 @@
       "type": "fontSizes"
     },
     "l": {
-      "value": "round(({FontSize.m}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.m}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "xl": {
-      "value": "round(({FontSize.l}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.l}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "xxl": {
-      "value": "round(({FontSize.xl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.xl}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "3xl": {
-      "value": "round(({FontSize.xxl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.xxl}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "4xl": {
-      "value": "round(({FontSize.3xl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.3xl}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "5xl": {
-      "value": "round(({FontSize.4xl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.4xl}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     },
     "6xl": {
-      "value": "round(({FontSize.5xl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
+      "value": "round(({FontSize.5xl}*{Sizing.FontSize.Multiplier.115})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
     }
   },
