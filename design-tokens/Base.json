@@ -350,15 +350,13 @@
     }
   },
   "LineHeight": {
-    "Scale": {
-      "Default": {
-        "value": "{Sizing.Typography.scale2}",
-        "type": "lineHeights"
-      },
-      "Title": {
-        "value": "{Sizing.Typography.scale1}",
-        "type": "lineHeights"
-      }
+    "1": {
+      "value": "{LineHeight.Highlight}",
+      "type": "lineHeights"
+    },
+    "2": {
+      "value": "{LineHeight.Neutral}",
+      "type": "lineHeights"
     }
   },
   "FontSize": {

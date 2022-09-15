@@ -433,7 +433,7 @@
         "Neutral": {
           "value": {
             "fontSize": "{FontSize.l}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -444,7 +444,7 @@
         "Highlight": {
           "value": {
             "fontSize": "{FontSize.l}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontWeight": "{FontWeight.Highlight}",
             "fontFamily": "{FontFamily.Roboto}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -457,7 +457,7 @@
         "Neutral": {
           "value": {
             "fontSize": "{FontSize.m}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -468,7 +468,7 @@
         "Highlight": {
           "value": {
             "fontSize": "{FontSize.m}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Highlight}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -481,7 +481,7 @@
         "Neutral": {
           "value": {
             "fontSize": "{FontSize.s}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -492,7 +492,7 @@
         "Highlight": {
           "value": {
             "fontSize": "{FontSize.s}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Highlight}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -505,7 +505,7 @@
         "Neutral": {
           "value": {
             "fontSize": "{FontSize.xs}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -516,7 +516,7 @@
         "Highlight": {
           "value": {
             "fontSize": "{FontSize.xs}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontWeight": "{FontWeight.Highlight}",
             "fontFamily": "{FontFamily.Roboto}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -529,7 +529,7 @@
         "Neutral": {
           "value": {
             "fontSize": "{FontSize.xs}",
-            "lineHeight": "{LineHeight.Scale.Default}",
+            "lineHeight": "{LineHeight.2}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
             "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -543,7 +543,7 @@
       "Display": {
         "value": {
           "fontSize": "{FontSize.6xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.RobotoCondensed}",
           "fontWeight": "{FontWeight.Display}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -554,7 +554,7 @@
       "Title1": {
         "value": {
           "fontSize": "{FontSize.6xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -565,7 +565,7 @@
       "Title2": {
         "value": {
           "fontSize": "{FontSize.5xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -576,7 +576,7 @@
       "Title3": {
         "value": {
           "fontSize": "{FontSize.4xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -587,7 +587,7 @@
       "Title4": {
         "value": {
           "fontSize": "{FontSize.3xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -598,7 +598,7 @@
       "Title5": {
         "value": {
           "fontSize": "{FontSize.xxl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -609,7 +609,7 @@
       "Title6": {
         "value": {
           "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -620,7 +620,7 @@
       "Subtitle1": {
         "value": {
           "fontSize": "{FontSize.l}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -631,7 +631,7 @@
       "Subtitle2": {
         "value": {
           "fontSize": "{FontSize.m}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -644,7 +644,7 @@
       "Display": {
         "value": {
           "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontWeight": "{FontWeight.Display}",
           "fontFamily": "{FontFamily.RobotoCondensed}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -655,7 +655,7 @@
       "Title1": {
         "value": {
           "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontWeight": "{FontWeight.Highlight}",
           "fontFamily": "{FontFamily.Roboto}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -666,7 +666,7 @@
       "Title2": {
         "value": {
           "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontWeight": "{FontWeight.Highlight}",
           "fontFamily": "{FontFamily.Roboto}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -677,7 +677,7 @@
       "Title3": {
         "value": {
           "fontSize": "round(({FontSize.4xl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -688,7 +688,7 @@
       "Title4": {
         "value": {
           "fontSize": "round(({FontSize.3xl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -699,7 +699,7 @@
       "Title5": {
         "value": {
           "fontSize": "round(({FontSize.xxl}*{Sizing.Multiplier.Medium})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -710,7 +710,7 @@
       "Title6": {
         "value": {
           "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -721,7 +721,7 @@
       "Subtitle1": {
         "value": {
           "fontSize": "{FontSize.l}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -732,7 +732,7 @@
       "Subtitle2": {
         "value": {
           "fontSize": "{FontSize.m}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -745,7 +745,7 @@
       "Display": {
         "value": {
           "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.RobotoCondensed}",
           "fontWeight": "{FontWeight.Display}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -756,7 +756,7 @@
       "Title1": {
         "value": {
           "fontSize": "round(({FontSize.6xl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -767,7 +767,7 @@
       "Title2": {
         "value": {
           "fontSize": "round(({FontSize.5xl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -778,7 +778,7 @@
       "Title3": {
         "value": {
           "fontSize": "round(({FontSize.4xl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -789,7 +789,7 @@
       "Title4": {
         "value": {
           "fontSize": "round(({FontSize.3xl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -800,7 +800,7 @@
       "Title5": {
         "value": {
           "fontSize": "round(({FontSize.xxl}*{Sizing.Multiplier.Large})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -811,7 +811,7 @@
       "Title6": {
         "value": {
           "fontSize": "{FontSize.xl}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -822,7 +822,7 @@
       "Subtitle1": {
         "value": {
           "fontSize": "{FontSize.l}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
@@ -833,25 +833,13 @@
       "Subtitle2": {
         "value": {
           "fontSize": "{FontSize.m}",
-          "lineHeight": "{LineHeight.Scale.Title}",
+          "lineHeight": "{LineHeight.1}",
           "fontFamily": "{FontFamily.Roboto}",
           "fontWeight": "{FontWeight.Highlight}",
           "letterSpacing": "{LetterSpacing.LetterSpacing}",
           "textCase": "{TextCase.Neutral}"
         },
         "type": "typography"
-      }
-    }
-  },
-  "Sizing": {
-    "Typography": {
-      "scale1": {
-        "value": "120%",
-        "type": "sizing"
-      },
-      "scale2": {
-        "value": "150%",
-        "type": "sizing"
       }
     }
   },
@@ -895,6 +883,16 @@
     "6xl": {
       "value": "round(({FontSize.5xl}*{FontSize.Scale.Text})/{Sizing.BaselineGrid})*{Sizing.BaselineGrid}",
       "type": "fontSizes"
+    }
+  },
+  "LineHeight": {
+    "Neutral": {
+      "value": "150%",
+      "type": "lineHeights"
+    },
+    "Highlight": {
+      "value": "120%",
+      "type": "lineHeights"
     }
   }
 }
