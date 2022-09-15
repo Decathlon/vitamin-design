@@ -295,11 +295,11 @@
   },
   "Sizing": {
     "Multiplier": {
-      "Medium": {
+      "110": {
         "value": "1.1",
         "type": "sizing"
       },
-      "Large": {
+      "120": {
         "value": "1.2",
         "type": "sizing"
       }
