@@ -310,12 +310,40 @@
     }
   },
   "FontWeight": {
+    "100": {
+      "value": "Thin",
+      "type": "fontWeights"
+    },
+    "200": {
+      "value": "Ultralight",
+      "type": "fontWeights"
+    },
+    "300": {
+      "value": "Light",
+      "type": "fontWeights"
+    },
     "400": {
       "value": "Regular",
       "type": "fontWeights"
     },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "600": {
+      "value": "Semibold",
+      "type": "fontWeights"
+    },
     "700": {
       "value": "Bold",
+      "type": "fontWeights"
+    },
+    "800": {
+      "value": "Ultrabold",
+      "type": "fontWeights"
+    },
+    "900": {
+      "value": "Black",
       "type": "fontWeights"
     },
     "700Italic": {
