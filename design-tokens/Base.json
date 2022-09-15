@@ -372,18 +372,18 @@
     }
   },
   "LetterSpacing": {
-    "LetterSpacing": {
-      "value": "1%",
+    "100": {
+      "value": "Auto",
       "type": "letterSpacing"
     }
   },
   "TextCase": {
-    "Neutral": {
+    "None": {
       "value": "none",
       "type": "textCase"
     },
-    "Display": {
-      "value": "uppercase",
+    "Uppercase": {
+      "value": "Uppercase",
       "type": "textCase"
     }
   },
