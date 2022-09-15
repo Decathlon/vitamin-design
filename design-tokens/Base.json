@@ -310,15 +310,15 @@
     }
   },
   "FontWeight": {
-    "Neutral": {
+    "400": {
       "value": "Regular",
       "type": "fontWeights"
     },
-    "Highlight": {
+    "700": {
       "value": "Bold",
       "type": "fontWeights"
     },
-    "Display": {
+    "700Italic": {
       "value": "Bold Italic",
       "type": "fontWeights"
     }
@@ -350,12 +350,24 @@
     }
   },
   "LineHeight": {
-    "1": {
-      "value": "{LineHeight.Highlight}",
+    "110": {
+      "value": "110%",
       "type": "lineHeights"
     },
-    "2": {
-      "value": "{LineHeight.Neutral}",
+    "120": {
+      "value": "120%",
+      "type": "lineHeights"
+    },
+    "130": {
+      "value": "130%",
+      "type": "lineHeights"
+    },
+    "140": {
+      "value": "140%",
+      "type": "lineHeights"
+    },
+    "150": {
+      "value": "150%",
       "type": "lineHeights"
     }
   },
