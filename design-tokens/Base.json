@@ -292,5 +292,129 @@
         "type": "color"
       }
     }
+  },
+  "Sizing": {
+    "Breakpoints": {
+      "Multiplier": {
+        "110": {
+          "value": "1.1",
+          "type": "sizing"
+        },
+        "120": {
+          "value": "1.2",
+          "type": "sizing"
+        }
+      }
+    },
+    "BaselineGrid": {
+      "value": "2",
+      "type": "sizing"
+    },
+    "FontSize": {
+      "Multiplier": {
+        "115": {
+          "value": "1.15",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "FontWeight": {
+    "100": {
+      "value": "Thin",
+      "type": "fontWeights"
+    },
+    "200": {
+      "value": "ExtraLight",
+      "type": "fontWeights"
+    },
+    "300": {
+      "value": "Light",
+      "type": "fontWeights"
+    },
+    "400": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "500": {
+      "value": "Medium",
+      "type": "fontWeights"
+    },
+    "600": {
+      "value": "SemiBold",
+      "type": "fontWeights"
+    },
+    "700": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "800": {
+      "value": "ExtraBold",
+      "type": "fontWeights"
+    },
+    "900": {
+      "value": "Black",
+      "type": "fontWeights"
+    },
+    "700Italic": {
+      "value": "Bold Italic",
+      "type": "fontWeights"
+    }
+  },
+  "FontFamily": {
+    "Roboto": {
+      "value": "Roboto",
+      "type": "fontFamilies"
+    },
+    "RobotoCondensed": {
+      "value": "Roboto Condensed",
+      "type": "fontFamilies"
+    }
+  },
+  "LetterSpacing": {
+    "0": {
+      "value": "0%",
+      "type": "letterSpacing"
+    }
+  },
+  "TextCase": {
+    "None": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "Uppercase": {
+      "value": "Uppercase",
+      "type": "textCase"
+    },
+    "Lowercase": {
+      "value": "lowercase",
+      "type": "textCase"
+    },
+    "Capitalize": {
+      "value": "capitalize",
+      "type": "textCase"
+    }
+  },
+  "LineHeight": {
+    "110": {
+      "value": "110%",
+      "type": "lineHeights"
+    },
+    "120": {
+      "value": "120%",
+      "type": "lineHeights"
+    },
+    "130": {
+      "value": "130%",
+      "type": "lineHeights"
+    },
+    "140": {
+      "value": "140%",
+      "type": "lineHeights"
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights"
+    }
   }
 }
