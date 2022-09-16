@@ -495,7 +495,7 @@
             "lineHeight": "{LineHeight.150}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Highlight}",
-            "letterSpacing": "{LetterSpacing.100}",
+            "letterSpacing": "{LetterSpacing.0}",
             "textCase": "{TextCase.None}"
           },
           "type": "typography"
@@ -508,7 +508,7 @@
             "lineHeight": "{LineHeight.150}",
             "fontFamily": "{FontFamily.Roboto}",
             "fontWeight": "{FontWeight.Neutral}",
-            "letterSpacing": "{LetterSpacing.100}",
+            "letterSpacing": "{LetterSpacing.0}",
             "textCase": "{TextCase.None}"
           },
           "type": "typography"
@@ -911,7 +911,7 @@
   },
   "LetterSpacing": {
     "Neutral": {
-      "value": "{LetterSpacing.100}",
+      "value": "{LetterSpacing.0}",
       "type": "letterSpacing"
     }
   },
