@@ -4,7 +4,8 @@
     "name": "Decathlon-Origins-Light",
     "selectedTokenSets": {
       "Base": "source",
-      "Decathlon-Origins-Light": "enabled"
+      "Decathlon-Origins-Light": "enabled",
+      "Decathlon-Origins-Dark": "disabled"
     },
     "$figmaStyleReferences": {
       "Color.Text.Neutral": "S:ba80a53bc2f0cf267f9ef7d9f85178c6055a18f9,",
@@ -104,5 +105,15 @@
       "Color.Background.Main": "S:cf7f6c24c75b3ea5e90753af586d6302f86e0d92,",
       "Color.Interaction.Inverse": "S:62c1347e3a60543452d39b285a791d712049a4db,"
     }
+  },
+  {
+    "id": "5c59a5031619253e83b7ee1c7821d1b110b01107",
+    "name": "Decathlon-Origins-Dark",
+    "selectedTokenSets": {
+      "Base": "source",
+      "Decathlon-Origins-Light": "disabled",
+      "Decathlon-Origins-Dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
   }
 ]
