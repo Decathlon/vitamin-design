@@ -322,53 +322,65 @@
   "FontWeight": {
     "100": {
       "value": "Thin",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a thin weight to a font"
     },
     "200": {
       "value": "ExtraLight",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a extra-light weight to a font"
     },
     "300": {
       "value": "Light",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a light weight to a font"
     },
     "400": {
       "value": "Regular",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a regular weight to a font"
     },
     "500": {
       "value": "Medium",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a medium weight to a font"
     },
     "600": {
       "value": "SemiBold",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a semi-bold weight to a font"
     },
     "700": {
       "value": "Bold",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a bold weight to a font"
     },
     "800": {
       "value": "ExtraBold",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a extra-bold weight to a font"
     },
     "900": {
       "value": "Black",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a black weight to a font"
     },
     "700Italic": {
       "value": "Bold Italic",
-      "type": "fontWeights"
+      "type": "fontWeights",
+      "description": "Set a bold-italic style to a font"
     }
   },
   "FontFamily": {
     "Roboto": {
       "value": "Roboto",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "Apply a font-family to a text"
     },
     "RobotoCondensed": {
       "value": "Roboto Condensed",
-      "type": "fontFamilies"
+      "type": "fontFamilies",
+      "description": "Apply a font-family to a text"
     }
   },
   "LetterSpacing": {
@@ -380,41 +392,50 @@
   "TextCase": {
     "None": {
       "value": "none",
-      "type": "textCase"
+      "type": "textCase",
+      "description": "Leaves the text's case and capitalization exactly as it was entered"
     },
     "Uppercase": {
       "value": "Uppercase",
-      "type": "textCase"
+      "type": "textCase",
+      "description": "Makes all of the letters in the selected text uppercase or ALL CAPS"
     },
     "Lowercase": {
       "value": "lowercase",
-      "type": "textCase"
+      "type": "textCase",
+      "description": "Makes all of the letters in the selected text lowercase"
     },
     "Capitalize": {
       "value": "capitalize",
-      "type": "textCase"
+      "type": "textCase",
+      "description": "Capitalizes the first letter of each word in the selected text"
     }
   },
   "LineHeight": {
     "110": {
       "value": "110%",
-      "type": "lineHeights"
+      "type": "lineHeights",
+      "description": "Sets a lineheight of 110%"
     },
     "120": {
       "value": "120%",
-      "type": "lineHeights"
+      "type": "lineHeights",
+      "description": "Sets a lineheight of 120%"
     },
     "130": {
       "value": "130%",
-      "type": "lineHeights"
+      "type": "lineHeights",
+      "description": "Sets a lineheight of 130%"
     },
     "140": {
       "value": "140%",
-      "type": "lineHeights"
+      "type": "lineHeights",
+      "description": "Sets a lineheight of 140%"
     },
     "150": {
       "value": "150%",
-      "type": "lineHeights"
+      "type": "lineHeights",
+      "description": "Sets a lineheight of 150%"
     }
   }
 }

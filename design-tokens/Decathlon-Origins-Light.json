@@ -891,11 +891,11 @@
   },
   "LineHeight": {
     "Neutral": {
-      "value": "150%",
+      "value": "{LineHeight.120}",
       "type": "lineHeights"
     },
     "Highlight": {
-      "value": "120%",
+      "value": "{LineHeight.150}",
       "type": "lineHeights"
     }
   },
