@@ -1,5 +1,15 @@
 [
   {
+    "id": "5c59a5031619253e83b7ee1c7821d1b110b01107",
+    "name": "Decathlon-Origins-Dark",
+    "selectedTokenSets": {
+      "Base": "source",
+      "Decathlon-Origins-Light": "disabled",
+      "Decathlon-Origins-Dark": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  },
+  {
     "id": "c80142c5c1c9e0a8001f8746ef6bacfd067e89d0",
     "name": "Decathlon-Origins-Light",
     "selectedTokenSets": {
@@ -103,17 +113,43 @@
       "Color.Decorative.Saffron3": "S:b5bb6ab869cebdc7ce242701135491c974c8a92f,",
       "Color.Tint": "S:cc79fd017f6106b9307bf2eb4bfe75cb6e698a3b,",
       "Color.Background.Main": "S:cf7f6c24c75b3ea5e90753af586d6302f86e0d92,",
-      "Color.Interaction.Inverse": "S:62c1347e3a60543452d39b285a791d712049a4db,"
+      "Color.Interaction.Inverse": "S:62c1347e3a60543452d39b285a791d712049a4db,",
+      "Typography.Allscreens.Body1.Neutral": "S:6ce41a5eb72786c1b86a051dd0bd794afd40e71d,",
+      "Typography.Allscreens.Body1.Highlight": "S:dc060735fc145176e88a3d350bf6c706e0019d2f,",
+      "Typography.Allscreens.Body2.Neutral": "S:e73904e27ce7896d90f6c0153096a3c7464a9aed,",
+      "Typography.Allscreens.Body2.Highlight": "S:45b473b070b11218ee83e6c08adb184e763aa0b3,",
+      "Typography.Allscreens.Body3.Neutral": "S:137f6f9c2a2c54426e492919c83bad7e9c4ef095,",
+      "Typography.Allscreens.Body3.Highlight": "S:094243c9f74457e4d034f5a2e1dcf9ce7585af0f,",
+      "Typography.Allscreens.Caption.Neutral": "S:a99890fac1ee6e831a6b5bf616abd7bb0a978d12,",
+      "Typography.Allscreens.Caption.Highlight": "S:1ed1091f97188604fd0f7fe872dee396e98e7d7d,",
+      "Typography.Allscreens.Overline.Neutral": "S:cfc78d55f7ce2d4b342fdff85956bdb93efffae8,",
+      "Typography.SmallScreen.Display": "S:5ace7a1d2b42d420e38975b4ff394fd8b2a7a762,",
+      "Typography.SmallScreen.Title1": "S:4853fe115ebfe777e790a04e379bf0b79312f52a,",
+      "Typography.SmallScreen.Title2": "S:906a79a4fe1841cc9d68a2ec4736798bf85529ff,",
+      "Typography.SmallScreen.Title3": "S:8583a7a8e48cbbbe3883174606694dc7e5d16299,",
+      "Typography.SmallScreen.Title4": "S:f8d62b3bd4bc68ce6d4ceb401a4e654934765ac8,",
+      "Typography.SmallScreen.Title5": "S:36d014baa0d25005f20584b4027428d7b47a0638,",
+      "Typography.SmallScreen.Title6": "S:757a0ed3dc0dee4ba2e93c9d5e847dc508c426d8,",
+      "Typography.SmallScreen.Subtitle1": "S:60e60042fbaf01038f6414378d0ef6326475c00f,",
+      "Typography.SmallScreen.Subtitle2": "S:913483cf0200462e5f838bd3a05c05e574656fb8,",
+      "Typography.MediumScreen.Display": "S:5937ba0e1ccf05cacbcc0f59e28ad5cc441805e0,",
+      "Typography.MediumScreen.Title1": "S:c11919a8e7b27c73ed272cdf4c28d3d6b2704537,",
+      "Typography.MediumScreen.Title2": "S:f09c95fa6f9e01fa441da9caee24be55f952a9c5,",
+      "Typography.MediumScreen.Title3": "S:973cea2595fc777b877d804ca116b2ee35079021,",
+      "Typography.MediumScreen.Title4": "S:de936f7d53a5e76372a92cba4f1adb477df50046,",
+      "Typography.MediumScreen.Title5": "S:8327f393cd23521810152a19f4019b5425dda8a7,",
+      "Typography.MediumScreen.Title6": "S:11c3ff93544be35337010e09016c8cf88bcb9f13,",
+      "Typography.MediumScreen.Subtitle1": "S:dd58f54e818d3f58f4d3031b67f1abd414df1dcc,",
+      "Typography.MediumScreen.Subtitle2": "S:42a2e58ac204feadf30588b3b3e48058a6b6d0ac,",
+      "Typography.LargeScreen.Display": "S:84e83f3aff58766b4c17e4fb21660134d9cdfcc7,",
+      "Typography.LargeScreen.Title1": "S:496e7401f609afa9fabdb66d1b54c6bb91d72175,",
+      "Typography.LargeScreen.Title2": "S:9e14f6485ce3fb32d32a36a7a9b0b36458b9ea0a,",
+      "Typography.LargeScreen.Title3": "S:ec8ab49c61a82034281095b62c9fddeda672a5e7,",
+      "Typography.LargeScreen.Title4": "S:79049f8ead492c841dbb62e297327fcb988339a1,",
+      "Typography.LargeScreen.Title5": "S:7bcf5ce2644fedd9093135f2ac9a9e6f9d72db11,",
+      "Typography.LargeScreen.Title6": "S:e00187095359ba29c6bfde1adbf0f710ad90517f,",
+      "Typography.LargeScreen.Subtitle1": "S:851b3895af13885be36882b318f691de4fa2f6bb,",
+      "Typography.LargeScreen.Subtitle2": "S:7eda2bf59e63a4ebc850e24cf135a094602833c9,"
     }
-  },
-  {
-    "id": "5c59a5031619253e83b7ee1c7821d1b110b01107",
-    "name": "Decathlon-Origins-Dark",
-    "selectedTokenSets": {
-      "Base": "source",
-      "Decathlon-Origins-Light": "disabled",
-      "Decathlon-Origins-Dark": "enabled"
-    },
-    "$figmaStyleReferences": {}
   }
 ]
