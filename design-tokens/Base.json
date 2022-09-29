@@ -323,64 +323,64 @@
     "100": {
       "value": "Thin",
       "type": "fontWeights",
-      "description": "Set a thin weight to a font"
+      "description": "Sets a thin weight to a font"
     },
     "200": {
       "value": "ExtraLight",
       "type": "fontWeights",
-      "description": "Set a extra-light weight to a font"
+      "description": "Sets a extra-light weight to a font"
     },
     "300": {
       "value": "Light",
       "type": "fontWeights",
-      "description": "Set a light weight to a font"
+      "description": "Sets a light weight to a font"
     },
     "400": {
       "value": "Regular",
       "type": "fontWeights",
-      "description": "Set a regular weight to a font"
+      "description": "Sets a regular weight to a font"
     },
     "500": {
       "value": "Medium",
       "type": "fontWeights",
-      "description": "Set a medium weight to a font"
+      "description": "Sets a medium weight to a font"
     },
     "600": {
       "value": "SemiBold",
       "type": "fontWeights",
-      "description": "Set a semi-bold weight to a font"
+      "description": "Sets a semi-bold weight to a font"
     },
     "700": {
       "value": "Bold",
       "type": "fontWeights",
-      "description": "Set a bold weight to a font"
+      "description": "Sets a bold weight to a font"
     },
     "800": {
       "value": "ExtraBold",
       "type": "fontWeights",
-      "description": "Set a extra-bold weight to a font"
+      "description": "Sets a extra-bold weight to a font"
     },
     "900": {
       "value": "Black",
       "type": "fontWeights",
-      "description": "Set a black weight to a font"
+      "description": "Sets a black weight to a font"
     },
     "700Italic": {
       "value": "Bold Italic",
       "type": "fontWeights",
-      "description": "Set a bold-italic style to a font"
+      "description": "Sets a bold-italic style to a font"
     }
   },
   "FontFamily": {
     "Roboto": {
       "value": "Roboto",
       "type": "fontFamilies",
-      "description": "Apply a font-family to a text"
+      "description": "Applies a font-family to a text"
     },
     "RobotoCondensed": {
       "value": "Roboto Condensed",
       "type": "fontFamilies",
-      "description": "Apply a font-family to a text"
+      "description": "Applies a font-family to a text"
     }
   },
   "LetterSpacing": {
