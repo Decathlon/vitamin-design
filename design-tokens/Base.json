@@ -437,5 +437,79 @@
       "type": "lineHeights",
       "description": "Sets a lineheight of 150%"
     }
+  },
+  "Spacing": {
+    "0": {
+      "value": "0px",
+      "type": "spacing"
+    },
+    "1": {
+      "value": "4px",
+      "type": "spacing"
+    },
+    "2": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "3": {
+      "value": "12px",
+      "type": "spacing"
+    },
+    "4": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "5": {
+      "value": "20px",
+      "type": "spacing"
+    },
+    "6": {
+      "value": "24px",
+      "type": "spacing"
+    },
+    "7": {
+      "value": "28px",
+      "type": "spacing"
+    },
+    "8": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "10": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "12": {
+      "value": "48px",
+      "type": "spacing"
+    },
+    "16": {
+      "value": "64px",
+      "type": "spacing"
+    },
+    "20": {
+      "value": "80px",
+      "type": "spacing"
+    },
+    "24": {
+      "value": "96px",
+      "type": "spacing"
+    },
+    "28": {
+      "value": "112px",
+      "type": "spacing"
+    },
+    "32": {
+      "value": "128px",
+      "type": "spacing"
+    },
+    "025": {
+      "value": "1px",
+      "type": "spacing"
+    },
+    "05": {
+      "value": "2px",
+      "type": "spacing"
+    }
   }
 }
