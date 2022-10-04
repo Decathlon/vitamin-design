@@ -441,75 +441,93 @@
   "Spacing": {
     "0": {
       "value": "0px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 0px"
     },
     "1": {
       "value": "4px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 4px"
     },
     "2": {
       "value": "8px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 8px"
     },
     "3": {
       "value": "12px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 12px"
     },
     "4": {
       "value": "16px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 16px"
     },
     "5": {
       "value": "20px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 20px"
     },
     "6": {
       "value": "24px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 24px"
     },
     "7": {
       "value": "28px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 28px"
     },
     "8": {
       "value": "32px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 32px"
     },
     "10": {
       "value": "40px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 40px"
     },
     "12": {
       "value": "48px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 48px"
     },
     "16": {
       "value": "64px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 64px"
     },
     "20": {
       "value": "80px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 80px"
     },
     "24": {
       "value": "96px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 96px"
     },
     "28": {
       "value": "112px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 112px"
     },
     "32": {
       "value": "128px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 128px"
     },
     "025": {
       "value": "1px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 1px"
     },
     "05": {
       "value": "2px",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "Sets a spacing of 2px"
     }
   }
 }
