@@ -928,5 +928,43 @@
       "value": "{TextCase.Uppercase}",
       "type": "textCase"
     }
+  },
+  "BorderRadius": {
+    "2xs": {
+      "value": "{BorderRadius.0}",
+      "type": "borderRadius"
+    },
+    "xs": {
+      "value": "{BorderRadius.100}",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "{BorderRadius.200}",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "{BorderRadius.300}",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "{BorderRadius.400}",
+      "type": "borderRadius"
+    },
+    "2xl": {
+      "value": "{BorderRadius.500}",
+      "type": "borderRadius"
+    },
+    "3xl": {
+      "value": "{BorderRadius.600}",
+      "type": "borderRadius"
+    },
+    "4xl": {
+      "value": "{BorderRadius.700}",
+      "type": "borderRadius"
+    },
+    "5xl": {
+      "value": "{BorderRadius.800}",
+      "type": "borderRadius"
+    }
   }
 }
