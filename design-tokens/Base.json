@@ -437,5 +437,52 @@
       "type": "lineHeights",
       "description": "Sets a lineheight of 150%"
     }
+  },
+  "BorderRadius": {
+    "0": {
+      "value": "0px",
+      "type": "borderRadius",
+      "description": "Sets a 0px corner-radius"
+    },
+    "100": {
+      "value": "4px",
+      "type": "borderRadius",
+      "description": "Sets a 4px corner-radius"
+    },
+    "200": {
+      "value": "8px",
+      "type": "borderRadius",
+      "description": "Sets a 8px corner-radius"
+    },
+    "300": {
+      "value": "12px",
+      "type": "borderRadius",
+      "description": "Sets a 12px corner-radius"
+    },
+    "400": {
+      "value": "16px",
+      "type": "borderRadius",
+      "description": "Sets a 16px corner-radius"
+    },
+    "500": {
+      "value": "20px",
+      "type": "borderRadius",
+      "description": "Sets a 20px corner-radius"
+    },
+    "600": {
+      "value": "24px",
+      "type": "borderRadius",
+      "description": "Sets a 24px corner-radius"
+    },
+    "700": {
+      "value": "32px",
+      "type": "borderRadius",
+      "description": "Sets a 32px corner-radius"
+    },
+    "800": {
+      "value": "48px",
+      "type": "borderRadius",
+      "description": "Sets a 48px corner-radius"
+    }
   }
 }
