@@ -930,11 +930,11 @@
     }
   },
   "BorderRadius": {
-    "2xs": {
+    "xs": {
       "value": "{BorderRadius.0}",
       "type": "borderRadius"
     },
-    "xs": {
+    "s": {
       "value": "{BorderRadius.100}",
       "type": "borderRadius"
     },
