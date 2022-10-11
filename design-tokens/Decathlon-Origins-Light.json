@@ -935,35 +935,35 @@
       "type": "borderRadius"
     },
     "s": {
-      "value": "{BorderRadius.100}",
+      "value": "{BorderRadius.1}",
       "type": "borderRadius"
     },
     "m": {
-      "value": "{BorderRadius.200}",
+      "value": "{BorderRadius.2}",
       "type": "borderRadius"
     },
     "l": {
-      "value": "{BorderRadius.300}",
+      "value": "{BorderRadius.3}",
       "type": "borderRadius"
     },
     "xl": {
-      "value": "{BorderRadius.400}",
+      "value": "{BorderRadius.4}",
       "type": "borderRadius"
     },
     "2xl": {
-      "value": "{BorderRadius.500}",
+      "value": "{BorderRadius.5}",
       "type": "borderRadius"
     },
     "3xl": {
-      "value": "{BorderRadius.600}",
+      "value": "{BorderRadius.6}",
       "type": "borderRadius"
     },
     "4xl": {
-      "value": "{BorderRadius.700}",
+      "value": "{BorderRadius.8}",
       "type": "borderRadius"
     },
     "5xl": {
-      "value": "{BorderRadius.800}",
+      "value": "{BorderRadius.12}",
       "type": "borderRadius"
     }
   }
