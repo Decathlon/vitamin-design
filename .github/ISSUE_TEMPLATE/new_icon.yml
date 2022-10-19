@@ -1,6 +1,6 @@
 name: Propose a new icon ✨
 description: For new icon contributions and suggestions for vitamin-icons.
-title: 'New icon <icon-name>'
+title: 'Add a new icon <icon-name>'
 labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'icons ✨', 'run 💨']
 body:
   - type: markdown
