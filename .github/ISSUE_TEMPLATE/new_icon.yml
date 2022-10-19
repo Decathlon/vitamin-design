@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out the proposal for a new icon!
-        - type: markdown
+        Please provide the clearest summary of your purpose. This will help us to answer you quickly and accurately.
+        Thanks for contributing by creating this issue! ❤️
   - type: checkboxes
     attributes:
       label: Duplicates ❌
