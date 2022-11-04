@@ -13,7 +13,7 @@ body:
       label: Duplicates ❌
       description: Before submitting artwork or a request, first[search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same Figma plugin.
       options:
-        - label: I have searched the existing icons and requests.
+        - label: I have searched the existing Figma plugins requests.
           required: true
   - type: input
     id: figma-plugin-name
