@@ -11,7 +11,7 @@ body:
   - type: checkboxes
     attributes:
       label: Duplicates ❌
-      description: Before submitting a request, first[search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same Figma plugin.
+      description: Before submitting a request, first please check if the plugin is not already approuved in our organization and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an other similar request already exists. 
       options:
         - label: I have searched the existing Figma plugins requests.
           required: true
