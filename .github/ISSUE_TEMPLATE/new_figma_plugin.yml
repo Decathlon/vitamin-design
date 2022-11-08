@@ -1,7 +1,7 @@
-name: Propose a new Figma plugin 🔗
-description: For new Figma plugin request inside our Figma @Decathlon private organization.
-title: 'Add a new Figma plugin <plugin-name> inside @Decathlon private organization'
-labels: ['figma plugin 🔗']
+name: Add a Figma plugin to the allowlist 🧩
+description: To request plugin approval in our Figma Organization (Decathlon private).
+title: 'Add <plugin-name> to the allowlist'
+labels: ['figma plugin 🧩']
 body:
   - type: markdown
     attributes:
@@ -11,7 +11,7 @@ body:
   - type: checkboxes
     attributes:
       label: Duplicates ❌
-      description: Before submitting artwork or a request, first[search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same Figma plugin.
+      description: Before submitting a request, first[search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same Figma plugin.
       options:
         - label: I have searched the existing Figma plugins requests.
           required: true
@@ -30,15 +30,11 @@ body:
   - type: textarea
     id: figma-plugin-short-description
     attributes:
-      label: The reason why do you want to use this Figma plugin
+      label: Why do you need this Figma plugin?
       description: |
-        **Why do you want to use this Figma plugin?**
+        **Are there any other details?**
         Relevant screenshots, the reason for using this Figma plugin, and any additional context.
     validations:
-      required: true
+      required: false
       render: shell
-  - type: textarea
-    id: figma-plugin-other-details
-    attributes:
-      label: Are there any other important details?
       
