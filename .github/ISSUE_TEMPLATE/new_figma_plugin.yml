@@ -1,0 +1,44 @@
+name: Propose a new Figma plugin 🔗
+description: For new Figma plugin request inside our Figma @Decathlon private organization.
+title: 'Add a new Figma plugin <plugin-name> inside @Decathlon private organization'
+labels: ['figma plugin 🔗']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the clearest summary of your purpose. This will help us to answer you quickly and accurately.
+        Thanks for contributing by creating this issue! ❤️
+  - type: checkboxes
+    attributes:
+      label: Duplicates ❌
+      description: Before submitting artwork or a request, first[search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same Figma plugin.
+      options:
+        - label: I have searched the existing Figma plugins requests.
+          required: true
+  - type: input
+    id: figma-plugin-name
+    attributes:
+      label: Figma plugin name
+    validations:
+      required: true
+  - type: input
+    id: figma-plugin-url
+    attributes:
+      label: Figma plugin URL
+    validations:
+      required: true
+  - type: textarea
+    id: figma-plugin-short-description
+    attributes:
+      label: The reason why do you want to use this Figma plugin
+      description: |
+        **Why do you want to use this Figma plugin?**
+        Relevant screenshots, the reason for using this Figma plugin, and any additional context.
+    validations:
+      required: true
+      render: shell
+  - type: textarea
+    id: figma-plugin-other-details
+    attributes:
+      label: Are there any other important details?
+      
