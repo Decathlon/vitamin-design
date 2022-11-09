@@ -1,7 +1,7 @@
-name: Propose a new icon ✨
-description: For new icon contributions and suggestions for vitamin-icons.
-title: 'Add a new icon <icon-name>'
-labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'icons ✨', 'run 💨']
+name: Propose a new asset ✨
+description: For new asset contributions and suggestions for vitamin-assets.
+title: 'Add a new asset <asset-name>'
+labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'assets 🏞', 'run 💨']
 body:
   - type: markdown
     attributes:
@@ -11,48 +11,48 @@ body:
   - type: checkboxes
     attributes:
       label: Duplicates ❌
-      description: Before submitting artwork or a request, first review our [icons library](https://www.figma.com/community/file/1116657129289164847) and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same icon.
+      description: Before submitting artwork or a request, first review our [assets library](https://www.figma.com/community/file/1116658372075701302) and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same asset.
       options:
-        - label: I have searched the existing icons and requests.
+        - label: I have searched the existing assets and requests.
           required: true
   - type: input
-    id: icon-name
+    id: asset-name
     attributes:
-      label: Icon name
+      label: Asset name
     validations:
       required: true
   - type: textarea
-    id: icon-description
+    id: asset-description
     attributes:
-      label: Icon description
+      label: Asset description
       description: |
-        **How will these icons be used?**
+        **How will these assets be used?**
         **Action:** Used to denote _x action_.
         **Wayfinding:** Used to help users to _x_.
         **Concept:** Used to represent _x_.
         **Education:** Used to give users more information about _context x_.
-        Relevant screenshots or links to design files detailing the user experience, the reason for creating the new icon, and any additional context.
+        Relevant screenshots or links to design files detailing the user experience, the reason for creating the new asset, and any additional context.
     validations:
       required: true
       render: shell
   - type: input
-    id: icon-keywords
+    id: asset-keywords
     attributes:
-      label: Icon keywords
+      label: Asset keywords
       description: Comma-delimited string of keywords, e.g. member, sport, health
   - type: input
-    id: icon-author
+    id: asset-author
     attributes:
-      label: Icon author
+      label: Asset author
       description: Comma-delimited string of authors first and last name, e.g. Gaël Monfils, Teddy Riner
   - type: textarea
-    id: icon-svg
+    id: asset-svg
     attributes:
-      label: Icon SVG code
+      label: Asset SVG code
       value: <svg>...</svg>
       render: shell
   - type: textarea
-    id: icon-other-details
+    id: asset-other-details
     attributes:
       label: Are there any other important details?
       
