@@ -1,7 +1,7 @@
 name: Add a Figma plugin to the allowlist 🧩
 description: To request plugin approval in our Figma Organization (Decathlon private).
 title: 'Add <plugin-name> to the allowlist'
-labels: ['figma plugin 🧩']
+labels: ['figma plugin 🔗']
 body:
   - type: markdown
     attributes:
