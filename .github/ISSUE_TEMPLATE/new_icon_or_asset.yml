@@ -1,7 +1,7 @@
-name: Propose a new icon ✨
-description: For new icon contributions and suggestions for vitamin-icons.
-title: 'Add a new icon <icon-name>'
-labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'icons ✨', 'run 💨']
+name: Propose a new icon or asset ✨🏞
+description: For new icon & asset contributions and suggestions for vitamin-icons or vitamin-assets.
+title: 'Add a new <icon-or-asset-name>'
+labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'run 💨']
 body:
   - type: markdown
     attributes:
@@ -11,22 +11,31 @@ body:
   - type: checkboxes
     attributes:
       label: Duplicates ❌
-      description: Before submitting artwork or a request, first review our [icon library](https://www.figma.com/community/file/1116657129289164847) and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same icon.
+      description: Before submitting artwork or a request, first review our [icons library](https://www.figma.com/community/file/1116657129289164847 or [assets library](https://www.figma.com/community/file/1116658372075701302) and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an issue already exists for the same icon.
       options:
-        - label: I have searched the existing icons and requests.
+        - label: I have searched the existing icons or assets and requests.
           required: true
-  - type: input
-    id: icon-name
+  - type: dropdown
+    id: library
     attributes:
-      label: Icon name
+      label: Which Figma library is concerned?
+      options:
+        - Vitamin Icons
+        - Vitamin Assets
+    validations:
+      required: true
+  - type: input
+    id: icon-asset-name
+    attributes:
+      label: Icon or Asset name
     validations:
       required: true
   - type: textarea
-    id: icon-description
+    id: icon-asset-description
     attributes:
-      label: Icon description
+      label: Icon or Asset description
       description: |
-        **How will these icons be used?**
+        **How will these icons or assets be used?**
         **Action:** Used to denote _x action_.
         **Wayfinding:** Used to help users to _x_.
         **Concept:** Used to represent _x_.
@@ -36,23 +45,23 @@ body:
       required: true
       render: shell
   - type: input
-    id: icon-keywords
+    id: icon-asset-keywords
     attributes:
-      label: Icon keywords
+      label: Icon or Assets keywords
       description: Comma-delimited string of keywords, e.g. member, sport, health
   - type: input
-    id: icon-author
+    id: icon-asset-author
     attributes:
-      label: Icon author
+      label: Icon or Asset author
       description: Comma-delimited string of authors first and last name, e.g. Gaël Monfils, Teddy Riner
   - type: textarea
-    id: icon-svg
+    id: icon-asset-svg
     attributes:
-      label: Icon SVG code
+      label: Icon or Asset SVG code
       value: <svg>...</svg>
       render: shell
   - type: textarea
-    id: icon-other-details
+    id: icon-asset-other-details
     attributes:
       label: Are there any other important details?
       
