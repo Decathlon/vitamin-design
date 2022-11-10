@@ -1,0 +1,40 @@
+name: Add a Figma plugin to the allowlist 🧩
+description: To request plugin approval in our Figma Organization (Decathlon private).
+title: 'Add <plugin-name> to the allowlist'
+labels: ['figma plugin 🔗']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide the clearest summary of your purpose. This will help us to answer you quickly and accurately.
+        Thanks for contributing by creating this issue! ❤️
+  - type: checkboxes
+    attributes:
+      label: Duplicates ❌
+      description: Before submitting a request, first please check if the plugin is not already approuved in our organization and [search the history](https://github.com/Decathlon/vitamin-design/issues) to see if an other similar request already exists. 
+      options:
+        - label: I have searched the existing Figma plugins requests.
+          required: true
+  - type: input
+    id: figma-plugin-name
+    attributes:
+      label: Figma plugin name
+    validations:
+      required: true
+  - type: input
+    id: figma-plugin-url
+    attributes:
+      label: Figma plugin URL
+    validations:
+      required: true
+  - type: textarea
+    id: figma-plugin-short-description
+    attributes:
+      label: Why do you need this Figma plugin?
+      description: |
+        **Are there any other details?**
+        Relevant screenshots, the reason for using this Figma plugin, and any additional context.
+    validations:
+      required: false
+      render: shell
+      

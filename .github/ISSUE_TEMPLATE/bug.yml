@@ -1,7 +1,6 @@
 name: Bug report 🐛
 description: Create a bug report for Vitamin Design.
-title: '[Bug]: Bug description'
-labels: ['bug 🐛']
+labels: ['bug 🐛', 'run 💨']
 body:
   - type: markdown
     attributes:
