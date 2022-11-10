@@ -438,86 +438,133 @@
       "description": "Sets a lineheight of 150%"
     }
   },
-  "Spacing": {
+  "BorderRadius": {
+    "0": {
+      "value": "0px",
+      "type": "borderRadius",
+      "description": "Sets a 0px corner-radius"
+    },
     "1": {
       "value": "4px",
-      "type": "spacing",
-      "description": "Sets a spacing of 4px"
+      "type": "borderRadius",
+      "description": "Sets a 4px corner-radius"
     },
     "2": {
       "value": "8px",
-      "type": "spacing",
-      "description": "Sets a spacing of 8px"
+      "type": "borderRadius",
+      "description": "Sets a 8px corner-radius"
     },
     "3": {
       "value": "12px",
-      "type": "spacing",
-      "description": "Sets a spacing of 12px"
+      "type": "borderRadius",
+      "description": "Sets a 12px corner-radius"
     },
     "4": {
       "value": "16px",
-      "type": "spacing",
-      "description": "Sets a spacing of 16px"
+      "type": "borderRadius",
+      "description": "Sets a 16px corner-radius"
     },
     "5": {
       "value": "20px",
-      "type": "spacing",
-      "description": "Sets a spacing of 20px"
+      "type": "borderRadius",
+      "description": "Sets a 20px corner-radius"
     },
     "6": {
       "value": "24px",
-      "type": "spacing",
-      "description": "Sets a spacing of 24px"
-    },
-    "7": {
-      "value": "28px",
-      "type": "spacing",
-      "description": "Sets a spacing of 28px"
+      "type": "borderRadius",
+      "description": "Sets a 24px corner-radius"
     },
     "8": {
       "value": "32px",
-      "type": "spacing",
-      "description": "Sets a spacing of 32px"
-    },
-    "10": {
-      "value": "40px",
-      "type": "spacing",
-      "description": "Sets a spacing of 40px"
+      "type": "borderRadius",
+      "description": "Sets a 32px corner-radius"
     },
     "12": {
       "value": "48px",
-      "type": "spacing",
-      "description": "Sets a spacing of 48px"
+      "type": "borderRadius",
+      "description": "Sets a 48px corner-radius"
     },
-    "16": {
-      "value": "64px",
-      "type": "spacing",
-      "description": "Sets a spacing of 64px"
-    },
-    "20": {
-      "value": "80px",
-      "type": "spacing",
-      "description": "Sets a spacing of 80px"
-    },
-    "24": {
-      "value": "96px",
-      "type": "spacing",
-      "description": "Sets a spacing of 96px"
-    },
-    "28": {
-      "value": "112px",
-      "type": "spacing",
-      "description": "Sets a spacing of 112px"
-    },
-    "32": {
-      "value": "128px",
-      "type": "spacing",
-      "description": "Sets a spacing of 128px"
-    },
-    "05": {
-      "value": "2px",
-      "type": "spacing",
-      "description": "Sets a spacing of 2px"
+    "Spacing": {
+      "1": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Sets a spacing of 4px"
+      },
+      "2": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Sets a spacing of 8px"
+      },
+      "3": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Sets a spacing of 12px"
+      },
+      "4": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "Sets a spacing of 16px"
+      },
+      "5": {
+        "value": "20px",
+        "type": "spacing",
+        "description": "Sets a spacing of 20px"
+      },
+      "6": {
+        "value": "24px",
+        "type": "spacing",
+        "description": "Sets a spacing of 24px"
+      },
+      "7": {
+        "value": "28px",
+        "type": "spacing",
+        "description": "Sets a spacing of 28px"
+      },
+      "8": {
+        "value": "32px",
+        "type": "spacing",
+        "description": "Sets a spacing of 32px"
+      },
+      "10": {
+        "value": "40px",
+        "type": "spacing",
+        "description": "Sets a spacing of 40px"
+      },
+      "12": {
+        "value": "48px",
+        "type": "spacing",
+        "description": "Sets a spacing of 48px"
+      },
+      "16": {
+        "value": "64px",
+        "type": "spacing",
+        "description": "Sets a spacing of 64px"
+      },
+      "20": {
+        "value": "80px",
+        "type": "spacing",
+        "description": "Sets a spacing of 80px"
+      },
+      "24": {
+        "value": "96px",
+        "type": "spacing",
+        "description": "Sets a spacing of 96px"
+      },
+      "28": {
+        "value": "112px",
+        "type": "spacing",
+        "description": "Sets a spacing of 112px"
+      },
+      "32": {
+        "value": "128px",
+        "type": "spacing",
+        "description": "Sets a spacing of 128px"
+      },
+      "05": {
+        "value": "2px",
+        "type": "spacing",
+        "description": "Sets a spacing of 2px"
+      }
     }
   }
 }
