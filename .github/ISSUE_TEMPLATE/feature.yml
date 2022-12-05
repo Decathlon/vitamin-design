@@ -80,14 +80,4 @@ body:
       options:
         - label: Figma branch merged
         - label: Documentation review _(and move the documentation into Vitamin Documentation Figma file)
-  - type: checkboxes
-    attributes:
-      label: Ready to dev 👍
-      options:
-        - label: Issues are created in all repositories affected _(vitamin-<web,android,ios,compose>)_
-  - type: checkboxes
-    attributes:
-      label: Dev in progress 💻
-      options:
-        - label: All issues are resolved _(to replace with issues links)_
       
