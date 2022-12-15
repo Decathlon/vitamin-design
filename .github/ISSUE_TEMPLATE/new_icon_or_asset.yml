@@ -29,8 +29,8 @@ body:
       label: Remix icon check (only for icons)
       description: Our icons come from an open source library called [Remix icon](https://remixicon.com/) which contain more than 2000 icons, the icon you're looking for is probably already available on Remix.
       options:
-        - label: I have searched if the icon is already available on remix.
-          required: true
+        - label: I have searched if the icon is already available on Remix.
+          required: false
   - type: input
     id: icon-asset-name
     attributes:
