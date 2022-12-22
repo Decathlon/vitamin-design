@@ -14,7 +14,10 @@
 <p align="center">Decathlon Design System - Design workflow management</p>
 
 <p align="center">
-  <a href="https://www.decathlon.design">Website</a>
+  <a href="https://www.decathlon.design">Website</a> - 
+  <a href="https://github.com/Decathlon/vitamin-design/issues/new/choose">Submit an issue</a> - 
+  <a href="https://github.com/orgs/Decathlon/projects/3">Board</a> - 
+  <a href="./WORKFLOW.md">Workflow documentation</a> - 
 </p>
 
 <p align="center">
@@ -41,7 +44,13 @@
 For information on how to get started with Decathlon Design System, take a look at our [Getting Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design) guide.
 
 ## Submitting Bugs or Feature Requests
-Bugs or feature requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues).
+Bugs or feature requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues/new/choose).
+
+## Board & Workflow
+To manage work and track the progress of our tasks, we use GitHub Projects that allows us to create a kanban board to organize and prioritize our work.
+
+- [Our board](https://github.com/orgs/Decathlon/projects/3)
+- [How it works?](./WORKFLOW.md)
 
 ## Useful links
 - [Decathlon Design System Documentation](https://decathlon.design)
