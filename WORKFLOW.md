@@ -40,4 +40,4 @@ Here is an example of how work might flow through the columns on your kanban boa
 8. The issue or pull request is moved to the 💻 Dev in progress column while it is being actively worked on by a developer.
 9. When development is complete, the issue or pull request is moved to the 👀 Dev review column for review.
 10. If the review is successful, the issue or pull request is moved to the ✅ Done column.
-11. If the issue cannot be fixed or will be delayed until a major release,
+11. If the issue cannot be fixed or will be delayed until a major release, it is be moved to 🚫 Won't fix / Major release column.
