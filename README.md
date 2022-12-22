@@ -17,7 +17,7 @@
   <a href="https://www.decathlon.design">Website</a> - 
   <a href="https://github.com/Decathlon/vitamin-design/issues/new/choose">Submit an issue</a> - 
   <a href="https://github.com/orgs/Decathlon/projects/3">Board</a> - 
-  <a href="./WORKFLOW.md">Workflow documentation</a> - 
+  <a href="./WORKFLOW.md">Workflow documentation</a>
 </p>
 
 <p align="center">
