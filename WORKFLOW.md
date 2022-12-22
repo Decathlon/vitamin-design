@@ -2,7 +2,7 @@
 
 To manage work and track the progress of our tasks, we use GitHub Projects that allows us to create a kanban board to organize and prioritize our work.
 
-[Here is the link](https://github.com/orgs/Decathlon/projects/3) of our board.
+[See our board](https://github.com/orgs/Decathlon/projects/3)
 
 ## From issue to kanban board
 
