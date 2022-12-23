@@ -14,10 +14,10 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  - type: dropdown
-    id: library
+  - type: checkboxes
     attributes:
-      label: Which Figma library is concerned?
+      label: Libraries
+      description: Which Figma library is concerned?
       options:
         - Vitamin Web UI Kit
         - Vitamin Android UI Kit
@@ -29,8 +29,6 @@ body:
         - Vitamin Base colors palette
         - Vitamin Extras kit
         - Not related to one Figma library
-    validations:
-      required: true
   - type: textarea
     attributes:
       label: Current behavior 😯
