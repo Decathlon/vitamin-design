@@ -14,21 +14,21 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
-  - type: dropdown
+  - type: checkboxes
     id: library
     attributes:
-      label: Which Figma library is concerned?
+      label: Which Figma library/libraries is/are concerned?
       options:
-        - Vitamin Web UI Kit
-        - Vitamin Android UI Kit
-        - Vitamin iOS UI Kit
-        - Vitamin Icons
-        - Vitamin Assets
-        - Vitamin Core theme (Light mode)
-        - Vitamin Core theme (Dark mode)
-        - Vitamin Base colors palette
-        - Vitamin Extras kit
-        - Not related to one Figma library
+        - label: Vitamin Web UI Kit
+        - label: Vitamin Android UI Kit
+        - label: Vitamin iOS UI Kit
+        - label: Vitamin Icons
+        - label: Vitamin Assets
+        - label: Vitamin Core theme (Light mode)
+        - label: Vitamin Core theme (Dark mode)
+        - label: Vitamin Base colors palette
+        - label: Vitamin Extras kit
+        - label: Not related to one Figma library
     validations:
       required: true
   - type: textarea
