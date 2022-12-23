@@ -17,7 +17,8 @@ body:
   - type: checkboxes
     id: library
     attributes:
-      label: Which Figma library/libraries is/are concerned?
+      label: Libraries
+      description: Which Figma library/libraries is/are concerned?
       options:
         - label: Vitamin Web UI Kit
         - label: Vitamin Android UI Kit
