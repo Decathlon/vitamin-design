@@ -1,5 +1,5 @@
-name: Add a Figma plugin to the allowlist 🧩
-description: To request plugin approval in our Figma Organization (Decathlon private).
+name: Add a Figma (or FigJam) plugin or widget to the allowlist 🧩
+description: To request plugin/widget approval in our Figma (or FigJam) Organization (Decathlon private).
 title: 'Add <plugin-name> to the allowlist'
 labels: ['figma plugin 🔗']
 body:
@@ -18,22 +18,22 @@ body:
   - type: input
     id: figma-plugin-name
     attributes:
-      label: Figma plugin name
+      label: Figma plugin/widget name
     validations:
       required: true
   - type: input
     id: figma-plugin-url
     attributes:
-      label: Figma plugin URL
+      label: Figma plugin/widget URL
     validations:
       required: true
   - type: textarea
     id: figma-plugin-short-description
     attributes:
-      label: Why do you need this Figma plugin?
+      label: Why do you need this Figma plugin/widget?
       description: |
         **Are there any other details?**
-        Relevant screenshots, the reason for using this Figma plugin, and any additional context.
+        Relevant screenshots, the reason for using this Figma plugin/widget, and any additional context.
     validations:
       required: false
       render: shell
