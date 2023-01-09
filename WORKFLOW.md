@@ -24,7 +24,6 @@ Here are the columns on our board and the purpose of each column:
 | 💻 Dev in progress    | This column is for issues or pull requests that are being actively worked on by a developer.                                            |
 | 👀 Dev review         | This column is for issues or pull requests that have completed development and are ready for review.                                   |
 | ✅ Done                | This column is for issues or pull requests that have been completed and are ready to be closed or merged.                              |
-| 🚫 Won't fix / Major release | This column is for issues or pull requests that will not be fixed or will be delayed until a major release.                              |
 
 ## Workflow
 
@@ -40,4 +39,3 @@ Here is an example of how work might flow through the columns on your kanban boa
 8. The issue or pull request is moved to the 💻 Dev in progress column while it is being actively worked on by a developer.
 9. When development is complete, the issue or pull request is moved to the 👀 Dev review column for review.
 10. If the review is successful, the issue or pull request is moved to the ✅ Done column.
-11. If the issue cannot be fixed or will be delayed until a major release, it is be moved to 🚫 Won't fix / Major release column.
