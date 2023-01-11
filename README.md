@@ -52,6 +52,10 @@ To manage work and track the progress of our tasks, we use GitHub Projects that 
 - [Our board](https://github.com/orgs/Decathlon/projects/3)
 - [How it works?](./WORKFLOW.md)
 
+## GitHub teams
+
+Decathlon has a number of teams on GitHub to manage the development of its design system. The following teams are responsible for the development and maintenance of the system. [Here is the list](./GITHUB_TEAMS.md).
+
 ## Useful links
 - [Decathlon Design System Documentation](https://decathlon.design)
 - [Decathlon Design libraries](https://www.figma.com/@decathlon)
