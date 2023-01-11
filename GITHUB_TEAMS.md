@@ -14,13 +14,13 @@ This team is responsible for the design aspects of the Decathlon design system. 
 ## [@Decathlon/design-system-core-team-dev](https://github.com/orgs/Decathlon/teams/design-system-core-team-dev)
 This team is focused on the development aspect of the Decathlon design system. The team members create and maintain the actual codebase of the design system and work closely with the other teams to ensure that the system is functional and easy to use.
 
-## [@Decathlon/design-system-core-contrib-android-compose-dev](@Decathlon/design-system-core-contrib-android-compose-dev)
+## [@Decathlon/design-system-core-contrib-android-compose-dev](https://github.com/orgs/Decathlon/teams/design-system-core-contrib-android-compose-dev)
 This team is responsible for developing and maintaining the Android XML & Compose components of the Decathlon design system. This team is open to contributions from the community and is focused on development tasks.
 
-## [@Decathlon/design-system-core-contrib-ios-dev](@Decathlon/design-system-core-contrib-ios-dev)
+## [@Decathlon/design-system-core-contrib-ios-dev](https://github.com/orgs/Decathlon/teams/design-system-core-contrib-ios-dev)
 This team is responsible for developing and maintaining the iOS components of the Decathlon design system. Like the android compose dev team, this team is open to contributions from the community and is focused on development tasks.
 
-## [@Decathlon/design-system-core-contrib-web-dev](@Decathlon/design-system-core-contrib-web-dev)
+## [@Decathlon/design-system-core-contrib-web-dev](https://github.com/orgs/Decathlon/teams/design-system-core-contrib-web-dev)
 This team is responsible for developing and maintaining the web components of the Decathlon design system. This team is open to contributions from the community and is focused on development tasks.
 
 Feel free to ping these teams in your Pull Requests when you need review by these people.
