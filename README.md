@@ -41,12 +41,15 @@
 [Decathlon Design System](https://decathlon.design) enable Decathlon’s digital ecosystem to build consistent and quality experiences while keeping a sustainable & global identity.
 
 ## Getting Started
+
 For information on how to get started with Decathlon Design System, take a look at our [Getting Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design) guide.
 
 ## Submitting Bugs or Feature Requests
+
 Bugs or feature requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues/new/choose).
 
 ## Board & Workflow
+
 To manage work and track the progress of our tasks, we use GitHub Projects that allows us to create a kanban board to organize and prioritize our work.
 
 - [Our board](https://github.com/orgs/Decathlon/projects/3)
@@ -57,6 +60,7 @@ To manage work and track the progress of our tasks, we use GitHub Projects that 
 Decathlon has a number of teams on GitHub to manage the development of its design system. The following teams are responsible for the development and maintenance of the system. [Here is the list](./GITHUB_TEAMS.md).
 
 ## Useful links
+
 - [Decathlon Design System Documentation](https://decathlon.design)
 - [Decathlon Design libraries](https://www.figma.com/@decathlon)
 - [Get Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design)

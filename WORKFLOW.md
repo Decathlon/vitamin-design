@@ -12,18 +12,18 @@ When you [create an issue](https://github.com/Decathlon/vitamin-design/issues/ne
 
 Here are the columns on our board and the purpose of each column:
 
-| Column                | Purpose                                                                                                                                 |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| 🆕 New                | This column is for new issues that have been opened but not yet triaged.                                              |
-| 📋 Backlog            | This column is for issues that have been triaged but are not ready to be worked on yet.                              |
-| 🔖 Ready to design    | This column is for issues that are ready to be designed.                                                              |
-| 🏗 Design in progress | This column is for issues that are being designed.                                                                     |
-| 👀 Design review      | This column is for issues that have completed the design phase and are ready for review.                              |
-| 👍 Design done        | This column is for issues that have completed the design phase and have been approved.                                 |
-| 🔖 Dev to do          | This column is for issues that are ready to be worked on by a developer.                                                |
-| 💻 Dev in progress    | This column is for issues or pull requests that are being actively worked on by a developer.                                            |
-| 👀 Dev review         | This column is for issues or pull requests that have completed development and are ready for review.                                   |
-| ✅ Done                | This column is for issues or pull requests that have been completed and are ready to be closed or merged.                              |
+| Column               | Purpose                                                                                                   |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| 🆕 New               | This column is for new issues that have been opened but not yet triaged.                                  |
+| 📋 Backlog           | This column is for issues that have been triaged but are not ready to be worked on yet.                   |
+| 🔖 Ready to design   | This column is for issues that are ready to be designed.                                                  |
+| 🏗 Design in progress | This column is for issues that are being designed.                                                        |
+| 👀 Design review     | This column is for issues that have completed the design phase and are ready for review.                  |
+| 👍 Design done       | This column is for issues that have completed the design phase and have been approved.                    |
+| 🔖 Dev to do         | This column is for issues that are ready to be worked on by a developer.                                  |
+| 💻 Dev in progress   | This column is for issues or pull requests that are being actively worked on by a developer.              |
+| 👀 Dev review        | This column is for issues or pull requests that have completed development and are ready for review.      |
+| ✅ Done              | This column is for issues or pull requests that have been completed and are ready to be closed or merged. |
 
 ## Workflow
 

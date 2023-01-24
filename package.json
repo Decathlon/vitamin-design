@@ -1,0 +1,52 @@
+{
+  "name": "@vtmn/do-not-install-vitamin-design",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Decathlon Design System - Design workflow management",
+  "keywords": [
+    "design-system",
+    "ui-kit",
+    "libraries",
+    "vitamin",
+    "design"
+  ],
+  "homepage": "https://github.com/Decathlon/vitamin-design",
+  "bugs": {
+    "url": "https://github.com/Decathlon/vitamin-design/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Decathlon/vitamin-design.git"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "icons:convert-svg-to-font-json-ts-sprite": "node scripts/icons/convert-svg-to-font-json-ts-sprite.js",
+    "icons:convert-svg-to-pdf": "node scripts/icons/convert-svg-to-pdf.js",
+    "icons:convert-svg-to-vector-drawable": "node scripts/icons/convert-svg-to-vector-drawable.js",
+    "icons:convert-svg-to-compose": "node scripts/icons/convert-svg-to-compose.js",
+    "icons:export-svg": "node scripts/icons/export-svg.js",
+    "icons:optimize-svg": "node scripts/icons/optimize-svg.js",
+    "lint": "prettier .",
+    "lint:fix": "prettier --write .",
+    "prebuild": "npm run lint:fix && node scripts/prebuild.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "fantasticon": "^1.2.3",
+    "figma-export-icons": "^1.5.0",
+    "prettier": "^2.7.1",
+    "shelljs": "^0.8.5",
+    "spritesh": "^1.1.0",
+    "svg-to-pdfkit": "^0.1.8",
+    "svg2vectordrawable": "^2.9.1",
+    "svgo": "^3.0.0",
+    "xml-parse": "^0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+name: Update icons
+
+on: [workflow_dispatch]
+
+env:
+  FIGMA_API_ACCESS_TOKEN: { { secrets.FIGMA_API_ACCESS_TOKEN } }
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: 'Create dotenv file'
+        run: |
+          touch .env
+          echo FIGMA_API_ACCESS_TOKEN=${{ secrets.FIGMA_API_ACCESS_TOKEN }} >> .env
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+        add: 'icons'
+        message: 'feat: update icons'
+        push: true
