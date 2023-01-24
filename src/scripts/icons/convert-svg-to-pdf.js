@@ -12,12 +12,12 @@ const mainContentsJson = {
 };
 
 fs.writeFileSync(
-  'icons/pdf/Contents.json',
+  'build/icons/pdf/Contents.json',
   JSON.stringify(mainContentsJson, null, 2)
 );
 
-shell.ls('icons/svg/all').forEach((file) => {
-  const data = fs.readFileSync(`icons/svg/all/${file}`);
+shell.ls('build/icons/svg/all').forEach((file) => {
+  const data = fs.readFileSync(`build/icons/svg/all/${file}`);
   const directoryName = `${capitalize(file.split('.svg')[0]).replaceAll(
     '-',
     ''
@@ -39,14 +39,16 @@ shell.ls('icons/svg/all').forEach((file) => {
     },
   };
 
-  shell.mkdir(`icons/pdf/${directoryName}`);
+  shell.mkdir(`build/icons/pdf/${directoryName}`);
   fs.writeFileSync(
-    `icons/pdf/${directoryName}/Contents.json`,
+    `build/icons/pdf/${directoryName}/Contents.json`,
     JSON.stringify(iconContentsJson, null, 2)
   );
 
   const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(`icons/pdf/${directoryName}/${fileName}`),
+    stream = fs.createWriteStream(
+      `build/icons/pdf/${directoryName}/${fileName}`
+    ),
     svg = data.toString();
 
   SVGtoPDF(doc, svg, 0, 0);

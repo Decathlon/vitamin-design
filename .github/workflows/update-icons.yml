@@ -25,11 +25,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build
+      - name: Build icons
+        run: npm run build:icons
 
       - uses: EndBug/add-and-commit@v9
         with:
-        add: 'icons'
+        add: 'build/icons'
         message: 'feat: update icons'
         push: true

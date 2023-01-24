@@ -5,8 +5,8 @@ shell.mkdir('-p', '.temp-compose-icons/fill');
 shell.mkdir('-p', '.temp-compose-icons/line');
 
 // Copy all icons from svg folders to temp folder
-shell.cp('-r', 'icons/svg/fill/*.svg', '.temp-compose-icons/fill');
-shell.cp('-r', 'icons/svg/line/*.svg', '.temp-compose-icons/line');
+shell.cp('-r', 'build/icons/svg/fill/*.svg', '.temp-compose-icons/fill');
+shell.cp('-r', 'build/icons/svg/line/*.svg', '.temp-compose-icons/line');
 
 // Rename name of icons
 const fills = shell.ls('.temp-compose-icons/fill');
@@ -28,7 +28,7 @@ lines.forEach((element) => {
 });
 
 // Generate icons
-shell.exec('kotlin scripts/icons/generate-compose-source.main.kts');
+shell.exec('kotlin src/scripts/icons/generate-compose-source.main.kts');
 
 // Clean directory no more necessary
 shell.rm('-rf', '.temp-compose-icons');

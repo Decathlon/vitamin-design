@@ -15,13 +15,13 @@ const iconsConfigBase = {
 const iconsConfigFill = {
   ...iconsConfigBase,
   frame: 'icon-fill',
-  iconsPath: 'icons/svg/fill',
+  iconsPath: 'build/icons/svg/fill',
 };
 
 const iconsConfigLine = {
   ...iconsConfigBase,
   frame: 'icon-line',
-  iconsPath: 'icons/svg/line',
+  iconsPath: 'build/icons/svg/line',
 };
 
 // Icons: Create a `.temp` folder
@@ -44,8 +44,8 @@ shell.exec('npx export-icons --config=.temp/icons-config-fill.json');
 shell.exec('npx export-icons --config=.temp/icons-config-line.json');
 
 // Icons: Copy to a folder that contains all
-shell.cp('-r', 'icons/svg/fill/*.svg', 'icons/svg/all');
-shell.cp('-r', 'icons/svg/line/*.svg', 'icons/svg/all');
+shell.cp('-r', 'build/icons/svg/fill/*.svg', 'build/icons/svg/all');
+shell.cp('-r', 'build/icons/svg/line/*.svg', 'build/icons/svg/all');
 
 // Icons: Clean svg folder
 shell.rm('-rf', '.temp');

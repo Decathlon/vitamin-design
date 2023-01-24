@@ -20,16 +20,16 @@
   },
   "license": "Apache-2.0",
   "scripts": {
-    "build": "node scripts/build.js",
-    "icons:convert-svg-to-font-json-ts-sprite": "node scripts/icons/convert-svg-to-font-json-ts-sprite.js",
-    "icons:convert-svg-to-pdf": "node scripts/icons/convert-svg-to-pdf.js",
-    "icons:convert-svg-to-vector-drawable": "node scripts/icons/convert-svg-to-vector-drawable.js",
-    "icons:convert-svg-to-compose": "node scripts/icons/convert-svg-to-compose.js",
-    "icons:export-svg": "node scripts/icons/export-svg.js",
-    "icons:optimize-svg": "node scripts/icons/optimize-svg.js",
+    "build:icons": "npm run prebuild:icons && node src/scripts/icons/build.js",
+    "icons:convert-svg-to-font-json-ts-sprite": "node src/scripts/icons/convert-svg-to-font-json-ts-sprite.js",
+    "icons:convert-svg-to-pdf": "node src/scripts/icons/convert-svg-to-pdf.js",
+    "icons:convert-svg-to-vector-drawable": "node src/scripts/icons/convert-svg-to-vector-drawable.js",
+    "icons:convert-svg-to-compose": "node src/scripts/icons/convert-svg-to-compose.js",
+    "icons:export-svg": "node src/scripts/icons/export-svg.js",
+    "icons:optimize-svg": "node src/scripts/icons/optimize-svg.js",
     "lint": "prettier .",
     "lint:fix": "prettier --write .",
-    "prebuild": "npm run lint:fix && node scripts/prebuild.js"
+    "prebuild:icons": "npm run lint:fix && node src/scripts/icons/prebuild.js"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",

@@ -9,7 +9,7 @@ import br.com.devsrsouza.svg2compose.VectorType
 import java.io.File
 
 val iconsDir = File(".temp-compose-icons")
-val srcDir = File("icons/compose")
+val srcDir = File("build/icons/compose")
 
 Svg2Compose.parse(
     applicationIconPackage = "com.decathlon.vitamin.compose",

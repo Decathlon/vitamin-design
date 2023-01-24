@@ -1,6 +1,6 @@
 module.exports = {
-  inputDir: 'icons/svg/all',
-  outputDir: './icons/json',
+  inputDir: 'build/icons/svg/all',
+  outputDir: 'build/icons/json',
   assetTypes: ['json'],
   name: 'vitamix',
   normalize: true,

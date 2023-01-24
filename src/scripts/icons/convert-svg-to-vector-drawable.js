@@ -9,11 +9,11 @@ let options = {
 
 let promises = [];
 
-shell.ls('icons/svg/all').forEach((file) => {
+shell.ls('build/icons/svg/all').forEach((file) => {
   promises.push(
     svg2vectordrawable.convertFile(
-      `icons/svg/all/${file}`,
-      `icons/vector-drawable/ic_vtmn_${file
+      `build/icons/svg/all/${file}`,
+      `build/icons/vector-drawable/ic_vtmn_${file
         .split('.')[0]
         .replaceAll('-', '_')}.xml`,
       options
@@ -22,7 +22,7 @@ shell.ls('icons/svg/all').forEach((file) => {
 });
 
 Promise.all(promises).then(() => {
-  shell.ls('icons/vector-drawable/*.xml').forEach(function (file) {
+  shell.ls('build/icons/vector-drawable/*.xml').forEach(function (file) {
     fs.writeFileSync(
       file,
       shell.sed('-i', 'android:width="16dp"', 'android:width="24dp"', file)
