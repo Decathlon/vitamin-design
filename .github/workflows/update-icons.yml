@@ -3,7 +3,7 @@ name: Update icons
 on: [workflow_dispatch]
 
 env:
-  FIGMA_API_ACCESS_TOKEN: { { secrets.FIGMA_API_ACCESS_TOKEN } }
+  FIGMA_API_ACCESS_TOKEN: {{ secrets.FIGMA_API_ACCESS_TOKEN }}
 
 jobs:
   build:
@@ -30,6 +30,6 @@ jobs:
 
       - uses: EndBug/add-and-commit@v9
         with:
-        add: 'build/icons'
-        message: 'feat: update icons'
-        push: true
+          add: 'build/icons'
+          message: 'feat: update icons'
+          push: true
