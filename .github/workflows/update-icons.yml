@@ -25,9 +25,26 @@ jobs:
       - name: Build icons
         run: npm run build:icons
 
-      - uses: EndBug/add-and-commit@v9
+      - name: Commit and push
+        uses: EndBug/add-and-commit@v9
         with:
           add: 'build/icons'
           message: 'feat: update icons'
           new_branch: feat/update-icons
           push: true
+          
+      - name: Create Pull Request
+        uses: devops-infra/action-pull-request@v0.5.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_branch: feat/update-icons
+          target_branch: main
+          title: 'feat: update icons'
+          body: "**Automated Pull Request to update icons.**"
+          reviewer: '@Decathlon/design-system-core-team'
+          assignee: '@Decathlon/design-system-core-team'
+          label: icons
+          milestone: My milestone
+          draft: false
+          ignore_users: "dependabot"
+          allow_no_diff: false
