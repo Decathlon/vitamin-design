@@ -52,9 +52,9 @@ body:
     attributes:
       value: |
         # Checklists ✔
-        
+
         In order to track and ensure we don't forget anything when we change from one column to another in our [Design workflow](https://github.com/orgs/Decathlon/projects/3), we use checklists. 
-        
+
         _Please, let these checklists unchecked when you create the issue and keep them up-to-date when you work on it. Thanks a lot! ❤️_
   - type: checkboxes
     attributes:
@@ -63,13 +63,13 @@ body:
         - label: Validated in a grooming session
   - type: checkboxes
     attributes:
-      label: Backlog 📋 
+      label: Backlog 📋
       options:
         - label: Has a good summary
         - label: Has example link(s)
   - type: checkboxes
     attributes:
-      label: Design in progress 🏗 
+      label: Design in progress 🏗
       options:
         - label: Analysis _(functional & technical)_
         - label: Design refinement
@@ -81,4 +81,3 @@ body:
       options:
         - label: Figma branch merged
         - label: Documentation review _(and move the documentation into Vitamin Documentation Figma file)
-      
