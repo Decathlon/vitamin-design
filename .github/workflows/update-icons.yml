@@ -44,7 +44,6 @@ jobs:
           reviewer: '@Decathlon/design-system-core-team'
           assignee: '@Decathlon/design-system-core-team'
           label: icons
-          milestone: My milestone
           draft: false
           ignore_users: "dependabot"
           allow_no_diff: false
