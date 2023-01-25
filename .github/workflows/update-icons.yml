@@ -29,4 +29,5 @@ jobs:
         with:
           add: 'build/icons'
           message: 'feat: update icons'
+          new_branch: feat/update-icons
           push: true
