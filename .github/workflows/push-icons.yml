@@ -1,0 +1,26 @@
+name: Push icons
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+    - 'build/icons/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Push to vitamin-android
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'build/icons/vector-drawable'
+          destination-github-username: 'Decathlon'
+          destination-repository-name: 'vitamin-android'
+          target-directory: 'foundation/foundation-icons/src/main/res/drawable'
+          user-email: designsystem@decathlon.net
+          target-branch: main
