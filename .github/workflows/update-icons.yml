@@ -41,9 +41,7 @@ jobs:
           target_branch: main
           title: 'feat: update icons'
           body: "**Automated Pull Request to update icons.**"
-          reviewer: '@Decathlon/design-system-core-team'
-          assignee: '@Decathlon/design-system-core-team'
-          label: icons
+          label: 'icons ✨'
           draft: false
           ignore_users: "dependabot"
           allow_no_diff: false
