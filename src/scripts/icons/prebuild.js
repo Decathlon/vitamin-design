@@ -6,7 +6,7 @@ shell.rm('-rf', 'build');
 // Icons: Create SVG directories
 shell.mkdir('-p', 'build/icons/svg/fill');
 shell.mkdir('-p', 'build/icons/svg/line');
-shell.mkdir('-p', 'build/icons/svg/all');
+shell.mkdir('-p', 'build/icons/svg/vitamix');
 
 // Icons: Create font directory
 shell.mkdir('-p', 'build/icons/font');

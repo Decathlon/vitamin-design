@@ -1,5 +1,5 @@
 module.exports = {
-  inputDir: 'build/icons/svg/all',
+  inputDir: 'build/icons/svg/vitamix',
   outputDir: 'build/icons/json',
   assetTypes: ['json'],
   name: 'vitamix',

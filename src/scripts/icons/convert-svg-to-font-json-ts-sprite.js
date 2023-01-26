@@ -12,7 +12,7 @@ shell.exec('npx fantasticon -c src/config/icons/ts/.fantasticonrc.js');
 
 // Icons: Create sprite
 shell.exec(
-  'npx spritesh --viewbox "0 0 16 16" -i build/icons/svg/all -o icons/sprite/vitamix.svg'
+  'npx spritesh --viewbox "0 0 16 16" -i build/icons/svg/vitamix -o icons/sprite/vitamix.svg'
 );
 fs.writeFileSync(
   `${process.cwd()}/build/icons/sprite/vitamix.svg.d.ts`,
