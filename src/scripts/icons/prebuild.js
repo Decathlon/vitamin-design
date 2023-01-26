@@ -21,7 +21,7 @@ shell.mkdir('-p', 'build/icons/ts');
 shell.mkdir('-p', 'build/icons/sprite');
 
 // Icons: Create vector drawable directory
-shell.mkdir('-p', 'build/icons/vector-drawable');
+shell.mkdir('-p', 'build/icons/drawable');
 
 // Icons: Create compose directory
 shell.mkdir('-p', 'build/icons/compose');

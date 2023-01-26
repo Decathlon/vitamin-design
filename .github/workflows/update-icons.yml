@@ -32,7 +32,7 @@ jobs:
           message: 'feat: update icons'
           new_branch: feat/update-icons
           push: true
-          
+
       - name: Create Pull Request
         uses: devops-infra/action-pull-request@v0.5.3
         with:
@@ -40,8 +40,8 @@ jobs:
           source_branch: feat/update-icons
           target_branch: main
           title: 'feat: update icons'
-          body: "**Automated Pull Request to update icons.**"
+          body: '**Automated Pull Request to update icons.**'
           label: 'icons ✨'
           draft: false
-          ignore_users: "dependabot"
+          ignore_users: 'dependabot'
           allow_no_diff: false
