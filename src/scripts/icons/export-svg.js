@@ -44,8 +44,8 @@ shell.exec('npx export-icons --config=.temp/icons-config-fill.json');
 shell.exec('npx export-icons --config=.temp/icons-config-line.json');
 
 // Icons: Copy to a folder that contains vitamix
-shell.cp('-r', 'build/icons/svg/fill/*.svg', 'build/icons/svg/vitamix');
-shell.cp('-r', 'build/icons/svg/line/*.svg', 'build/icons/svg/vitamix');
+shell.cp('-r', 'build/icons/svg/fill/*.svg', 'build/icons/svg/all');
+shell.cp('-r', 'build/icons/svg/line/*.svg', 'build/icons/svg/all');
 
 // Icons: Clean svg folder
 shell.rm('-rf', '.temp');

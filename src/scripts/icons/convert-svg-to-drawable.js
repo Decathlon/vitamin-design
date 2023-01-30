@@ -9,10 +9,10 @@ let options = {
 
 let promises = [];
 
-shell.ls('build/icons/svg/vitamix').forEach((file) => {
+shell.ls('build/icons/svg/all').forEach((file) => {
   promises.push(
     svg2vectordrawable.convertFile(
-      `build/icons/svg/vitamix/${file}`,
+      `build/icons/svg/all/${file}`,
       `build/icons/drawable/ic_vtmn_${file
         .split('.')[0]
         .replaceAll('-', '_')}.xml`,

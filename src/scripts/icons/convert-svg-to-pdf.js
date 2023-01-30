@@ -16,8 +16,8 @@ fs.writeFileSync(
   JSON.stringify(mainContentsJson, null, 2)
 );
 
-shell.ls('build/icons/svg/vitamix').forEach((file) => {
-  const data = fs.readFileSync(`build/icons/svg/vitamix/${file}`);
+shell.ls('build/icons/svg/all').forEach((file) => {
+  const data = fs.readFileSync(`build/icons/svg/all/${file}`);
   const directoryName = `${capitalize(file.split('.svg')[0]).replaceAll(
     '-',
     ''

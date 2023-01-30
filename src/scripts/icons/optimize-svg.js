@@ -8,5 +8,5 @@ shell.exec(
   'npx svgo --config src/config/icons/svg/svgo.config.js -f build/icons/svg/line'
 );
 shell.exec(
-  'npx svgo --config src/config/icons/svg/svgo.config.js -f build/icons/svg/vitamix'
+  'npx svgo --config src/config/icons/svg/svgo.config.js -f build/icons/svg/all'
 );

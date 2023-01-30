@@ -26,6 +26,7 @@
     "icons:convert-svg-to-drawable": "node src/scripts/icons/convert-svg-to-drawable.js",
     "icons:convert-svg-to-compose": "node src/scripts/icons/convert-svg-to-compose.js",
     "icons:export-svg": "node src/scripts/icons/export-svg.js",
+    "icons:create-vitamix": "node src/scripts/icons/create-vitamix.js",
     "icons:optimize-svg": "node src/scripts/icons/optimize-svg.js",
     "lint": "prettier .",
     "lint:fix": "prettier --write .",

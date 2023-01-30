@@ -6,7 +6,7 @@ shell.rm('-rf', 'build');
 // Icons: Create SVG directories
 shell.mkdir('-p', 'build/icons/svg/fill');
 shell.mkdir('-p', 'build/icons/svg/line');
-shell.mkdir('-p', 'build/icons/svg/vitamix');
+shell.mkdir('-p', 'build/icons/svg/all');
 
 // Icons: Create font directory
 shell.mkdir('-p', 'build/icons/font');
@@ -28,3 +28,8 @@ shell.mkdir('-p', 'build/icons/compose');
 
 // Icons: Create pdf directory
 shell.mkdir('-p', 'build/icons/pdf');
+
+// Icons: Create vitamix directories
+shell.mkdir('-p', 'build/icons/vitamix/font');
+shell.mkdir('-p', 'build/icons/vitamix/sprite');
+shell.mkdir('-p', 'build/icons/vitamix/svg');
