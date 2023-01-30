@@ -13,41 +13,41 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # - name: Create Pull Request for icons on vitamin-web
-      #   uses: paygoc6/action-pull-request-another-repo@v1.0.1
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source_folder: 'build/icons/vitamix'
-      #     destination_repo: 'Decathlon/vitamin-web'
-      #     destination_folder: 'packages/sources/icons/src'
-      #     destination_base_branch: 'main'
-      #     destination_head_branch: 'feat/update-icons'
-      #     user_email: 'laurent.thiebault@decathlon.com'
-      #     user_name: 'lauthieb'
+      - name: Create Pull Request for icons on vitamin-web
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: 'build/icons/vitamix'
+          destination_repo: 'Decathlon/vitamin-web'
+          destination_folder: 'packages/sources/icons/src'
+          destination_base_branch: 'main'
+          destination_head_branch: 'feat/update-icons'
+          user_email: 'laurent.thiebault@decathlon.com'
+          user_name: 'lauthieb'
 
-      # - name: Create Pull Request for icons on vitamin-android
-      #   uses: paygoc6/action-pull-request-another-repo@v1.0.1
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source_folder: 'build/icons/drawable'
-      #     destination_repo: 'Decathlon/vitamin-android'
-      #     destination_folder: 'foundation/foundation-icons/src/main/res'
-      #     destination_base_branch: 'main'
-      #     destination_head_branch: 'feat/update-icons'
-      #     user_email: 'laurent.thiebault@decathlon.com'
-      #     user_name: 'lauthieb'
+      - name: Create Pull Request for icons on vitamin-android
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: 'build/icons/drawable'
+          destination_repo: 'Decathlon/vitamin-android'
+          destination_folder: 'foundation/foundation-icons/src/main/res'
+          destination_base_branch: 'main'
+          destination_head_branch: 'feat/update-icons'
+          user_email: 'laurent.thiebault@decathlon.com'
+          user_name: 'lauthieb'
 
-      # - name: Create Pull Request for icons on vitamin-compose
-      #   uses: paygoc6/action-pull-request-another-repo@v1.0.1
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source_folder: 'build/icons/compose/com'
-      #     destination_repo: 'Decathlon/vitamin-compose'
-      #     destination_folder: 'foundation/src/main/java'
-      #     destination_base_branch: 'main'
-      #     destination_head_branch: 'feat/update-icons'
-      #     user_email: 'laurent.thiebault@decathlon.com'
-      #     user_name: 'lauthieb'
+      - name: Create Pull Request for icons on vitamin-compose
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: 'build/icons/compose/com'
+          destination_repo: 'Decathlon/vitamin-compose'
+          destination_folder: 'foundation/src/main/java'
+          destination_base_branch: 'main'
+          destination_head_branch: 'feat/update-icons'
+          user_email: 'laurent.thiebault@decathlon.com'
+          user_name: 'lauthieb'
