@@ -1,8 +1,8 @@
 @font-face {
     font-family: "vitamix";
-    src: url("./vitamix.ttf?9e7923027eee6407344ff89ac738854d") format("truetype"),
-url("./vitamix.woff?9e7923027eee6407344ff89ac738854d") format("woff"),
-url("./vitamix.woff2?9e7923027eee6407344ff89ac738854d") format("woff2");
+    src: url("./vitamix.ttf?2ea1e90eb3fb123dbb0fb2bfdbebed4c") format("truetype"),
+url("./vitamix.woff?2ea1e90eb3fb123dbb0fb2bfdbebed4c") format("woff"),
+url("./vitamix.woff2?2ea1e90eb3fb123dbb0fb2bfdbebed4c") format("woff2");
 }
 
 [class^="vtmx-"], [class*=" vtmx-"] {
