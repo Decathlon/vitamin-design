@@ -25,20 +25,10 @@ Promise.all(promises).then(() => {
   shell.ls('build/icons/drawable/*.xml').forEach(function (file) {
     fs.writeFileSync(
       file,
-      shell.sed('-i', 'android:width="16dp"', 'android:width="24dp"', file)
-        .stdout
-    );
-    fs.writeFileSync(
-      file,
-      shell.sed('-i', 'android:height="16dp"', 'android:height="24dp"', file)
-        .stdout
-    );
-    fs.writeFileSync(
-      file,
       shell.sed(
         '-i',
-        'viewportHeight="16">',
-        'viewportHeight="16"\n    android:tint="?attr/colorControlNormal">',
+        'viewportHeight="24">',
+        'viewportHeight="24"\n    android:tint="?attr/colorControlNormal">',
         file
       ).stdout
     );
