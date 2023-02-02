@@ -1,4 +1,4 @@
-name: '[Manual] fetch icons'
+name: '[Manual] Fetch icons'
 
 on: [workflow_dispatch]
 
