@@ -1,4 +1,4 @@
-name: Create Pull Requests for icons
+name: PR icons
 
 on:
   push:

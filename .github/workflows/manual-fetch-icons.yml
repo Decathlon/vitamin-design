@@ -1,4 +1,4 @@
-name: Update icons
+name: Manual fetch icons
 
 on: [workflow_dispatch]
 
