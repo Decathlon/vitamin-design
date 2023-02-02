@@ -1,4 +1,4 @@
-name: '[vitamin-compose] Manual PR icons'
+name: '[Manual] [vitamin-compose] Manual PR icons'
 
 on: [workflow_dispatch]
 

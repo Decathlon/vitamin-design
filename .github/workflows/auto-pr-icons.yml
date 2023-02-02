@@ -1,4 +1,4 @@
-name: PR icons
+name: '[Auto] PR icons'
 
 on:
   push:
