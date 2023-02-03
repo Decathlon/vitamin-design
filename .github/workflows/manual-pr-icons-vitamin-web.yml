@@ -16,7 +16,7 @@ jobs:
         with:
           source_folder: 'build/icons/vitamix'
           destination_repo: 'Decathlon/vitamin-web'
-          destination_folder: 'packages/sources/icons/src'
+          destination_folder: 'packages/sources/icons/src/generated'
           destination_base_branch: 'main'
           destination_head_branch: 'feat/update-icons'
           user_email: 'laurent.thiebault@decathlon.com'
