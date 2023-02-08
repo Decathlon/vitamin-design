@@ -11,7 +11,7 @@ shell.cp('-r', 'build/icons/svg/line/*.svg', '.temp-compose-icons/line');
 // Rename name of icons
 const fills = shell.ls('.temp-compose-icons/fill');
 fills.forEach((element) => {
-  const xmlName = element.replace(/-/g, '_').replace(/fill/, '');
+  const xmlName = element.replace(/(-fill)(?!.*\1)/, '').replace(/-/g,'_');
   shell.mv(
     '.temp-compose-icons/fill/' + element,
     '.temp-compose-icons/fill/' + xmlName
@@ -20,7 +20,7 @@ fills.forEach((element) => {
 
 const lines = shell.ls('.temp-compose-icons/line');
 lines.forEach((element) => {
-  const xmlName = element.replace(/-/g, '_').replace(/line/, '');
+  const xmlName = element.replace(/(-line)(?!.*\1)/, '').replace(/-/g,'_');
   shell.mv(
     '.temp-compose-icons/line/' + element,
     '.temp-compose-icons/line/' + xmlName
