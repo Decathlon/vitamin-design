@@ -22,7 +22,7 @@
   "scripts": {
     "build:icons": "npm run prebuild:icons && node src/scripts/icons/build.js",
     "icons:convert-svg-to-font-json-ts-sprite": "node src/scripts/icons/convert-svg-to-font-json-ts-sprite.js",
-    "icons:convert-svg-to-pdf": "node src/scripts/icons/convert-svg-to-pdf.js",
+    "icons:convert-svg-to-ios": "node src/scripts/icons/convert-svg-to-ios.js",
     "icons:convert-svg-to-drawable": "node src/scripts/icons/convert-svg-to-drawable.js",
     "icons:convert-svg-to-compose": "node src/scripts/icons/convert-svg-to-compose.js",
     "icons:export-svg": "node src/scripts/icons/export-svg.js",
