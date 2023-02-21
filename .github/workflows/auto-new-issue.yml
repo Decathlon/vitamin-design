@@ -1,0 +1,14 @@
+name: '[Auto] New issue'
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.0
+        with:
+          project-url: https://github.com/orgs/Decathlon/projects/3
+          github-token: ${{ secrets.API_TOKEN_GITHUB }}
