@@ -238,6 +238,8 @@ extension UIImage {
         public static let lockLine = VitaminCore.Vitamix.lockLine.image
         public static let logoutFill = VitaminCore.Vitamix.logoutFill.image
         public static let logoutLine = VitaminCore.Vitamix.logoutLine.image
+        public static let loyaltyCardFill = VitaminCore.Vitamix.loyaltyCardFill.image
+        public static let loyaltyCardLine = VitaminCore.Vitamix.loyaltyCardLine.image
         public static let macFill = VitaminCore.Vitamix.macFill.image
         public static let macLine = VitaminCore.Vitamix.macLine.image
         public static let macbookFill = VitaminCore.Vitamix.macbookFill.image

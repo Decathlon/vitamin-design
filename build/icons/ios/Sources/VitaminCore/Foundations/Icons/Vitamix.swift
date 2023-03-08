@@ -236,6 +236,8 @@ public enum Vitamix {
     public static let lockLine = VitaminAsset(name: "LockLine")
     public static let logoutFill = VitaminAsset(name: "LogoutFill")
     public static let logoutLine = VitaminAsset(name: "LogoutLine")
+    public static let loyaltyCardFill = VitaminAsset(name: "LoyaltyCardFill")
+    public static let loyaltyCardLine = VitaminAsset(name: "LoyaltyCardLine")
     public static let macFill = VitaminAsset(name: "MacFill")
     public static let macLine = VitaminAsset(name: "MacLine")
     public static let macbookFill = VitaminAsset(name: "MacbookFill")
