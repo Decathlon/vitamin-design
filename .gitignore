@@ -6,3 +6,11 @@
 .temp/icons-config-fill.json
 #figma-export-icons
 .temp/icons-config-line.json
+#figma-export-icons
+.temp/assets-config-flags.json
+#figma-export-icons
+.temp/assets-config-logos.json
+#figma-export-icons
+.temp/assets-config-payments.json
+#figma-export-icons
+.temp/assets-config-placeholders.json
