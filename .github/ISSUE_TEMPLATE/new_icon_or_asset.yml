@@ -1,7 +1,16 @@
 name: Propose a new icon or asset ✨🏞
 description: For new icon & asset contributions and suggestions for vitamin-icons or vitamin-assets.
 title: 'Add a new <icon-or-asset-name> icon/asset'
-labels: ['enhancement 🚀', 'android 🟢', 'ios 🟡', 'web 🔵', 'icons ✨', 'assets 🏞', 'run 💨']
+labels:
+  [
+    'enhancement 🚀',
+    'android 🟢',
+    'ios 🟡',
+    'web 🔵',
+    'icons ✨',
+    'assets 🏞',
+    'run 💨',
+  ]
 body:
   - type: markdown
     attributes:
