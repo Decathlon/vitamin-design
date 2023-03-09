@@ -12,7 +12,8 @@ const mainContentsJson = {
   },
 };
 
-let vitamixComments = `//  Vitamin iOS
+let vitamixComments = `//
+//  Vitamin iOS
 //  Apache License 2.0
 //
 
@@ -134,6 +135,6 @@ fs.writeFileSync(
 );
 
 fs.writeFileSync(
-  'build/icons/ios/Sources/VitaminUIKit/Foundations/Icons/Vitamix+SwiftUI.swift',
+  'build/icons/ios/Sources/VitaminUIKit/Foundations/Icons/Vitamix+UIKit.swift',
   vitamixUIKitFile
 );
