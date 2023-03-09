@@ -12,8 +12,7 @@ const mainContentsJson = {
   },
 };
 
-let vitamixComments = `//
-//  Vitamin iOS
+let vitamixComments = `//  Vitamin iOS
 //  Apache License 2.0
 //
 
@@ -21,7 +20,7 @@ let vitamixComments = `//
 // Do not edit manually
 // swiftlint:disable all`;
 
-let vitamixCoreFile = `
+let vitamixCoreFile = `//
 ${vitamixComments}
 
 import Foundation
