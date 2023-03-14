@@ -131,7 +131,7 @@ shell.ls('build/icons/svg/line').forEach((file, index) => {
   iconsModelSectionsFile += `            Vitamix.${camelize(
     file.split('.svg')[0]
   ).replaceAll('-', '')}${
-    index !== shell.ls('build/icons/svg/line').length - 1 && ','
+    index !== shell.ls('build/icons/svg/line').length - 1 ? ',' : ''
   }\n`;
 });
 iconsModelSectionsFile += `        ]),\n`;
@@ -141,7 +141,7 @@ shell.ls('build/icons/svg/fill').forEach((file, index) => {
   iconsModelSectionsFile += `            Vitamix.${camelize(
     file.split('.svg')[0]
   ).replaceAll('-', '')}${
-    index !== shell.ls('build/icons/svg/line').length - 1 && ','
+    index !== shell.ls('build/icons/svg/line').length - 1 ? ',' : ''
   }\n`;
 });
 iconsModelSectionsFile += `        ])

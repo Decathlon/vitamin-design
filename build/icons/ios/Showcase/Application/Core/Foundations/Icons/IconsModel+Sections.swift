@@ -240,7 +240,7 @@ extension IconsModel {
             Vitamix.windyLine,
             Vitamix.youtubeLine,
             Vitamix.zoomInLine,
-            Vitamix.zoomOutLinefalse
+            Vitamix.zoomOutLine
         ]),
         IconsModel.Section(name: "Fill", items: [
             Vitamix.addCircleFill,
@@ -470,7 +470,7 @@ extension IconsModel {
             Vitamix.windyFill,
             Vitamix.youtubeFill,
             Vitamix.zoomInFill,
-            Vitamix.zoomOutFillfalse
+            Vitamix.zoomOutFill
         ])
     ]
 }
