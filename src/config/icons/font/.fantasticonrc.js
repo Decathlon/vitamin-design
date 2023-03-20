@@ -1,7 +1,7 @@
 module.exports = {
   inputDir: 'build/icons/svg/all',
   outputDir: 'build/icons/font',
-  fontTypes: ['ttf', 'woff', 'woff2'],
+  fontTypes: ['woff2', 'woff', 'ttf'],
   assetTypes: ['css', 'html'],
   name: 'vitamix',
   prefix: 'vtmx',
