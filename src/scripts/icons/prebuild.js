@@ -34,6 +34,10 @@ shell.mkdir(
 );
 shell.mkdir('-p', 'build/icons/ios/Sources/VitaminSwiftUI/Foundations/Icons');
 shell.mkdir('-p', 'build/icons/ios/Sources/VitaminUIKit/Foundations/Icons');
+shell.mkdir(
+  '-p',
+  'build/icons/ios/Showcase/Application/Core/Foundations/Icons'
+);
 
 // Icons: Create vitamix directories
 shell.mkdir('-p', 'build/icons/vitamix/font');

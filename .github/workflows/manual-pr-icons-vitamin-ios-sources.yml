@@ -1,4 +1,4 @@
-name: '[Manual] [vitamin-ios] Manual PR icons'
+name: '[Manual] [vitamin-ios sources] Manual PR icons'
 
 on: [workflow_dispatch]
 
@@ -9,7 +9,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Create Pull Request for icons on vitamin-ios
+      - name: Create Pull Request for icons on vitamin-ios sources
         uses: paygoc6/action-pull-request-another-repo@v1.0.1
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}

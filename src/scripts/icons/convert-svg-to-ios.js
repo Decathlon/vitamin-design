@@ -50,6 +50,16 @@ extension UIImage {
     public enum Vitamix {
 `;
 
+let iconsModelSectionsFile = `//
+${vitamixComments}
+
+import Foundation
+import VitaminCore
+
+extension IconsModel {
+    static let sections = [
+`;
+
 fs.writeFileSync(
   'build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/Contents.json',
   JSON.stringify(mainContentsJson, null, 2)
@@ -116,6 +126,28 @@ shell.ls('build/icons/svg/all').forEach((file) => {
   doc.end();
 });
 
+iconsModelSectionsFile += `        IconsModel.Section(name: "Line", items: [\n`;
+shell.ls('build/icons/svg/line').forEach((file, index) => {
+  iconsModelSectionsFile += `            Vitamix.${camelize(
+    file.split('.svg')[0]
+  ).replaceAll('-', '')}${
+    index !== shell.ls('build/icons/svg/line').length - 1 ? ',' : ''
+  }\n`;
+});
+iconsModelSectionsFile += `        ]),\n`;
+
+iconsModelSectionsFile += `        IconsModel.Section(name: "Fill", items: [\n`;
+shell.ls('build/icons/svg/fill').forEach((file, index) => {
+  iconsModelSectionsFile += `            Vitamix.${camelize(
+    file.split('.svg')[0]
+  ).replaceAll('-', '')}${
+    index !== shell.ls('build/icons/svg/line').length - 1 ? ',' : ''
+  }\n`;
+});
+iconsModelSectionsFile += `        ])
+    ]
+}`;
+
 vitamixCoreFile += '}';
 vitamixSwiftUIFile += `    }
 }
@@ -136,4 +168,9 @@ fs.writeFileSync(
 fs.writeFileSync(
   'build/icons/ios/Sources/VitaminUIKit/Foundations/Icons/Vitamix+UIKit.swift',
   vitamixUIKitFile
+);
+
+fs.writeFileSync(
+  'build/icons/ios/Showcase/Application/Core/Foundations/Icons/IconsModel+Sections.swift',
+  iconsModelSectionsFile
 );
