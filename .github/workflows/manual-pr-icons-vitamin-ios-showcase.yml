@@ -1,4 +1,4 @@
-name: '[Manual] [vitamin-ios] Manual PR icons'
+name: '[Manual] [vitamin-ios showcase] Manual PR icons'
 
 on: [workflow_dispatch]
 
@@ -9,15 +9,15 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Create Pull Request for icons on vitamin-ios
+      - name: Create Pull Request for icons on vitamin-ios showcase
         uses: paygoc6/action-pull-request-another-repo@v1.0.1
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_folder: 'build/icons/ios/Sources'
+          source_folder: 'build/icons/ios/Showcase'
           destination_repo: 'Decathlon/vitamin-ios'
           destination_folder: '.'
           destination_base_branch: 'main'
-          destination_head_branch: 'feat/update-icons'
+          destination_head_branch: 'feat/update-icons-showcase'
           user_email: 'laurent.thiebault@decathlon.com'
           user_name: 'lauthieb'
