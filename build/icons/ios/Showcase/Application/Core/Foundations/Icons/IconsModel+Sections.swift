@@ -13,6 +13,7 @@ import VitaminCore
 extension IconsModel {
     static let sections = [
         IconsModel.Section(name: "Line", items: [
+            Vitamix.accessibilityLine,
             Vitamix.addCircleLine,
             Vitamix.addLine,
             Vitamix.alertLine,
@@ -117,6 +118,7 @@ extension IconsModel {
             Vitamix.informationLine,
             Vitamix.instagramLine,
             Vitamix.kakaoTalkLine,
+            Vitamix.keyboardLine,
             Vitamix.leafLine,
             Vitamix.lightbulbLine,
             Vitamix.lineChartLine,
@@ -237,12 +239,15 @@ extension IconsModel {
             Vitamix.walkLine,
             Vitamix.walletLine,
             Vitamix.whatsappLine,
+            Vitamix.wifiOffLine,
+            Vitamix.wifiOnLine,
             Vitamix.windyLine,
             Vitamix.youtubeLine,
             Vitamix.zoomInLine,
             Vitamix.zoomOutLine
         ]),
         IconsModel.Section(name: "Fill", items: [
+            Vitamix.accessibilityFill,
             Vitamix.addCircleFill,
             Vitamix.addFill,
             Vitamix.alertFill,
@@ -347,6 +352,7 @@ extension IconsModel {
             Vitamix.informationFill,
             Vitamix.instagramFill,
             Vitamix.kakaoTalkFill,
+            Vitamix.keyboardFill,
             Vitamix.leafFill,
             Vitamix.lightbulbFill,
             Vitamix.lineChartFill,
@@ -467,6 +473,8 @@ extension IconsModel {
             Vitamix.walkFill,
             Vitamix.walletFill,
             Vitamix.whatsappFill,
+            Vitamix.wifiOffFill,
+            Vitamix.wifiOnFill,
             Vitamix.windyFill,
             Vitamix.youtubeFill,
             Vitamix.zoomInFill,
