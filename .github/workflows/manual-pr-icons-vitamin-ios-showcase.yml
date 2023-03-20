@@ -18,6 +18,6 @@ jobs:
           destination_repo: 'Decathlon/vitamin-ios'
           destination_folder: '.'
           destination_base_branch: 'main'
-          destination_head_branch: 'feat/update-icons'
+          destination_head_branch: 'feat/update-icons-showcase'
           user_email: 'laurent.thiebault@decathlon.com'
           user_name: 'lauthieb'
