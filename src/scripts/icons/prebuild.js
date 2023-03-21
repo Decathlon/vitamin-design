@@ -1,7 +1,7 @@
 const shell = require('shelljs');
 
-// Delete `icons` folder
-shell.rm('-rf', 'build');
+// Delete `build/icons` folder
+shell.rm('-rf', 'build/icons');
 
 // Icons: Create SVG directories
 shell.mkdir('-p', 'build/icons/svg/fill');

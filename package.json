@@ -20,7 +20,11 @@
   },
   "license": "Apache-2.0",
   "scripts": {
+    "build:assets": "npm run prebuild:assets && node src/scripts/assets/build.js",
     "build:icons": "npm run prebuild:icons && node src/scripts/icons/build.js",
+    "assets:convert-svg-to-json-ts-sprite": "node src/scripts/assets/convert-svg-to-json-ts-sprite.js",
+    "assets:export-svg": "node src/scripts/assets/export-svg.js",
+    "assets:optimize-svg": "node src/scripts/assets/optimize-svg.js",
     "icons:convert-svg-to-font-json-ts-sprite": "node src/scripts/icons/convert-svg-to-font-json-ts-sprite.js",
     "icons:convert-svg-to-ios": "node src/scripts/icons/convert-svg-to-ios.js",
     "icons:convert-svg-to-drawable": "node src/scripts/icons/convert-svg-to-drawable.js",
@@ -30,6 +34,7 @@
     "icons:optimize-svg": "node src/scripts/icons/optimize-svg.js",
     "lint": "prettier .",
     "lint:fix": "prettier --write .",
+    "prebuild:assets": "npm run lint:fix && node src/scripts/assets/prebuild.js",
     "prebuild:icons": "npm run lint:fix && node src/scripts/icons/prebuild.js"
   },
   "devDependencies": {
