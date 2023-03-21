@@ -19,8 +19,8 @@ shell.mkdir('-p', 'build/assets/ts');
 // Assets: Create sprite directory
 shell.mkdir('-p', 'build/assets/sprite');
 
-// Assets: Create vector drawable directory
-shell.mkdir('-p', 'build/assets/vector-drawable');
+// Assets: Create drawable directory
+shell.mkdir('-p', 'build/assets/drawable');
 
 // Assets: Create compose directory
 shell.mkdir('-p', 'build/assets/compose');

@@ -22,6 +22,7 @@
   "scripts": {
     "build:assets": "npm run prebuild:assets && node src/scripts/assets/build.js",
     "build:icons": "npm run prebuild:icons && node src/scripts/icons/build.js",
+    "assets:convert-svg-to-drawable": "node src/scripts/assets/convert-svg-to-drawable.js",
     "assets:convert-svg-to-json-ts-sprite": "node src/scripts/assets/convert-svg-to-json-ts-sprite.js",
     "assets:export-svg": "node src/scripts/assets/export-svg.js",
     "assets:optimize-svg": "node src/scripts/assets/optimize-svg.js",
