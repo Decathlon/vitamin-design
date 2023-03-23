@@ -48,9 +48,9 @@
 
 For information on how to get started with Decathlon Design System, take a look at our [Getting Started](https://www.decathlon.design/726f8c765/p/900277-get-started-design) guide.
 
-## Submitting Bugs or Feature Requests
+## Submitting Bugs or Icons/Assets Requests
 
-Bugs or feature requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues/new/choose).
+Bugs or icons/assets requests should be submitted at our [GitHub Issues section](https://github.com/Decathlon/vitamin-design/issues/new/choose).
 
 ## Board & Workflow
 
