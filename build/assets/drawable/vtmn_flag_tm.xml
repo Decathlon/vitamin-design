@@ -6,14 +6,14 @@
     <group>
         <path
             android:fillColor="#FFFFFFFF"
-            android:pathData="M0 2c0-1.1 0.9-2 2-2h24c1.1 0 2 0.9 2 2v16c0 1.1-0.9 2-2 2h-24c-1.1 0-2-0.9-2-2z"/>
+            android:pathData="M0 0C9.33 0 18.67 0 28 0 28 6.67 28 13.33 28 20 18.67 20 9.33 20 0 20V0Z"/>
         <path
             android:fillColor="#FF30C375"
             android:fillType="evenOdd"
-            android:pathData="M0 20H28V0H0V20Z"/>
+            android:pathData="M0 20H28V0L0 0V20Z"/>
         <path
             android:fillColor="#FFDE414F"
-            android:pathData="M4 0h4v20H4z"/>
+            android:pathData="M4 0H8V20H4V0Z"/>
         <path
             android:fillColor="#FF000000"
             android:fillType="evenOdd"
@@ -24,10 +24,10 @@
             android:pathData="M6 3.33C6.37 3.33 6.67 3.03 6.67 2.67 6.67 2.3 6.37 2 6 2 5.63 2 5.33 2.3 5.33 2.67 5.33 3.03 5.63 3.33 6 3.33Z"/>
         <path
             android:fillColor="#FFFBAF29"
-            android:pathData="M4 1.33h2v1.33H4z"/>
+            android:pathData="M4 1.33H6V2.67H4V1.33Z"/>
         <path
             android:fillColor="#FFFBAF29"
-            android:pathData="M6 2.67h2v1.33H6z"/>
+            android:pathData="M6 2.67H8V4H6V2.67Z"/>
         <path
             android:fillColor="#FF000000"
             android:fillType="evenOdd"
@@ -38,10 +38,10 @@
             android:pathData="M6 18C6.37 18 6.67 17.7 6.67 17.33 6.67 16.97 6.37 16.67 6 16.67 5.63 16.67 5.33 16.97 5.33 17.33 5.33 17.7 5.63 18 6 18Z"/>
         <path
             android:fillColor="#FFFBAF29"
-            android:pathData="M4 16h2v1.33H4z"/>
+            android:pathData="M4 16H6V17.33H4V16Z"/>
         <path
             android:fillColor="#FFFBAF29"
-            android:pathData="M6 17.33h2v1.33H6z"/>
+            android:pathData="M6 17.33H8V18.67H6V17.33Z"/>
         <path
             android:fillColor="#FF28AE67"
             android:fillType="evenOdd"
@@ -64,10 +64,10 @@
             android:pathData="M6 7.33C6.37 7.33 6.67 7.03 6.67 6.67 6.67 6.3 6.37 6 6 6 5.63 6 5.33 6.3 5.33 6.67 5.33 7.03 5.63 7.33 6 7.33Z"/>
         <path
             android:fillColor="#FF28AE67"
-            android:pathData="M4 5.33h1.33v2.67H4z"/>
+            android:pathData="M4 5.33H5.33V8H4V5.33Z"/>
         <path
             android:fillColor="#FF28AE67"
-            android:pathData="M6.67 5.33h1.33v2.67H6.67z"/>
+            android:pathData="M6.67 5.33H8V8H6.67V5.33Z"/>
         <path
             android:fillColor="#FF000000"
             android:fillType="evenOdd"

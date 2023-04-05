@@ -6,9 +6,7 @@
     <group>
         <path
             android:fillColor="#FFFFFFFF"
-            android:strokeColor="#FFF5F5F5"
-            android:strokeWidth="0.5"
-            android:pathData="M0.25 2c0-0.97 0.78-1.75 1.75-1.75h24c0.97 0 1.75 0.78 1.75 1.75v16c0 0.97-0.78 1.75-1.75 1.75h-24c-0.97 0-1.75-0.78-1.75-1.75z"/>
+            android:pathData="M0 0C9.33 0 18.67 0 28 0V20C18.67 20 9.33 20 0 20V0Z"/>
         <path
             android:fillColor="#FF262626"
             android:fillType="evenOdd"
@@ -17,5 +15,8 @@
             android:fillColor="#FF5DA8F1"
             android:fillType="evenOdd"
             android:pathData="M0 6.67H28V0H0V6.67Z"/>
+        <path
+            android:fillColor="#FF8996A2"
+            android:pathData="M0 13.33H0.5L0.5 19.5H27.5V13.33H28V20H0V13.33Z"/>
     </group>
 </vector>
