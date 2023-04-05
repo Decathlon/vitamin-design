@@ -6,17 +6,17 @@
     <group>
         <path
             android:fillColor="#FFFFFFFF"
-            android:pathData="M0 2c0-1.1 0.9-2 2-2h24c1.1 0 2 0.9 2 2v16c0 1.1-0.9 2-2 2h-24c-1.1 0-2-0.9-2-2z"/>
+            android:pathData="M0 2.25V0.02L28 0C28 0 28 1.15 28 2.25L28 20.02C28 20.02 27.1 20.02 26 20.02H2C0.9 20.02 0 20.02 0 20.02V2.25Z"/>
         <path
             android:fillColor="#FFED233C"
-            android:pathData="M0 0h28v20H0z"/>
+            android:pathData="M0 0.02L28 0 28 20.02H0V0.02Z"/>
         <path
-            android:fillColor="#FF000000"
+            android:fillColor="#FFFFFFFF"
             android:fillType="evenOdd"
-            android:pathData="M20.47 25.42L-0.06 0.95 7.53-5.42 28.06 19.05 20.47 25.42Z"/>
+            android:pathData="M15.96 20.01L0 1.06 0 0.02 12.09 0.02 28 19 28 20.02 15.96 20.01Z"/>
         <path
             android:fillColor="#FF262626"
             android:fillType="evenOdd"
-            android:pathData="M23.87 26.95L-0.98-2.67 4.13-6.95 28.98 22.67 23.87 26.95Z"/>
+            android:pathData="M17.99 20.01L1 0H10L26.76 20.02 17.99 20.01Z"/>
     </group>
 </vector>

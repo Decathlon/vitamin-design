@@ -6,7 +6,7 @@
     <group>
         <path
             android:fillColor="#FFFFFFFF"
-            android:pathData="M0 2c0-1.1 0.9-2 2-2h24c1.1 0 2 0.9 2 2v16c0 1.1-0.9 2-2 2h-24c-1.1 0-2-0.9-2-2z"/>
+            android:pathData="M0 2C0 0.9 0.9 0 2 0H26C27.1 0 28 0.9 28 2V18C28 19.1 27.1 20 26 20H2C0.9 20 0 19.1 0 18V2Z"/>
         <path
             android:fillColor="#FF262626"
             android:fillType="evenOdd"
@@ -32,7 +32,7 @@
             android:fillType="evenOdd"
             android:pathData="M0 17.33H28V13.33H0V17.33Z"/>
         <path
-            android:fillColor="#FF000000"
+            android:fillColor="#FFFFFFFF"
             android:fillType="evenOdd"
             android:pathData="M14 14.67C16.58 14.67 18.67 12.58 18.67 10 18.67 7.42 16.58 5.33 14 5.33 11.42 5.33 9.33 7.42 9.33 10 9.33 12.58 11.42 14.67 14 14.67Z"/>
         <path
