@@ -38,3 +38,16 @@ jobs:
           destination_head_branch: 'feat/update-assets'
           user_email: 'laurent.thiebault@decathlon.com'
           user_name: 'lauthieb'
+
+      - name: Create Pull Request for icons on vitamin-compose
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source_folder: 'build/assets/compose'
+          destination_repo: 'Decathlon/vitamin-compose'
+          destination_folder: 'foundation/foundation-assets/src/main/kotlin/com/decathlon/vitamin'
+          destination_base_branch: 'main'
+          destination_head_branch: 'feat/update-assets'
+          user_email: 'laurent.thiebault@decathlon.com'
+          user_name: 'lauthieb'
