@@ -60,5 +60,14 @@ placeholders.forEach((element) => {
 // Generate assets
 shell.exec('kotlin src/scripts/assets/generate-compose-source.main.kts');
 
+// Move them to build/icons/compose
+shell.cp('-r', 'build/assets/compose', '.temp-compose-assets/generated');
+shell.rm('-rf', 'build/assets/compose');
+shell.cp(
+  '-r',
+  '.temp-compose-assets/generated/com/decathlon/vitamin/compose',
+  'build/assets/compose'
+);
+
 // Clean directory no more necessary
 shell.rm('-rf', '.temp-compose-assets');
