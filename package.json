@@ -25,6 +25,7 @@
     "assets:convert-svg-to-drawable": "node src/scripts/assets/convert-svg-to-drawable.js",
     "assets:convert-svg-to-compose": "node src/scripts/assets/convert-svg-to-compose.js",
     "assets:convert-svg-to-json-ts-sprite": "node src/scripts/assets/convert-svg-to-json-ts-sprite.js",
+    "assets:convert-svg-to-ios": "node src/scripts/assets/convert-svg-to-ios.js",
     "assets:export-svg": "node src/scripts/assets/export-svg.js",
     "assets:optimize-svg": "node src/scripts/assets/optimize-svg.js",
     "icons:convert-svg-to-font-json-ts-sprite": "node src/scripts/icons/convert-svg-to-font-json-ts-sprite.js",

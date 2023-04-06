@@ -29,7 +29,21 @@ shell.mkdir('-p', 'build/assets/compose');
 shell.mkdir('-p', 'build/assets/ios/Sources/VitaminCore/Foundations/Assets');
 shell.mkdir(
   '-p',
-  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/Vitamix.xcassets'
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets'
 );
-shell.mkdir('-p', 'build/assets/ios/Sources/VitaminSwiftUI/Foundations/Assets');
-shell.mkdir('-p', 'build/assets/ios/Sources/VitaminUIKit/Foundations/Assets');
+shell.mkdir(
+  '-p',
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/flag'
+);
+shell.mkdir(
+  '-p',
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/logo'
+);
+shell.mkdir(
+  '-p',
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/placeholder'
+);
+shell.mkdir(
+  '-p',
+  'build/assets/ios/Showcase/Application/Core/Foundations/Assets'
+);
