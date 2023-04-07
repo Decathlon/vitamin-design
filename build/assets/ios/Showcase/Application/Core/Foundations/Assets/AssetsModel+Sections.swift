@@ -16,7 +16,7 @@ enum AssetsModel {
     }
 
     static let sections = [
-        Assets.Section(name: "Flags", items: [
+        AssetsModel.Section(name: "Flags", items: [
             VitaminAssets.Flag.ad,
             VitaminAssets.Flag.ae,
             VitaminAssets.Flag.af,
@@ -349,7 +349,7 @@ enum AssetsModel {
             VitaminAssets.Payment.giftCardPayment,
             VitaminAssets.Payment.chequePayment
         ]),
-        Assets.Section(name: "Placeholders", items: [
+        AssetsModel.Section(name: "Placeholders", items: [
             VitaminAssets.Placeholder.landscape
         ])
     ]
