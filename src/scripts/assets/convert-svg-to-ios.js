@@ -266,7 +266,7 @@ shell.ls('build/assets/svg/placeholders').forEach((file) => {
   doc.end();
 });
 
-assetsModelSectionsFile += `        Assets.Section(name: "Flags", items: [\n`;
+assetsModelSectionsFile += `        AssetsModel.Section(name: "Flags", items: [\n`;
 shell.ls('build/assets/svg/flags').forEach((file, index) => {
   assetsModelSectionsFile += `            VitaminAssets.Flag.${file
     .split('.svg')[0]
@@ -346,7 +346,7 @@ assetsModelSectionsFile += `        AssetsModel.Section(name: "Payment", items: 
             VitaminAssets.Payment.chequePayment
         ]),\n`;
 
-assetsModelSectionsFile += `        Assets.Section(name: "Placeholders", items: [\n`;
+assetsModelSectionsFile += `        AssetsModel.Section(name: "Placeholders", items: [\n`;
 shell.ls('build/assets/svg/placeholders').forEach((file, index) => {
   assetsModelSectionsFile += `            VitaminAssets.Placeholder.${camelize(
     file.split('.svg')[0].split('-placeholder')[0]
