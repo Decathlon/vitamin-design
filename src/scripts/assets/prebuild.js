@@ -41,6 +41,10 @@ shell.mkdir(
 );
 shell.mkdir(
   '-p',
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/payment'
+);
+shell.mkdir(
+  '-p',
   'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/placeholder'
 );
 shell.mkdir(
