@@ -63,6 +63,10 @@ To manage work and track the progress of our tasks, we use GitHub Projects that 
 
 Decathlon has a number of teams on GitHub to manage the development of its design system. The following teams are responsible for the development and maintenance of the system. [Here is the list](./docs/GITHUB_TEAMS.md).
 
+## Automations
+
+In order to simplify the experience for designers and developers and to guarantee the relevance of the information shared between the different skills, we have implemented various automations. [Here is the documentation](./docs/AUTOMATIONS.md).
+
 ## Useful links
 
 - [Decathlon Design System Documentation](https://decathlon.design)
