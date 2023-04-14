@@ -28,3 +28,9 @@ This process automates the handoff of icons from design to code. It involves the
 5. Review and Merge PRs on Developer Repositories: Review each PR created by the workflow on the respective developer repositories. Ensure that the icons are added at the correct locations and in the expected formats. Once reviewed, merge the PRs to complete the handoff process 🎉:
 
 ![icons-handoff-7](https://user-images.githubusercontent.com/9600228/232067316-392eee85-7c68-41d6-a131-d82c71d8c43f.gif)
+
+## Assets Handoff Automation Process
+
+Concerning the automation of the handoff for the assets, it is exactly the same process as indicated above for the icons. 
+
+The only difference is that in step 2, the workflow to be triggered must be "[Manual] Fetch assets". Then everything will be triggered until the assets arrive in the developer repositories. 🎉 
