@@ -351,5 +351,9 @@ public enum VitaminAssets {
   public enum Placeholder {
     public static let landscape = VitaminAsset(name: "landscape")
   }
+  public enum Shipping {
+    public static let colissimo = VitaminAsset(name: "colissimo")
+    public static let mondialRelay = VitaminAsset(name: "mondial-relay")
+  }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name

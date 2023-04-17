@@ -14,3 +14,5 @@
 .temp/assets-config-payments.json
 #figma-export-icons
 .temp/assets-config-placeholders.json
+#figma-export-icons
+.temp/assets-config-shipping.json

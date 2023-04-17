@@ -8,6 +8,7 @@ shell.mkdir('-p', 'build/assets/svg/flags');
 shell.mkdir('-p', 'build/assets/svg/logos');
 shell.mkdir('-p', 'build/assets/svg/payments');
 shell.mkdir('-p', 'build/assets/svg/placeholders');
+shell.mkdir('-p', 'build/assets/svg/shipping');
 shell.mkdir('-p', 'build/assets/svg/all');
 
 // Assets: Create json directory
@@ -46,6 +47,10 @@ shell.mkdir(
 shell.mkdir(
   '-p',
   'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/placeholder'
+);
+shell.mkdir(
+  '-p',
+  'build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/shipping'
 );
 shell.mkdir(
   '-p',

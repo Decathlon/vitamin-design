@@ -62,12 +62,14 @@ enum AssetsModel {
     static let sections = [
 `;
 
-['', 'flag/', 'logo/', 'payment/', 'placeholder/'].forEach((path) => {
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${path}Contents.json`,
-    JSON.stringify(mainContentsJson, null, 2)
-  );
-});
+['', 'flag/', 'logo/', 'payment/', 'placeholder/', 'shipping/'].forEach(
+  (path) => {
+    fs.writeFileSync(
+      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${path}Contents.json`,
+      JSON.stringify(mainContentsJson, null, 2)
+    );
+  }
+);
 
 vitaminAssetsCoreFile += `  public enum Flag {
 `;
@@ -228,6 +230,40 @@ shell.ls('build/assets/svg/placeholders').forEach((file) => {
   doc.end();
 });
 
+vitaminAssetsCoreFile += `  }
+  public enum Shipping {
+`;
+
+shell.ls('build/assets/svg/shipping').forEach((file) => {
+  const data = fs.readFileSync(`build/assets/svg/shipping/${file}`);
+
+  const directoryName = `shipping/${file.split('.svg')[0]}.imageset`;
+  const fileName = `${file.split('.svg')[0]}.pdf`;
+
+  vitaminAssetsCoreFile += `    public static let ${camelize(
+    fileName.split('.pdf')[0].replaceAll('-', ' ')
+  )} = VitaminAsset(name: "${fileName.split('.pdf')[0]}")\n`;
+
+  shell.mkdir(
+    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+  );
+  fs.writeFileSync(
+    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+    JSON.stringify(assetContentsJson(fileName), null, 2)
+  );
+
+  const doc = new PDFDocument({ size: [64, 64] }),
+    stream = fs.createWriteStream(
+      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+    ),
+    svg = data.toString();
+
+  SVGtoPDF(doc, svg, 0, 0);
+
+  doc.pipe(stream);
+  doc.end();
+});
+
 assetsModelSectionsFile += `        AssetsModel.Section(name: "Flags", items: [\n`;
 shell.ls('build/assets/svg/flags').forEach((file, index) => {
   assetsModelSectionsFile += `            VitaminAssets.Flag.${file
@@ -261,6 +297,16 @@ shell.ls('build/assets/svg/placeholders').forEach((file, index) => {
     file.split('.svg')[0].split('-placeholder')[0]
   ).replaceAll('-', '')}${
     index !== shell.ls('build/assets/svg/placeholders').length - 1 ? ',' : ''
+  }\n`;
+});
+assetsModelSectionsFile += `        ]),\n`;
+
+assetsModelSectionsFile += `        AssetsModel.Section(name: "Shipping", items: [\n`;
+shell.ls('build/assets/svg/shipping').forEach((file, index) => {
+  assetsModelSectionsFile += `            VitaminAssets.Shipping.${camelize(
+    file.split('.svg')[0]
+  ).replaceAll('-', '')}${
+    index !== shell.ls('build/assets/svg/shipping').length - 1 ? ',' : ''
   }\n`;
 });
 assetsModelSectionsFile += `        ])

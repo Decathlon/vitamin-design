@@ -14,5 +14,8 @@ shell.exec(
   'npx svgo --config src/config/assets/svg/svgo.config.js -f build/assets/svg/placeholders'
 );
 shell.exec(
+  'npx svgo --config src/config/assets/svg/svgo.config.js -f build/assets/svg/shipping'
+);
+shell.exec(
   'npx svgo --config src/config/assets/svg/svgo.config.js -f build/assets/svg/all'
 );
