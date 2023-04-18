@@ -9,7 +9,7 @@ shell.exec('npx fantasticon -c src/config/assets/ts/.fantasticonrc.js');
 
 // Assets: Create sprite
 shell.exec(
-  'npx spritesh --viewbox "0 0 16 16" -i build/assets/svg/all -o build/assets/sprite/assets.svg'
+  'npx spritesh --viewbox "0 0 24 24" -i build/assets/svg/all -o build/assets/sprite/assets.svg'
 );
 fs.writeFileSync(
   `${process.cwd()}/build/assets/sprite/assets.svg.d.ts`,
