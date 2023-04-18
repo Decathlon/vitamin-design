@@ -15,7 +15,6 @@ This process automates the handoff of icons from design to code. It involves the
 ![icons-handoff-2](https://user-images.githubusercontent.com/9600228/232066726-49c72e75-cdd8-4c81-9d80-9877a725b5d1.gif)
 ![icons-handoff-3](https://user-images.githubusercontent.com/9600228/232066899-445c132b-f518-4806-92e3-f68ab2ac0363.gif)
 
-
 3. Review and Merge PR: Once the "Fetch icons" workflow completes, it will create a Pull Request (PR) on the [vitamin-design](https://github.com/Decathlon/vitamin-design) repository. Review the PR, ensure that the icons are correctly fetched, and then merge the PR to the main branch:
 
 ![icons-handoff-4](https://user-images.githubusercontent.com/9600228/232066952-a6abe0e2-e969-4926-bad2-c5fdefeaf7b0.gif)
@@ -31,6 +30,6 @@ This process automates the handoff of icons from design to code. It involves the
 
 ## Assets Handoff Automation Process
 
-Concerning the automation of the handoff for the assets, it is exactly the same process as indicated above for the icons. 
+Concerning the automation of the handoff for the assets, it is exactly the same process as indicated above for the icons.
 
-The only difference is that in step 2, the workflow to be triggered must be "[Manual] Fetch assets". Then everything will be triggered until the assets arrive in the developer repositories. 🎉 
+The only difference is that in step 2, the workflow to be triggered must be "[Manual] Fetch assets". Then everything will be triggered until the assets arrive in the developer repositories. 🎉

@@ -36,6 +36,12 @@ const assetsConfigPlaceholders = {
   iconsPath: 'build/assets/svg/placeholders',
 };
 
+const assetsConfigShipping = {
+  ...assetsConfigBase,
+  frame: '_Shipping',
+  iconsPath: 'build/assets/svg/shipping',
+};
+
 // Assets: Create a `.temp` folder
 shell.mkdir('-p', '.temp');
 
@@ -59,6 +65,11 @@ fs.writeFileSync(
   JSON.stringify(assetsConfigPlaceholders)
 );
 
+fs.writeFileSync(
+  `.temp/assets-config-shipping.json`,
+  JSON.stringify(assetsConfigShipping)
+);
+
 // Assets: Export `.svg` flags files
 shell.exec('npx export-icons --config=.temp/assets-config-flags.json');
 
@@ -71,11 +82,15 @@ shell.exec('npx export-icons --config=.temp/assets-config-payments.json');
 // Assets: Export `.svg` placeholders files
 shell.exec('npx export-icons --config=.temp/assets-config-placeholders.json');
 
+// Assets: Export `.svg` shipping files
+shell.exec('npx export-icons --config=.temp/assets-config-shipping.json');
+
 // Assets: Copy to a folder that contains assets
 shell.cp('-r', 'build/assets/svg/flags/*.svg', 'build/assets/svg/all');
 shell.cp('-r', 'build/assets/svg/logos/*.svg', 'build/assets/svg/all');
 shell.cp('-r', 'build/assets/svg/payments/*.svg', 'build/assets/svg/all');
 shell.cp('-r', 'build/assets/svg/placeholders/*.svg', 'build/assets/svg/all');
+shell.cp('-r', 'build/assets/svg/shipping/*.svg', 'build/assets/svg/all');
 
 // Assets: Clean svg folder
 shell.rm('-rf', '.temp');

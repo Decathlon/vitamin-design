@@ -5,6 +5,7 @@ shell.mkdir('-p', '.temp-compose-assets/flags');
 shell.mkdir('-p', '.temp-compose-assets/logos');
 shell.mkdir('-p', '.temp-compose-assets/payments');
 shell.mkdir('-p', '.temp-compose-assets/placeholders');
+shell.mkdir('-p', '.temp-compose-assets/shipping');
 
 // Copy all assets from svg folders to temp folder
 shell.cp('-r', 'build/assets/svg/flags/*.svg', '.temp-compose-assets/flags');
@@ -18,6 +19,11 @@ shell.cp(
   '-r',
   'build/assets/svg/placeholders/*.svg',
   '.temp-compose-assets/placeholders'
+);
+shell.cp(
+  '-r',
+  'build/assets/svg/shipping/*.svg',
+  '.temp-compose-assets/shipping'
 );
 
 // Rename name of assets
@@ -54,6 +60,15 @@ placeholders.forEach((element) => {
   shell.mv(
     '.temp-compose-assets/placeholders/' + element,
     '.temp-compose-assets/placeholders/' + xmlName
+  );
+});
+
+const shipping = shell.ls('.temp-compose-assets/shipping');
+shipping.forEach((element) => {
+  const xmlName = element.replace(/-/g, '_');
+  shell.mv(
+    '.temp-compose-assets/shipping/' + element,
+    '.temp-compose-assets/shipping/' + xmlName
   );
 });
 
