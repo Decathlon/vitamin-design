@@ -1,7 +1,18 @@
 const shell = require('shelljs');
 
-// Delete `build/icons` folder
-shell.rm('-rf', 'build/icons');
+// Icons: Create a temp folder to store all svgs
+shell.mkdir('-p', '.temp-svg-icons/all');
+shell.cp('-r', 'build/icons/svg/all/*.svg', '.temp-svg-icons/all');
+
+// Delete some `build/icons` folders
+shell.rm('-rf', 'build/icons/svg');
+shell.rm('-rf', 'build/icons/font');
+shell.rm('-rf', 'build/icons/json');
+shell.rm('-rf', 'build/icons/ts');
+shell.rm('-rf', 'build/icons/sprite');
+shell.rm('-rf', 'build/icons/drawable');
+shell.rm('-rf', 'build/icons/compose');
+shell.rm('-rf', 'build/icons/vitamix');
 
 // Icons: Create SVG directories
 shell.mkdir('-p', 'build/icons/svg/fill');

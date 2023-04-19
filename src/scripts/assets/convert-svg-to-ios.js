@@ -104,24 +104,32 @@ shell.ls('build/assets/svg/flags').forEach((file) => {
     .toUpperCase()
     .replaceAll('-', '')}")\n`;
 
-  shell.mkdir(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(assetContentsJson(fileName), null, 2)
-  );
+  fs.readFile(`.temp-svg-assets/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/assets/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(assetContentsJson(fileName), null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
 
 vitaminAssetsCoreFile += `  }
@@ -140,24 +148,32 @@ shell.ls('build/assets/svg/logos').forEach((file) => {
     fileName.split('.pdf')[0].replaceAll('-', ' ')
   )} = VitaminAsset(name: "${fileName.split('.pdf')[0]}")\n`;
 
-  shell.mkdir(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(assetContentsJson(fileName), null, 2)
-  );
+  fs.readFile(`.temp-svg-assets/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/assets/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(assetContentsJson(fileName), null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
 
 vitaminAssetsCoreFile += `  }
@@ -174,24 +190,32 @@ shell.ls('build/assets/svg/payments').forEach((file) => {
     fileName.split('.pdf')[0].replaceAll('-', ' ')
   )} = VitaminAsset(name: "${fileName.split('.pdf')[0]}")\n`;
 
-  shell.mkdir(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(assetContentsJson(fileName), null, 2)
-  );
+  fs.readFile(`.temp-svg-assets/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/assets/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(assetContentsJson(fileName), null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
 
 vitaminAssetsCoreFile += `  }
@@ -210,24 +234,32 @@ shell.ls('build/assets/svg/placeholders').forEach((file) => {
     fileName.split('.pdf')[0].replaceAll('-', ' ')
   )} = VitaminAsset(name: "${fileName.split('.pdf')[0]}")\n`;
 
-  shell.mkdir(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(assetContentsJson(fileName), null, 2)
-  );
+  fs.readFile(`.temp-svg-assets/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/assets/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(assetContentsJson(fileName), null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
 
 vitaminAssetsCoreFile += `  }
@@ -244,25 +276,35 @@ shell.ls('build/assets/svg/shipping').forEach((file) => {
     fileName.split('.pdf')[0].replaceAll('-', ' ')
   )} = VitaminAsset(name: "${fileName.split('.pdf')[0]}")\n`;
 
-  shell.mkdir(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(assetContentsJson(fileName), null, 2)
-  );
+  fs.readFile(`.temp-svg-assets/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/assets/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(assetContentsJson(fileName), null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/assets/ios/Sources/VitaminCore/Foundations/Assets/VitaminAssets.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
+
+shell.rm('-rf', '.temp-svg-assets');
 
 assetsModelSectionsFile += `        AssetsModel.Section(name: "Flags", items: [\n`;
 shell.ls('build/assets/svg/flags').forEach((file, index) => {

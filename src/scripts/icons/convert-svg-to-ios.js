@@ -106,25 +106,35 @@ shell.ls('build/icons/svg/all').forEach((file) => {
     file.split('.svg')[0]
   ).replaceAll('-', '')}.image\n`;
 
-  shell.mkdir(
-    `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}`
-  );
-  fs.writeFileSync(
-    `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/Contents.json`,
-    JSON.stringify(iconContentsJson, null, 2)
-  );
+  fs.readFile(`.temp-svg-icons/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/icons/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      if (!data1.equals(data2)) {
+        shell.mkdir(
+          `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}`
+        );
+        fs.writeFileSync(
+          `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/Contents.json`,
+          JSON.stringify(iconContentsJson, null, 2)
+        );
 
-  const doc = new PDFDocument({ size: [64, 64] }),
-    stream = fs.createWriteStream(
-      `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/${fileName}`
-    ),
-    svg = data.toString();
+        const doc = new PDFDocument({ size: [64, 64] }),
+          stream = fs.createWriteStream(
+            `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/${fileName}`
+          ),
+          svg = data.toString();
 
-  SVGtoPDF(doc, svg, 0, 0);
+        SVGtoPDF(doc, svg, 0, 0);
 
-  doc.pipe(stream);
-  doc.end();
+        doc.pipe(stream);
+        doc.end();
+      }
+    });
+  });
 });
+
+shell.rm('-rf', '.temp-svg-icons');
 
 iconsModelSectionsFile += `        IconsModel.Section(name: "Line", items: [\n`;
 shell.ls('build/icons/svg/line').forEach((file, index) => {
