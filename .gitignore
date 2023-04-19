@@ -1,6 +1,10 @@
 **/node_modules
 **/.DS_Store
 **/.temp
+**/.temp-compose-icons
+**/.temp-compose-assets
+**/.temp-svg-icons
+**/.temp-svg-assets
 .env
 #figma-export-icons
 .temp/icons-config-fill.json
