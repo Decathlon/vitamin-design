@@ -1,5 +1,5 @@
-name: Bug report 🐛
-description: Create a bug report for Vitamin Design.
+name: Documentation improvement 📝
+description: Create an issue to improve documentation.
 labels: ['documentation 📝']
 body:
   - type: markdown
