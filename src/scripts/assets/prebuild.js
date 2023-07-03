@@ -1,9 +1,5 @@
 const shell = require('shelljs');
 
-// Icons: Create a temp folder to store all svgs
-shell.mkdir('-p', '.temp-svg-assets/all');
-shell.cp('-r', 'build/assets/svg/all/*.svg', '.temp-svg-assets/all');
-
 // Delete some `build/assets` folder
 shell.rm('-rf', 'build/assets/svg');
 shell.rm('-rf', 'build/assets/json');

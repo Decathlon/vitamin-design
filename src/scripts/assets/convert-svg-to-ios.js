@@ -5,6 +5,10 @@ const SVGtoPDF = require('svg-to-pdfkit');
 const capitalize = require('../../utils/capitalize');
 const camelize = require('../../utils/camelize');
 
+// Create a temp folder to store all svgs
+shell.mkdir('-p', '.temp-svg-assets/all');
+shell.cp('-r', 'build/assets/svg/all/*.svg', '.temp-svg-assets/all');
+
 const mainContentsJson = {
   info: {
     author: 'xcode',
