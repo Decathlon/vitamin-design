@@ -18,7 +18,7 @@ public val VitaminAssets.AllAssets: ____KtList<ImageVector>
     if (__AllAssets != null) {
       return __AllAssets!!
     }
-    __AllAssets= Payments.AllAssets + Flags.AllAssets + Placeholders.AllAssets + Logos.AllAssets +
-        Shipping.AllAssets + listOf()
+    __AllAssets= Placeholders.AllAssets + Flags.AllAssets + Shipping.AllAssets +
+        Payments.AllAssets + Logos.AllAssets + listOf()
     return __AllAssets!!
   }

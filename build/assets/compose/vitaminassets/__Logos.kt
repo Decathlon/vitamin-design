@@ -20,7 +20,7 @@ public val LogosGroup.AllAssets: ____KtList<ImageVector>
     if (__AllAssets != null) {
       return __AllAssets!!
     }
-    __AllAssets= listOf(DecathlonLogoWithOutline, DecathlonFaviconBlack, DecathlonLogo,
-        DecathlonFavicon)
+    __AllAssets= listOf(DecathlonLogoWithOutline, DecathlonLogo, DecathlonFavicon,
+        DecathlonFaviconBlack)
     return __AllAssets!!
   }

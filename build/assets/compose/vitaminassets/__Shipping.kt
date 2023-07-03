@@ -18,6 +18,6 @@ public val ShippingGroup.AllAssets: ____KtList<ImageVector>
     if (__AllAssets != null) {
       return __AllAssets!!
     }
-    __AllAssets= listOf(MondialRelay, Colissimo)
+    __AllAssets= listOf(Colissimo, MondialRelay)
     return __AllAssets!!
   }
