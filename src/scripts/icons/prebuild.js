@@ -12,6 +12,7 @@ shell.rm('-rf', 'build/icons/ts');
 shell.rm('-rf', 'build/icons/sprite');
 shell.rm('-rf', 'build/icons/drawable');
 shell.rm('-rf', 'build/icons/compose');
+shell.rm('-rf', 'build/icons/ios');
 shell.rm('-rf', 'build/icons/vitamix');
 
 // Icons: Create SVG directories

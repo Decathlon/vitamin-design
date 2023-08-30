@@ -12,6 +12,51 @@ const mainContentsJson = {
   },
 };
 
+const iconContentsJson = (fileName) => ({
+  images: [
+    {
+      filename: fileName,
+      idiom: 'universal',
+    },
+  ],
+  info: {
+    author: 'xcode',
+    version: 1,
+  },
+  properties: {
+    'preserves-vector-representation': true,
+  },
+});
+
+const createPDF = (directoryName, fileName, file, svg) => {
+  fs.readFile(`.temp-svg-icons/all/${file}`, (err, data1) => {
+    if (err) throw err;
+    fs.readFile(`build/icons/svg/all/${file}`, (err, data2) => {
+      if (err) throw err;
+      // if (!data1.equals(data2)) { FIXME: add the condition when 16x16 are ok on vitamin-ios
+
+      shell.mkdir(
+        `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}`
+      );
+      fs.writeFileSync(
+        `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/Contents.json`,
+        JSON.stringify(iconContentsJson(fileName), null, 2)
+      );
+
+      const doc = new PDFDocument({ size: [16, 16] }),
+        stream = fs.createWriteStream(
+          `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/${fileName}`
+        );
+
+      SVGtoPDF(doc, svg, 0, 0);
+
+      doc.pipe(stream);
+      doc.end();
+      // }
+    });
+  });
+};
+
 let vitamixComments = `//  Vitamin iOS
 //  Apache License 2.0
 //
@@ -72,21 +117,6 @@ shell.ls('build/icons/svg/all').forEach((file) => {
     ''
   )}.imageset`;
   const fileName = `${file.split('.svg')[0]}.pdf`;
-  const iconContentsJson = {
-    images: [
-      {
-        filename: fileName,
-        idiom: 'universal',
-      },
-    ],
-    info: {
-      author: 'xcode',
-      version: 1,
-    },
-    properties: {
-      'preserves-vector-representation': true,
-    },
-  };
 
   vitamixCoreFile += `    public static let ${camelize(
     file.split('.svg')[0]
@@ -106,28 +136,7 @@ shell.ls('build/icons/svg/all').forEach((file) => {
     file.split('.svg')[0]
   ).replaceAll('-', '')}.image\n`;
 
-  fs.readFile(`.temp-svg-icons/all/${file}`, (err, _) => {
-    if (err && err.code && err.code === 'ENOENT') {
-      shell.mkdir(
-        `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}`
-      );
-      fs.writeFileSync(
-        `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/Contents.json`,
-        JSON.stringify(iconContentsJson, null, 2)
-      );
-
-      const doc = new PDFDocument({ size: [64, 64] }),
-        stream = fs.createWriteStream(
-          `build/icons/ios/Sources/VitaminCore/Foundations/Icons/Vitamix.xcassets/${directoryName}/${fileName}`
-        ),
-        svg = data.toString();
-
-      SVGtoPDF(doc, svg, 0, 0);
-
-      doc.pipe(stream);
-      doc.end();
-    }
-  });
+  createPDF(directoryName, fileName, file, data.toString());
 });
 
 shell.rm('-rf', '.temp-svg-icons');

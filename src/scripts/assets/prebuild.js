@@ -11,6 +11,7 @@ shell.rm('-rf', 'build/assets/ts');
 shell.rm('-rf', 'build/assets/sprite');
 shell.rm('-rf', 'build/assets/drawable');
 shell.rm('-rf', 'build/assets/compose');
+shell.rm('-rf', 'build/assets/ios');
 
 // Assets: Create SVG directories
 shell.mkdir('-p', 'build/assets/svg/flags');
