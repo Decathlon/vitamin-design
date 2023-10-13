@@ -23,6 +23,7 @@ const assetContentsJson = (fileName) => ({
   },
   properties: {
     'preserves-vector-representation': true,
+    'template-rendering-intent' : 'template'
   },
 });
 
