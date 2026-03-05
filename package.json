@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "dotenv": "^16.0.3",
-    "fantasticon": "^1.2.3",
+    "fantasticon": "^4.1.0",
     "figma-export-icons": "^1.5.0",
     "prettier": "^2.7.1",
     "shelljs": "^0.8.5",
